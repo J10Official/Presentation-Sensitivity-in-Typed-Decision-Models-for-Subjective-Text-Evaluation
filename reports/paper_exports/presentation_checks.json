@@ -1,0 +1,36 @@
+[
+  {
+    "check": "Figure source fields",
+    "points": 18,
+    "result": "PASS"
+  },
+  {
+    "check": "Figure source fields",
+    "points": 36,
+    "result": "PASS"
+  },
+  {
+    "check": "Figure source fields",
+    "points": 27,
+    "result": "PASS"
+  },
+  {
+    "check": "Baseline, framing, directive and format named-field checks",
+    "cells": 315,
+    "result": "PASS"
+  },
+  {
+    "check": "Direct prose facts resolve to declared sources",
+    "claims": 55,
+    "result": "PASS"
+  },
+  {
+    "check": "Remaining derived prose facts: extrema, practical impacts, q and meta summaries",
+    "claims": 14,
+    "result": "PASS"
+  },
+  {
+    "check": "Directional/discovery, exact-repeat and complete-export prose claims",
+    "result": "PASS"
+  }
+]

@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\shortstack[l]{Dataset\\{}model} & \shortstack[l]{Disp. vs\\{}margin $\rho$} & \shortstack[l]{Disp. vs\\{}sensitivity $\rho$} & \shortstack[l]{Disp. vs\\{}repeat SD $\rho$} & \shortstack[l]{Clear abs.\\{}sensitivity pp} & \shortstack[l]{Disputed abs.\\{}sensitivity pp} \\
+\midrule
+UKP / Jev & -0.1008 & 0.0635 & 0.0956 & 7.31 & 7.76 \\
+UKP / Clef & 0.0040 & 0.0278 & 0.0486 & 8.29 & 8.76 \\
+UKP / Perplexity & -0.0783 & 0.0971 & 0.0011 & 6.05 & 6.93 \\
+HS pair / Jev & -0.2327 & 0.1601 & 0.1841 & 6.51 & 7.81 \\
+HS pair / Clef & -0.1052 & 0.0602 & 0.0163 & 6.38 & 6.78 \\
+HS pair / Perplexity & -0.2693 & 0.2002 & -0.0117 & 5.04 & 6.32 \\
+OpenAI / Jev & -0.5033 & 0.4796 & 0.4688 & 4.23 & 9.44 \\
+OpenAI / Clef & -0.3634 & 0.3275 & 0.2307 & 6.43 & 11.40 \\
+OpenAI / Perplexity & -0.4737 & 0.3944 & -0.0560 & 4.11 & 6.81 \\
+\bottomrule
+\end{tabular}
+\caption{Descriptive Spearman associations, n=1,500 with 750 per stratum. Dispersion is vote entropy; margin is absolute A/B probability difference. Sensitivity averages absolute changes across three nonbaseline A/B cells.}
+\label{tab:appendix_disagreement_pair}
+\end{table*}

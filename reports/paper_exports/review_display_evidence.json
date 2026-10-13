@@ -1,0 +1,2954 @@
+[
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: First position",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.02250333333333333,
+      "low": -0.02977044136738525,
+      "high": -0.015236225299281411
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.405069155776425e-08,
+    "rendered": "-2.3 [-3.0, -1.5]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: First position",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.00014966666666666587,
+      "low": -0.0025784326371155867,
+      "high": 0.0028777659704489187
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.0 [-0.3, 0.3]"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: First position",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.04581962056009771,
+      "low": 0.040641625695336754,
+      "high": 0.050997615424858665
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 9.856167747168798e-62,
+    "rendered": "4.6 [4.1, 5.1]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: B versus A",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.03856333333333333,
+      "low": 0.03654571591561262,
+      "high": 0.04058095075105404
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.6288204710940585e-232,
+    "rendered": "3.9 [3.7, 4.1]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: B versus A",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.08642746666666666,
+      "low": -0.09620280388584321,
+      "high": -0.07665212944749011
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.2232858795670311e-61,
+    "rendered": "-8.6 [-9.6, -7.7]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: B versus A",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.01498258627076218,
+      "low": -0.01717022913193775,
+      "high": -0.012794943409586607
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.590642056104299e-38,
+    "rendered": "-1.5 [-1.7, -1.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: Human versus AI",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.07028666666666668,
+      "low": 0.06696153630212963,
+      "high": 0.07361179703120373
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 9.515013675499483e-271,
+    "rendered": "7.0 [6.7, 7.4]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: Human versus AI",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.035675599999999995,
+      "low": 0.0307183502796755,
+      "high": 0.040632849720324486
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.791227049195509e-42,
+    "rendered": "3.6 [3.1, 4.1]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: Human versus AI",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.09020595738957904,
+      "low": 0.0861984733867253,
+      "high": 0.09421344139243278
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.722361917097836e-297,
+    "rendered": "9.0 [8.6, 9.4]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: Reader feedback",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.13545333333333334,
+      "low": 0.12955795154189517,
+      "high": 0.1413487151247715
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 6.549433389828894e-306,
+    "rendered": "13.5 [13.0, 14.1]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: Reader feedback",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.04774513333333334,
+      "low": 0.0436366478664282,
+      "high": 0.051853618800238484
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.943221459470312e-101,
+    "rendered": "4.8 [4.4, 5.2]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Humor: Reader feedback",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.2779853512745811,
+      "low": 0.267825690747192,
+      "high": 0.2881450118019703
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "27.8 [26.8, 28.8]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: First position",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.02274333333333333,
+      "low": -0.028991629480441428,
+      "high": -0.016495037186225234
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.4416442317100864e-11,
+    "rendered": "-2.3 [-2.9, -1.6]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: First position",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.001187466666666667,
+      "low": -0.002520155481810912,
+      "high": 0.00014522214847757808
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.6115529584480044,
+    "rendered": "-0.1 [-0.3, 0.0]"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: First position",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.043513376934843286,
+      "low": -0.0479906348294703,
+      "high": -0.03903611904021627
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.1689746143675454e-71,
+    "rendered": "-4.4 [-4.8, -3.9]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: B versus A",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.01592333333333333,
+      "low": -0.017906159205894293,
+      "high": -0.01394050746077237
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.2377623835091617e-50,
+    "rendered": "-1.6 [-1.8, -1.4]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: B versus A",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.046871133333333335,
+      "low": -0.05248439836713494,
+      "high": -0.04125786829953173
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.362689477701502e-54,
+    "rendered": "-4.7 [-5.2, -4.1]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: B versus A",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.004294489165743135,
+      "low": -0.005703887362075798,
+      "high": -0.002885090969410472
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.6433287512614693e-08,
+    "rendered": "-0.4 [-0.6, -0.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: Human versus AI",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.033780000000000004,
+      "low": 0.031085221204546917,
+      "high": 0.03647477879545309
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.639826108737754e-111,
+    "rendered": "3.4 [3.1, 3.6]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: Human versus AI",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.002393333333333334,
+      "low": -0.004813667937121656,
+      "high": 2.7001270454987854e-05
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.4024711621863694,
+    "rendered": "-0.2 [-0.5, 0.0]"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: Human versus AI",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.03775578755198184,
+      "low": 0.03579690568696551,
+      "high": 0.03971466941699817
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.70214897452814e-218,
+    "rendered": "3.8 [3.6, 4.0]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: Reader feedback",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.13708,
+      "low": 0.13192813947787174,
+      "high": 0.14223186052212827
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "13.7 [13.2, 14.2]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: Reader feedback",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.044376200000000005,
+      "low": 0.04156495416955676,
+      "high": 0.04718744583044325
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.4743844737168324e-161,
+    "rendered": "4.4 [4.2, 4.7]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Helpfulness: Reader feedback",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.19065101057016318,
+      "low": 0.18620871196553573,
+      "high": 0.19509330917479062
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "19.1 [18.6, 19.5]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: First position",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.06106,
+      "low": -0.06949057014027006,
+      "high": -0.052629429859729945
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.3972294347833584e-38,
+    "rendered": "-6.1 [-6.9, -5.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: First position",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -2.6866666666665337e-05,
+      "low": -0.0020311593391563686,
+      "high": 0.001977426005823038
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.0 [-0.2, 0.2]"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: First position",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "family": "presentation_probability",
+      "contrast": "First-position"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.0038034746092476474,
+      "low": -0.008924881469095758,
+      "high": 0.0013179322506004622
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-0.4 [-0.9, 0.1]"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: B versus A",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.0053933333333333324,
+      "low": -0.007277230876571257,
+      "high": -0.003509435790095407
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.7145294242488553e-07,
+    "rendered": "-0.5 [-0.7, -0.4]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: B versus A",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.0821656,
+      "low": 0.07178426165296944,
+      "high": 0.09254693834703057
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.019956400248062e-44,
+    "rendered": "8.2 [7.2, 9.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: B versus A",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "family": "presentation_probability",
+      "contrast": "B-label"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.013560856649383996,
+      "low": -0.015574969912235732,
+      "high": -0.01154674338653226
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.14619418776844e-33,
+    "rendered": "-1.4 [-1.6, -1.2]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: Human versus AI",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.13662,
+      "low": 0.13015347132659486,
+      "high": 0.14308652867340513
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.2603301820536487e-168,
+    "rendered": "13.7 [13.0, 14.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: Human versus AI",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.3214691333333333,
+      "low": 0.31015213728349544,
+      "high": 0.3327861293831712
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.389563511004656e-224,
+    "rendered": "32.1 [31.0, 33.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: Human versus AI",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "family": "ai_human",
+      "contrast": "Human vs AI attribution"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.0700880990838474,
+      "low": 0.06717912849643451,
+      "high": 0.0729970696712603
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.899714129369132e-192,
+    "rendered": "7.0 [6.7, 7.3]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: Reader feedback",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.12714666666666666,
+      "low": 0.12065956823075737,
+      "high": 0.13363376510257594
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.9338955311472553e-155,
+    "rendered": "12.7 [12.1, 13.4]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: Reader feedback",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.07149639999999999,
+      "low": 0.06651187190958847,
+      "high": 0.0764809280904115
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.3101907244157158e-106,
+    "rendered": "7.1 [6.7, 7.6]*"
+  },
+  {
+    "table": "results_choice_effects",
+    "row": "Summary: Reader feedback",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.22623971440930105,
+      "low": 0.2209776926612465,
+      "high": 0.2315017361573556
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.5902001809035e-311,
+    "rendered": "22.6 [22.1, 23.2]*"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: reader reversal (%)",
+    "model": "Jev",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 2
+    },
+    "field": "Any reversal flip %",
+    "value": "22.0000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "22.00"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: reader reversal (%)",
+    "model": "Clef",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 14
+    },
+    "field": "Any reversal flip %",
+    "value": "10.1333",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "10.13"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: reader reversal (%)",
+    "model": "Perplexity",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 26
+    },
+    "field": "Any reversal flip %",
+    "value": "40.4000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "40.40"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: unchanged repeat (%)",
+    "model": "Jev",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 0
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "3.1500",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "3.15"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: unchanged repeat (%)",
+    "model": "Clef",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 6
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "3.0167",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "3.02"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: unchanged repeat (%)",
+    "model": "Perplexity",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 12
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "0.0833",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "0.08"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: rejection agreement (pp)",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.012229539040451553,
+      "low": -0.03266238578925164,
+      "high": 0.008203307708348536
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-1.2 [-3.3, 0.8]"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: rejection agreement (pp)",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.020696142991533398,
+      "low": -0.054675507957756476,
+      "high": 0.013283221974689681
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-2.1 [-5.5, 1.3]"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Humor: rejection agreement (pp)",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.00940733772342427,
+      "low": -0.008665314129386988,
+      "high": 0.027479989576235528
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.9 [-0.9, 2.7]"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: reader reversal (%)",
+    "model": "Jev",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 6
+    },
+    "field": "Any reversal flip %",
+    "value": "18.2667",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "18.27"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: reader reversal (%)",
+    "model": "Clef",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 18
+    },
+    "field": "Any reversal flip %",
+    "value": "9.7333",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "9.73"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: reader reversal (%)",
+    "model": "Perplexity",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 30
+    },
+    "field": "Any reversal flip %",
+    "value": "27.1333",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "27.13"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: unchanged repeat (%)",
+    "model": "Jev",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 2
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "2.5833",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "2.58"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: unchanged repeat (%)",
+    "model": "Clef",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 8
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "3.2000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "3.20"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: unchanged repeat (%)",
+    "model": "Perplexity",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 14
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "0.0000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "0.00"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: rejection agreement (pp)",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.011748445058742226,
+      "low": -0.03067572186908542,
+      "high": 0.007178831751600969
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-1.2 [-3.1, 0.7]"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: rejection agreement (pp)",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.1575673807878369,
+      "low": -0.1990578731344658,
+      "high": -0.11607688844120803
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.3792318940114586e-12,
+    "rendered": "-15.8 [-19.9, -11.6]*"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Helpfulness: rejection agreement (pp)",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.0110573600552868,
+      "low": -0.026861837468374672,
+      "high": 0.004747117357801074
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-1.1 [-2.7, 0.5]"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: reader reversal (%)",
+    "model": "Jev",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 10
+    },
+    "field": "Any reversal flip %",
+    "value": "16.2000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "16.20"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: reader reversal (%)",
+    "model": "Clef",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 22
+    },
+    "field": "Any reversal flip %",
+    "value": "12.4667",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "12.47"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: reader reversal (%)",
+    "model": "Perplexity",
+    "source": "tables.json",
+    "selector": {
+      "table": "pairwise_cue_effects",
+      "row": 34
+    },
+    "field": "Any reversal flip %",
+    "value": "34.2000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "34.20"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: unchanged repeat (%)",
+    "model": "Jev",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 4
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "1.7000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "1.70"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: unchanged repeat (%)",
+    "model": "Clef",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 10
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "2.6500",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "2.65"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: unchanged repeat (%)",
+    "model": "Perplexity",
+    "source": "tables.json",
+    "selector": {
+      "table": "repeatability",
+      "row": 16
+    },
+    "field": "Baseline/repeat flip % (pairs) / mean abs delta (scores)",
+    "value": "0.0000",
+    "kind": "number",
+    "scale": 1,
+    "digits": 2,
+    "q": null,
+    "rendered": "0.00"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: rejection agreement (pp)",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.04548587181254307,
+      "low": -0.06760917287761004,
+      "high": -0.02336257074747611
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0008840757890380856,
+    "rendered": "-4.5 [-6.8, -2.3]*"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: rejection agreement (pp)",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.23363197794624396,
+      "low": -0.27006559986587075,
+      "high": -0.19719835602661717
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.827057198643883e-30,
+    "rendered": "-23.4 [-27.0, -19.7]*"
+  },
+  {
+    "table": "results_choice_consequences",
+    "row": "Summary: rejection agreement (pp)",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_rejection"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.016540317022742935,
+      "low": -0.0009729302071557373,
+      "high": 0.03405356425264161
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.6946686275127522,
+    "rendered": "1.7 [-0.1, 3.4]"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Reader feedback",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "Humicroedit",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.03954666666666666,
+      "low": 0.03802437497795013,
+      "high": 0.04106895835538319
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "4.0 [3.8, 4.1]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Reader feedback",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "Humicroedit",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.07319953333333333,
+      "low": 0.06970855102178271,
+      "high": 0.07669051564488395
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.317323271343604e-246,
+    "rendered": "7.3 [7.0, 7.7]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Reader feedback",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "Humicroedit",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.21171978518452972,
+      "low": 0.20751648055262675,
+      "high": 0.21592308981643268
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "21.2 [20.8, 21.6]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Previous judge",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "Humicroedit",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.024564444444444444,
+      "low": 0.023683769894569773,
+      "high": 0.025445118994319116
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "2.5 [2.4, 2.5]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Previous judge",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "Humicroedit",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.021140799999999998,
+      "low": 0.019220649902881956,
+      "high": 0.02306095009711804
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 6.880013077759232e-89,
+    "rendered": "2.1 [1.9, 2.3]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Previous judge",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "Humicroedit",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.19121350686503305,
+      "low": 0.18814694994334175,
+      "high": 0.19428006378672436
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "19.1 [18.8, 19.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Three levels",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "Humicroedit",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.028126666666666664,
+      "low": -0.02939179989270074,
+      "high": -0.02686153344063259
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.049884530755842e-267,
+    "rendered": "-2.8 [-2.9, -2.7]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Three levels",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "Humicroedit",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.03547993333333334,
+      "low": -0.03773062350789687,
+      "high": -0.03322924315876981
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.185922231534877e-161,
+    "rendered": "-3.5 [-3.8, -3.3]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Three levels",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "Humicroedit",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.06781263073281665,
+      "low": -0.068916727366385,
+      "high": -0.0667085340992483
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "-6.8 [-6.9, -6.7]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Seven levels",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "Humicroedit",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.07629333333333334,
+      "low": -0.07780907819334305,
+      "high": -0.07477758847332362
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "-7.6 [-7.8, -7.5]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Seven levels",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "Humicroedit",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.0518886,
+      "low": -0.054129174356507555,
+      "high": -0.049648025643492445
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.2214758556481718e-282,
+    "rendered": "-5.2 [-5.4, -5.0]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Humor: Seven levels",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "Humicroedit",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.03746952991283912,
+      "low": -0.039566427465234075,
+      "high": -0.03537263236044416
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.1141403150510064e-195,
+    "rendered": "-3.7 [-4.0, -3.5]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Reader feedback",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer scores",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.16465833333333332,
+      "low": 0.16124610886227855,
+      "high": 0.1680705578043881
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "16.5 [16.1, 16.8]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Reader feedback",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer scores",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.034445750000000004,
+      "low": 0.03250879470941847,
+      "high": 0.03638270529058154
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.1635676230178144e-194,
+    "rendered": "3.4 [3.3, 3.6]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Reader feedback",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer scores",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.10259061202735535,
+      "low": 0.10077383704738935,
+      "high": 0.10440738700732136
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "10.3 [10.1, 10.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Previous judge",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer scores",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.11755333333333334,
+      "low": 0.11501508999874333,
+      "high": 0.12009157666792336
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "11.8 [11.5, 12.0]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Previous judge",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer scores",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.0156898,
+      "low": 0.013991995517486814,
+      "high": 0.017387604482513187
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.951926288410513e-65,
+    "rendered": "1.6 [1.4, 1.7]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Previous judge",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer scores",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.09265459363086147,
+      "low": 0.09091267274178075,
+      "high": 0.09439651451994219
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0,
+    "rendered": "9.3 [9.1, 9.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Three levels",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer scores",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.02185666666666667,
+      "low": 0.019731544970657194,
+      "high": 0.023981788362676146
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 6.622121578944028e-79,
+    "rendered": "2.2 [2.0, 2.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Three levels",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer scores",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.04694801666666667,
+      "low": 0.044108715731392203,
+      "high": 0.04978731760194113
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.1221786611232212e-173,
+    "rendered": "4.7 [4.4, 5.0]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Three levels",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer scores",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.007690649456252835,
+      "low": 0.0060113010837694655,
+      "high": 0.009369997828736204
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 8.476806524612497e-18,
+    "rendered": "0.8 [0.6, 0.9]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Seven levels",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer scores",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.01364888888888889,
+      "low": 0.012624351044199381,
+      "high": 0.014673426733578398
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 7.709909766709919e-123,
+    "rendered": "1.4 [1.3, 1.5]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Seven levels",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer scores",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.016691005555555555,
+      "low": -0.01796089007074124,
+      "high": -0.01542112104036987
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.973358590823422e-120,
+    "rendered": "-1.7 [-1.8, -1.5]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Helpfulness: Seven levels",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer scores",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.007601378565626592,
+      "low": 0.0066097456284419116,
+      "high": 0.008593011502811273
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.6628543587453017e-46,
+    "rendered": "0.8 [0.7, 0.9]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Reader feedback",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "SummEval relevance",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.056530000000000004,
+      "low": 0.05433125711817648,
+      "high": 0.058728742881823524
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.4605989013862712e-71,
+    "rendered": "5.7 [5.4, 5.9]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Reader feedback",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "SummEval relevance",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.02960226666666667,
+      "low": 0.026073562540492982,
+      "high": 0.03313097079284035
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.3652519438946093e-29,
+    "rendered": "3.0 [2.6, 3.3]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Reader feedback",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "SummEval relevance",
+      "family": "social",
+      "contrast": "High vs low reader cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.06933117547385124,
+      "low": 0.06817204576669296,
+      "high": 0.07049030518100953
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.1537333960040467e-107,
+    "rendered": "6.9 [6.8, 7.0]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Previous judge",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "SummEval relevance",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.05204333333333333,
+      "low": 0.049737252932189994,
+      "high": 0.054349413734476666
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.221095504043385e-66,
+    "rendered": "5.2 [5.0, 5.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Previous judge",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "SummEval relevance",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.008257033333333335,
+      "low": 0.00661843754733649,
+      "high": 0.00989562911933018
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.1618649763356644e-15,
+    "rendered": "0.8 [0.7, 1.0]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Previous judge",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "SummEval relevance",
+      "family": "prior_judge",
+      "contrast": "High vs low prior judge cue"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.1025076212248484,
+      "low": 0.10108989521864839,
+      "high": 0.1039253472310484
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.530950010663605e-115,
+    "rendered": "10.3 [10.1, 10.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Three levels",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "SummEval relevance",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.05868666666666666,
+      "low": 0.056430918304493136,
+      "high": 0.06094241502884018
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.801929970658302e-72,
+    "rendered": "5.9 [5.6, 6.1]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Three levels",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "SummEval relevance",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.07938861666666668,
+      "low": 0.07633000264153783,
+      "high": 0.08244723069179552
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.948194524821557e-72,
+    "rendered": "7.9 [7.6, 8.2]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Three levels",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "SummEval relevance",
+      "family": "score_format",
+      "contrast": "score_granularity_3 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.011234785488032799,
+      "low": 0.0088417811432208,
+      "high": 0.013627789832844798
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.528738587973599e-14,
+    "rendered": "1.1 [0.9, 1.4]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Seven levels",
+    "model": "Jev",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "SummEval relevance",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.025804444444444442,
+      "low": 0.02453977314277265,
+      "high": 0.027069115746116236
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.9291113564607695e-62,
+    "rendered": "2.6 [2.5, 2.7]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Seven levels",
+    "model": "Clef",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "SummEval relevance",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": -0.0071658166666666665,
+      "low": -0.008662919480156392,
+      "high": -0.005668713853176941
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.422761264456239e-14,
+    "rendered": "-0.7 [-0.9, -0.6]*"
+  },
+  {
+    "table": "results_score_effects",
+    "row": "Relevance: Seven levels",
+    "model": "Perplexity",
+    "source": "level1_effects.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "SummEval relevance",
+      "family": "score_format",
+      "contrast": "score_granularity_7 minus native"
+    },
+    "field": null,
+    "value": {
+      "estimate": 0.0066557594379780885,
+      "low": 0.005741771132092665,
+      "high": 0.007569747743863512
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.779835030207009e-25,
+    "rendered": "0.7 [0.6, 0.8]*"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "UKP / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.0,
+      "low": -0.02245496315440302,
+      "high": 0.02245496315440302
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.0 [-2.2, 2.2]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "UKP / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "UKP humor",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.022577610536218252,
+      "low": -0.04165731001173102,
+      "high": -0.003497911060705485
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.23646247828233388,
+    "rendered": "-2.3 [-4.2, -0.3]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "UKP / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.014111006585136407,
+      "low": -0.0018938164233509858,
+      "high": 0.0301158295936238
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.8891767881828428,
+    "rendered": "1.4 [-0.2, 3.0]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "UKP / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "UKP humor",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.0,
+      "low": -0.018641530894804904,
+      "high": 0.018641530894804904
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.0 [-1.9, 1.9]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "UKP / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.04609595484477893,
+      "low": -0.07009122910048061,
+      "high": -0.022100680589077246
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.002380071266319223,
+    "rendered": "-4.6 [-7.0, -2.2]*"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "UKP / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "UKP humor",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.060206961429915336,
+      "low": -0.0915734670752177,
+      "high": -0.028840455784612973
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.002406913215391799,
+    "rendered": "-6.0 [-9.2, -2.9]*"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "HS pair / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.006219765031098825,
+      "low": -0.022204788659625448,
+      "high": 0.009765258597427795
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-0.6 [-2.2, 1.0]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "HS pair / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.013130615065653075,
+      "low": -0.029446228725519556,
+      "high": 0.0031849985942134056
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-1.3 [-2.9, 0.3]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "HS pair / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.002073255010366275,
+      "low": -0.015565906526395376,
+      "high": 0.011419396505662826
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-0.2 [-1.6, 1.1]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "HS pair / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.011748445058742226,
+      "low": -0.02602303926949753,
+      "high": 0.0025261491520130776
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-1.2 [-2.6, 0.3]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "HS pair / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.01243953006219765,
+      "low": -0.030109329132830914,
+      "high": 0.0052302690084356125
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-1.2 [-3.0, 0.5]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "HS pair / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer pairs",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.01796821008984105,
+      "low": -0.03796939619083661,
+      "high": 0.0020329760111545137
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.8355323777118085,
+    "rendered": "-1.8 [-3.8, 0.2]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "OpenAI / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.007580978635423846,
+      "low": -0.00802820366679389,
+      "high": 0.023190160937641584
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.8 [-0.8, 2.3]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "OpenAI / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.026878015161957272,
+      "low": -0.04067496953263768,
+      "high": -0.013081060791276862
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.002030698731299329,
+    "rendered": "-2.7 [-4.1, -1.3]*"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "OpenAI / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.006202618883528601,
+      "low": -0.02145983369388324,
+      "high": 0.009054595926826038
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-0.6 [-2.1, 0.9]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "OpenAI / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": 0.0027567195037904893,
+      "low": -0.010380272216624575,
+      "high": 0.015893711224205555
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.3 [-1.0, 1.6]"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "OpenAI / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_social_first_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.04755341144038594,
+      "low": -0.06772598442415301,
+      "high": -0.027380838456618876
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 6.933217474743953e-05,
+    "rendered": "-4.8 [-6.8, -2.7]*"
+  },
+  {
+    "table": "appendix_reader_alignment",
+    "row": "OpenAI / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "OpenAI summaries",
+      "condition": "pair_social_second_high"
+    },
+    "field": "human_alignment_change",
+    "value": {
+      "estimate": -0.055823569951757405,
+      "low": -0.07693557072100204,
+      "high": -0.034711569182512766
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 4.710006812224178e-06,
+    "rendered": "-5.6 [-7.7, -3.5]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "Humicroedit / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "Humicroedit",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.004066666666666667,
+      "low": -0.0050282756539577625,
+      "high": -0.003105057679375572
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.685863571935269e-15,
+    "rendered": "-0.4 [-0.5, -0.3]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "Humicroedit / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "Humicroedit",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.028915555555555555,
+      "low": -0.031109347764422486,
+      "high": -0.026721763346688625
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.249146650924894e-120,
+    "rendered": "-2.9 [-3.1, -2.7]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "Humicroedit / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "Humicroedit",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.005186022222222222,
+      "low": 0.003264629749125036,
+      "high": 0.007107414695319407
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.243048950258428e-06,
+    "rendered": "0.5 [0.3, 0.7]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "Humicroedit / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "Humicroedit",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.03894315555555556,
+      "low": -0.04263190539994479,
+      "high": -0.03525440571116633
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 5.648095177027866e-82,
+    "rendered": "-3.9 [-4.3, -3.5]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "Humicroedit / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "Humicroedit",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.047863922015584044,
+      "low": 0.042842401550974823,
+      "high": 0.052885442480193265
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.306806310837133e-68,
+    "rendered": "4.8 [4.3, 5.3]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "Humicroedit / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "Humicroedit",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.0007850714500490775,
+      "low": -0.006006803846385227,
+      "high": 0.004436660946287073
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "-0.1 [-0.6, 0.4]"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "HS score / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer scores",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.0014299999999999996,
+      "low": -0.0004767807787068954,
+      "high": 0.0033367807787068947
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.1 [0.0, 0.3]"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "HS score / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "HelpSteer scores",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.03820833333333333,
+      "low": 0.032075564764167494,
+      "high": 0.044341101902499166
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.36753974188535e-31,
+    "rendered": "3.8 [3.2, 4.4]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "HS score / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer scores",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.0022796000000000027,
+      "low": 0.0004473145863295954,
+      "high": 0.00411188541367041
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.17560493058301133,
+    "rendered": "0.2 [0.0, 0.4]"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "HS score / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "HelpSteer scores",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.004546249999999999,
+      "low": -0.007068241402231843,
+      "high": -0.0020242585977681554
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.005686921135128065,
+    "rendered": "-0.5 [-0.7, -0.2]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "HS score / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer scores",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.003081645528188447,
+      "low": 0.0015824469403939725,
+      "high": 0.004580844115982922
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.000836180049690913,
+    "rendered": "0.3 [0.2, 0.5]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "HS score / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "HelpSteer scores",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.002951251750608801,
+      "low": -0.0009894922923719641,
+      "high": 0.006891995793589566
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.3 [-0.1, 0.7]"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "SummEval / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "SummEval relevance",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.0019783333333333337,
+      "low": 0.0009539194067765438,
+      "high": 0.0030027472598901234
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0030918136960773404,
+    "rendered": "0.2 [0.1, 0.3]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "SummEval / Jev",
+    "model": "Jev",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Jev",
+      "dataset": "SummEval relevance",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.007418333333333334,
+      "low": -0.010813924076542858,
+      "high": -0.00402274259012381
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.0005112259952588058,
+    "rendered": "-0.7 [-1.1, -0.4]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "SummEval / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "SummEval relevance",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.0007805166666666651,
+      "low": -0.0006538431873074738,
+      "high": 0.002214876520640804
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 1.0,
+    "rendered": "0.1 [-0.1, 0.2]"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "SummEval / Clef",
+    "model": "Clef",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Clef",
+      "dataset": "SummEval relevance",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.0026395500000000005,
+      "low": -0.0053141588266341685,
+      "high": 3.505882663416794e-05
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 0.58458633263436,
+    "rendered": "-0.3 [-0.5, 0.0]"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "SummEval / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "SummEval relevance",
+      "condition": "score_social_high"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": -0.010854446016413126,
+      "low": -0.013223166268172402,
+      "high": -0.00848572576465385
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 2.2984393874484953e-13,
+    "rendered": "-1.1 [-1.3, -0.8]*"
+  },
+  {
+    "table": "appendix_reader_error",
+    "row": "SummEval / Perplexity",
+    "model": "Perplexity",
+    "source": "level2_results.json",
+    "selector": {
+      "model": "Perplexity",
+      "dataset": "SummEval relevance",
+      "condition": "score_social_low"
+    },
+    "field": "human_MAE_change",
+    "value": {
+      "estimate": 0.02055659451185412,
+      "low": 0.018131416978397024,
+      "high": 0.022981772045311214
+    },
+    "kind": "ci",
+    "scale": 100,
+    "digits": 1,
+    "q": 3.354168691112438e-29,
+    "rendered": "2.1 [1.8, 2.3]*"
+  }
+]

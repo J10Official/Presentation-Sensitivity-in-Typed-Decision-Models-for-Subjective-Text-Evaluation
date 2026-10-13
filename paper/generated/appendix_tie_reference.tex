@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\shortstack[l]{Dataset\\{}model} & \shortstack[l]{Native reference} & \shortstack[l]{N} & \shortstack[l]{X-last use\\{}\%} & \shortstack[l]{Mean P(X)} \\
+\midrule
+UKP / Jev & NO\_MAJORITY & 250 & 2.40 & 0.122 \\
+UKP / Jev & X & 187 & 22.99 & 0.267 \\
+UKP / Clef & NO\_MAJORITY & 250 & 1.60 & 0.105 \\
+UKP / Clef & X & 187 & 10.16 & 0.171 \\
+UKP / Perplexity & NO\_MAJORITY & 250 & 5.60 & 0.182 \\
+UKP / Perplexity & X & 187 & 47.06 & 0.431 \\
+HS pair / Jev & ABOUT\_THE\_SAME & 53 & 0.00 & 0.017 \\
+HS pair / Clef & ABOUT\_THE\_SAME & 53 & 0.00 & 0.031 \\
+HS pair / Perplexity & ABOUT\_THE\_SAME & 53 & 0.00 & 0.093 \\
+OpenAI / Jev & SPLIT & 49 & 2.04 & 0.025 \\
+OpenAI / Clef & SPLIT & 49 & 2.04 & 0.061 \\
+OpenAI / Perplexity & SPLIT & 49 & 2.04 & 0.147 \\
+\bottomrule
+\end{tabular}
+\caption{Non-strict native-reference cases. UKP X is a majority of neither votes; NO\_MAJORITY is separate. HelpSteer ABOUT\_THE\_SAME is published strength zero, and OpenAI SPLIT is equal vote totals. These categories retain their source-specific meanings.}
+\label{tab:appendix_tie_reference}
+\end{table*}

@@ -1,0 +1,13 @@
+Dataset / model,Native reference,N,X-last use / %,Mean P(X)
+UKP / Jev,NO_MAJORITY,250,2.40,0.122
+UKP / Jev,X,187,22.99,0.267
+UKP / Clef,NO_MAJORITY,250,1.60,0.105
+UKP / Clef,X,187,10.16,0.171
+UKP / Perplexity,NO_MAJORITY,250,5.60,0.182
+UKP / Perplexity,X,187,47.06,0.431
+HS pair / Jev,ABOUT_THE_SAME,53,0.00,0.017
+HS pair / Clef,ABOUT_THE_SAME,53,0.00,0.031
+HS pair / Perplexity,ABOUT_THE_SAME,53,0.00,0.093
+OpenAI / Jev,SPLIT,49,2.04,0.025
+OpenAI / Clef,SPLIT,49,2.04,0.061
+OpenAI / Perplexity,SPLIT,49,2.04,0.147

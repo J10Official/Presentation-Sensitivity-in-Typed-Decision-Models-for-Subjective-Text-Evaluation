@@ -1,0 +1,83 @@
+{
+  "seed": 20261010,
+  "target_per_component": 1500,
+  "helpsteer_content_word_limit": 5000,
+  "semantic_screening": false,
+  "source_manifest": {
+    "sources": {
+      "ukp_humor": {
+        "release": "https://github.com/UKPLab/acl2019-GPPL-humour-metaphor/tree/5f2a432c4db5191467a3315220b78c926f66f6b3",
+        "paper": "https://aclanthology.org/P19-1572/"
+      },
+      "humicroedit": {
+        "release": "https://zenodo.org/records/3969509",
+        "paper": "https://aclanthology.org/2020.semeval-1.98/"
+      },
+      "helpsteer2": {
+        "release": "https://huggingface.co/datasets/nvidia/HelpSteer2/tree/990b2711a36180dd19d9c94b8627844866f8982a",
+        "paper": "https://arxiv.org/abs/2410.01257"
+      },
+      "openai_summarize_from_feedback": {
+        "release": "https://github.com/openai/summarize-from-feedback/tree/master/dataset",
+        "paper": "https://arxiv.org/abs/2009.01325"
+      },
+      "summeval": {
+        "release": "https://github.com/Yale-LILY/SummEval",
+        "paper": "https://aclanthology.org/2021.tacl-1.24/",
+        "article_archives": "https://cs.nyu.edu/~kcho/DMQA/"
+      }
+    },
+    "files": {
+      "datasets/complementary_audit/ukp/results.tsv": "8082d3960d8d692b346bacf542a88d35815237da29166f5a898a16b11e4abef0",
+      "datasets/ukp-humor-official/data/pl-humor-full/jokes_heterographic_puns.txt": "132756d727aba5a072704b13f9b75dd7b98fac3b14b84b6079d3ed8639b53258",
+      "datasets/ukp-humor-official/data/pl-humor-full/jokes_homographic_puns.txt": "064b7212ec7034cb0c65639fa7ac03374061ede8cbfd62dcea1bd5bb35a9ef42",
+      "datasets/ukp-humor-official/data/pl-humor-full/jokes_nonpuns.txt": "52edb371a570fe2cefc630e523f2904b007f0006e74533489e93666024aff02f",
+      "datasets/ukp-humor-official/data/pl-humor-full/nonjokes.txt": "97b39692548c696f1ba49de2d87bcfe149bce43fd6da61ca9c13972b8a04fe8c",
+      "datasets/example_sources/semeval-2020-task-7-dataset.zip": "12a6cbf28c8b698ad80be42a65ac867b57e4c71662eedab607805e167ba791ab",
+      "datasets/complementary_audit/helpsteer2/train.jsonl.gz": "c0d7e91d738d42e8a08070db26c4c09a9c7631308e1f0fd380ff43d130c9f713",
+      "datasets/complementary_audit/helpsteer2/validation.jsonl.gz": "610eeb5289494d613c4c0f70aade2df8df0b499f3a24e76d232f74e6909d010a",
+      "datasets/complementary_audit/helpsteer2/preference/preference.jsonl.gz": "a5cd48600fb7a330cf0ccc8f59051e24e8f236907c379f42eff1ba18da55204b",
+      "datasets/complementary_audit/helpsteer2/disagreements/disagreements.jsonl.gz": "53435e0e2926620bf08ce91f278d7368ee6903f416a47764fe8839f3b71b3ab4",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch0_cnndm.json": "376bf2ad7e8ea763d103398800d9a3c9b288d2fd65d68a8f88ae3b1dfce6ec5b",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch10.json": "0c7f3c0e23ff2593a403702f7ab575b39f9686dfc56b9b75f16b0f5c528b28de",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch11.json": "abb5bc53fa2f389b87fa3c1cc613b7d2faff324c4e17d135a3cb7d9e643be2a0",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch12.json": "d7968f231e50e5137854b57ca6d5c917cfafa0f4fb157081acc7264855224e82",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch13.json": "e4f4de3ad8763b801c4b45ff277e1ead75e9c4105f1b0837793c4b51477ec122",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch14.json": "23757c7f4560464ab17146d8f4395313d0e972f5e8aec7ead6e823cb7e11112f",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch15.json": "f9ca2a2ddb0fb47eae6b17241bb2ebf6f073c827f2c964a829d81478c45fde8d",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch16.json": "af934928d42c7c4415565823cd457e0a0367455aa645b8fbb3cd7f361ba196da",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch17.json": "c36e859fb8674448d3e0d3971085f8478936d76351ba10e93fab07d229154b12",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch18.json": "5008e223e287b4c38e434e270cf77301993adba70e1f87362f35fb928f83863a",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch19.json": "cc636b37029412915382943cefc1c79b60e487fbcc4207e46d7428ae5167fa52",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch20.json": "4111bea4a09067f74fb86fd876e90162e9203c9dec181f15992be9c770d59f5c",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch22.json": "59882397866b853cbad48365146ae37e60857fbe686296b04240e48a547d9781",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch3.json": "026a2eb50d5a63bd5cd4ed4c4699751161df85d671473ea9cee01b63f8e2123e",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch4.json": "8a6eaba1d7f89bce6a52b79f85a9d74651010f4886782c6d8f9d8b993a1a32a3",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch5.json": "18868dd04a7438d8a386019cdbac4ca03c89cb71492664376e18e73e496865d2",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch6.json": "28b161c932c7785837d47e9f6d09b7fa9ccd8dd2bbcfe904034886707a4a3521",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch7.json": "1209afda39236afcdd64de312073a96e54ce03f936b546f587853ae3c70ab93e",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch8.json": "1e74a5c339ea0623b72e6cfda6fea57e078c67531f2388fa0590d1a6825869d6",
+      "datasets/large_subjective_candidates/dataset/comparisons/batch9.json": "f576bc609943eb0e7935327990c1ffafeb461e9dc0068788a793846d104fe48a",
+      "datasets/large_subjective_candidates/dataset/comparisons/cnndm0.json": "be936926b85b8d42d708529bb4fae2470918cb0bd7d8d3eb3c7a4b4cb986225b",
+      "datasets/large_subjective_candidates/dataset/comparisons/cnndm2.json": "e5ac5b295b4ee53df40650a6ad973d103047ce9839add1f7b5d76068d03099bc",
+      "datasets/large_subjective_candidates/dataset/comparisons/edit_b2_eval_test.json": "6fa83abe0e2ecbae78644962af03c91bbf896db8ecaaf3ab672b8283a96c16c6",
+      "datasets/example_sources/model_annotations.aligned.jsonl": "f0d4166e0cdeb439b387c4449634b067b7e9f721b9ef4c2b722f6b7550d3d6ab"
+    },
+    "summeval_story_files": 100,
+    "summeval_story_set_sha256": "b41f67982a4b7ace14042adc820b7782dd030446310328bcfb7bf79df777ba63"
+  },
+  "output_sha256": {
+    "ukp_humor_pairwise.jsonl": "c59099b2f22c2c56c34b5401173112c587d49ca89531898f0e21f2d43c3d1f3c",
+    "ukp_humor_pairwise.analysis.json": "e8eae227d5e3f9ad08c550b71a9554e6f1ecd234e8626648029bd4587216f455",
+    "humicroedit_scoring.jsonl": "c834b35922c8d61b2ceaeff622bb69d8db0f5af1a11607ab9bb3fe3123cfd35a",
+    "humicroedit_scoring.analysis.json": "1389b21eac9d2d00413efaceb3a68628c981f97d1332583aabbd5de8cd0163e5",
+    "helpsteer_pairwise.jsonl": "c18a16ed5489264974e4b4b8116b52f0249b2ac8591a1f3f9e5a20721515ebd6",
+    "helpsteer_pairwise.analysis.json": "9015f42feaa2028126d0077e5b0e2ebe65c2c873c0aeeb5a0aa63d4d8419a99f",
+    "helpsteer_scoring.jsonl": "93bfe48e1d13df302824b8ff7633f7c65036fcfa6ba40f7d9a84174940562869",
+    "helpsteer_scoring.analysis.json": "4747c5c77ec6929439450065011ef6393a42b65f3d483b77b2394bca5399cfee",
+    "openai_summary_pairwise.jsonl": "4597a25853c9963fe8525ce919bf10eb28e1bf1e6bf246e856d5574b6d61bfb1",
+    "openai_summary_pairwise.analysis.json": "a55d999bca18c07b52ef180f125908f45c7eaf6da1523045173aea1b75b4cc2e",
+    "summeval_relevance_scoring.jsonl": "0817f13b830cc1ace04a9bef5b283c8aae6649a442a7fb9cb68947f3b10a5023",
+    "summeval_relevance_scoring.analysis.json": "ce326b97e884fc8794e3b2a11e11024e9ca1e8dd8ad44f6c92b26276e286fba7"
+  }
+}

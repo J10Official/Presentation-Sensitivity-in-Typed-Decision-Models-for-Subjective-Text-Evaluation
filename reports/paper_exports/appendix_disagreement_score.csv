@@ -1,0 +1,10 @@
+Dataset / model,Disp. vs / prob. var. rho,Disp. vs / MAE rho,Disp. vs / repeat SD rho,Clear abs. / sensitivity pp,Disputed abs. / sensitivity pp
+Humicroedit / Jev,-0.0343,-0.4648,0.0044,2.30,2.23
+Humicroedit / Clef,0.0669,-0.2645,-0.0439,3.52,3.73
+Humicroedit / Perplexity,0.1034,-0.3196,0.0161,3.36,3.47
+HS score / Jev,0.2807,-0.0105,0.1591,1.10,1.34
+HS score / Clef,0.1512,-0.0055,0.0358,2.32,2.55
+HS score / Perplexity,0.3446,0.1090,-0.0623,1.13,1.39
+SummEval / Jev,-0.0472,0.0596,-0.0093,1.56,1.54
+SummEval / Clef,-0.0316,-0.0723,-0.0692,1.86,1.97
+SummEval / Perplexity,-0.0276,-0.1700,0.0273,0.94,1.05

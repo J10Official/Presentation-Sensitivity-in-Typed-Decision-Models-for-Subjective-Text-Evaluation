@@ -1,0 +1,42 @@
+# Credentials and local agent memory are never published.
+.env
+.env.*
+!.env.example
+AGENT_CONTEXT.md
+
+# Source data and full histories stay local; sanitized predictions are released.
+/datasets/
+/prepared_data/
+/experiment_results/
+/reproduction/
+/scratch/
+/TablesExtended/
+/old_results/
+/pre-review/
+/tmp/
+/reviews.md
+
+# Older drafts and planning files are archived outside this repository.
+# Keep their names excluded to prevent accidental reintroduction.
+
+# Generated runtime/build files, not scientific inputs.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+/reports/validated_analysis/reproduced_legacy/
+/paper/preview/
+/paper/qa/
+/reports/validated_analysis/validation_report.md
+/paper/output/*
+!/paper/output/current/
+/paper/output/current/*
+!/paper/output/current/manuscript.pdf
+

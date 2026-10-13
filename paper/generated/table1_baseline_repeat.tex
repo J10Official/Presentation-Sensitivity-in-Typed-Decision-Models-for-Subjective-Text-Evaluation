@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\shortstack[l]{Task\\{}model} & \shortstack[l]{Pair alignment\\{}\%} & \shortstack[l]{Pair repeat\\{}flip \%} & \shortstack[l]{Score\\{}MAE} & \shortstack[l]{Score\\{}Spearman} & \shortstack[l]{Score repeat\\{}abs. delta pp} \\
+\midrule
+Humor / Jev & 73.38 & 3.15 & 0.256 & 0.365 & 1.09 \\
+Humor / Clef & 67.45 & 3.02 & 0.200 & 0.549 & 1.42 \\
+Humor / Perplexity & 76.76 & 0.08 & 0.158 & 0.379 & 0.00 \\
+Helpfulness / Jev & 68.62 & 2.58 & 0.175 & 0.448 & 0.89 \\
+Helpfulness / Clef & 61.85 & 3.20 & 0.184 & 0.271 & 1.06 \\
+Helpfulness / Perplexity & 73.53 & 0.00 & 0.148 & 0.581 & 0.00 \\
+Summary / Jev & 78.98 & 1.70 & 0.132 & 0.384 & 0.86 \\
+Summary / Clef & 74.43 & 2.65 & 0.106 & 0.368 & 1.04 \\
+Summary / Perplexity & 77.05 & 0.00 & 0.115 & 0.343 & 0.00 \\
+\bottomrule
+\end{tabular}
+\caption{Baseline human alignment and unchanged-request variation. Pair alignment uses strict A/B references only (UKP n=1,063; HelpSteer2 n=1,447; OpenAI n=1,451); score MAE uses normalized 0-1 human means (n=1,500). Repeat columns average four comparisons with the canonical baseline on the same items. Choice and score results use the datasets in Table 1. Values are descriptive and rounded.}
+\label{tab:results_baseline}
+\end{table*}

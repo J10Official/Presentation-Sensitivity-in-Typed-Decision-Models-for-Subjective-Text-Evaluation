@@ -1,0 +1,1326 @@
+{
+  "jev_pos_ukp": {
+    "value": {
+      "estimate": -0.02250333333333333,
+      "low": -0.02977044136738525,
+      "high": -0.015236225299281411,
+      "n": 1500,
+      "q_by_validated": 1.405069155776425e-08
+    },
+    "rendered": "-2.25 [-2.98, -1.52]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "UKP humor",
+          "family": "presentation_probability",
+          "contrast": "First-position"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_pos_hs": {
+    "value": {
+      "estimate": -0.02274333333333333,
+      "low": -0.028991629480441428,
+      "high": -0.016495037186225234,
+      "n": 1500,
+      "q_by_validated": 1.4416442317100864e-11
+    },
+    "rendered": "-2.27 [-2.90, -1.65]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "HelpSteer pairs",
+          "family": "presentation_probability",
+          "contrast": "First-position"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_pos_sum": {
+    "value": {
+      "estimate": -0.06106,
+      "low": -0.06949057014027006,
+      "high": -0.052629429859729945,
+      "n": 1500,
+      "q_by_validated": 4.3972294347833584e-38
+    },
+    "rendered": "-6.11 [-6.95, -5.26]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "family": "presentation_probability",
+          "contrast": "First-position"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_b_ukp": {
+    "value": {
+      "estimate": 0.03856333333333333,
+      "low": 0.03654571591561262,
+      "high": 0.04058095075105404,
+      "n": 1500,
+      "q_by_validated": 2.6288204710940585e-232
+    },
+    "rendered": "3.86 [3.65, 4.06]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "UKP humor",
+          "family": "presentation_probability",
+          "contrast": "B-label"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_b_hs": {
+    "value": {
+      "estimate": -0.01592333333333333,
+      "low": -0.017906159205894293,
+      "high": -0.01394050746077237,
+      "n": 1500,
+      "q_by_validated": 1.2377623835091617e-50
+    },
+    "rendered": "-1.59 [-1.79, -1.39]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "HelpSteer pairs",
+          "family": "presentation_probability",
+          "contrast": "B-label"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_b_sum": {
+    "value": {
+      "estimate": -0.0053933333333333324,
+      "low": -0.007277230876571257,
+      "high": -0.003509435790095407,
+      "n": 1500,
+      "q_by_validated": 2.7145294242488553e-07
+    },
+    "rendered": "-0.54 [-0.73, -0.35]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "family": "presentation_probability",
+          "contrast": "B-label"
+        },
+        "field": null
+      }
+    ]
+  },
+  "clef_b_ukp": {
+    "value": {
+      "estimate": -0.08642746666666666,
+      "low": -0.09620280388584321,
+      "high": -0.07665212944749011,
+      "n": 1500,
+      "q_by_validated": 1.2232858795670311e-61
+    },
+    "rendered": "-8.64",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "UKP humor",
+          "family": "presentation_probability",
+          "contrast": "B-label"
+        },
+        "field": null
+      }
+    ]
+  },
+  "clef_b_sum": {
+    "value": {
+      "estimate": 0.0821656,
+      "low": 0.07178426165296944,
+      "high": 0.09254693834703057,
+      "n": 1500,
+      "q_by_validated": 4.019956400248062e-44
+    },
+    "rendered": "8.22",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "OpenAI summaries",
+          "family": "presentation_probability",
+          "contrast": "B-label"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_pos_selection_sum": {
+    "value": {
+      "estimate": -0.08733333333333333,
+      "low": -0.10417948568579288,
+      "high": -0.07048718098087378,
+      "n": 1500,
+      "q_by_validated": 2.4947165502410637e-21
+    },
+    "rendered": "-8.73 [-10.42, -7.05]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "family": "presentation_hard choice",
+          "contrast": "First-position"
+        },
+        "field": null
+      }
+    ]
+  },
+  "clef_b_selection_sum": {
+    "value": {
+      "estimate": 0.133,
+      "low": 0.11203030159358285,
+      "high": 0.15396969840641717,
+      "n": 1500,
+      "q_by_validated": 2.1863810246631404e-30
+    },
+    "rendered": "13.30 [11.20, 15.40]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "OpenAI summaries",
+          "family": "presentation_hard choice",
+          "contrast": "B-label"
+        },
+        "field": null
+      }
+    ]
+  },
+  "pplx_pos_ukp": {
+    "value": {
+      "estimate": 0.04581962056009771,
+      "low": 0.040641625695336754,
+      "high": 0.050997615424858665,
+      "n": 1500,
+      "q_by_validated": 9.856167747168798e-62
+    },
+    "rendered": "4.58",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Perplexity",
+          "dataset": "UKP humor",
+          "family": "presentation_probability",
+          "contrast": "First-position"
+        },
+        "field": null
+      }
+    ]
+  },
+  "pplx_pos_hs": {
+    "value": {
+      "estimate": -0.043513376934843286,
+      "low": -0.0479906348294703,
+      "high": -0.03903611904021627,
+      "n": 1500,
+      "q_by_validated": 2.1689746143675454e-71
+    },
+    "rendered": "-4.35",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Perplexity",
+          "dataset": "HelpSteer pairs",
+          "family": "presentation_probability",
+          "contrast": "First-position"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_numeric_ukp": {
+    "value": {
+      "estimate": 0.07442666666666667,
+      "low": 0.06662887456144147,
+      "high": 0.08222445877189187,
+      "n": 1500,
+      "q_by_validated": 6.433902260750591e-71
+    },
+    "rendered": "7.44",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "UKP humor",
+          "family": "numeric",
+          "contrast": "Numeric identifier 2 vs 1"
+        },
+        "field": null
+      }
+    ]
+  },
+  "clef_numeric_ukp": {
+    "value": {
+      "estimate": -0.07809726666666668,
+      "low": -0.08855906496332586,
+      "high": -0.0676354683700075,
+      "n": 1500,
+      "q_by_validated": 5.085686859671719e-45
+    },
+    "rendered": "-7.81",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "UKP humor",
+          "family": "numeric",
+          "contrast": "Numeric identifier 2 vs 1"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_reader_sum": {
+    "value": {
+      "estimate": 0.12714666666666666,
+      "low": 0.12065956823075737,
+      "high": 0.13363376510257594,
+      "n": 1500,
+      "q_by_validated": 2.9338955311472553e-155
+    },
+    "rendered": "12.71",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "family": "social",
+          "contrast": "High vs low reader cue"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_reader_hs": {
+    "value": {
+      "estimate": 0.13708,
+      "low": 0.13192813947787174,
+      "high": 0.14223186052212827,
+      "n": 1500,
+      "q_by_validated": 0.0
+    },
+    "rendered": "13.71",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "HelpSteer pairs",
+          "family": "social",
+          "contrast": "High vs low reader cue"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_reader_score": {
+    "value": {
+      "estimate": 0.16465833333333332,
+      "low": 0.16124610886227855,
+      "high": 0.1680705578043881,
+      "n": 1500,
+      "q_by_validated": 0.0
+    },
+    "rendered": "16.47 [16.12, 16.81]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "HelpSteer scores",
+          "family": "social",
+          "contrast": "High vs low reader cue"
+        },
+        "field": null
+      }
+    ]
+  },
+  "clef_source_sum": {
+    "value": {
+      "estimate": 0.3214691333333333,
+      "low": 0.31015213728349544,
+      "high": 0.3327861293831712,
+      "n": 1500,
+      "q_by_validated": 2.389563511004656e-224
+    },
+    "rendered": "32.15 [31.02, 33.28]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "OpenAI summaries",
+          "family": "ai_human",
+          "contrast": "Human vs AI attribution"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_source_score_humor": {
+    "value": {
+      "estimate": -0.0016977777777777761,
+      "low": -0.0027217767101612583,
+      "high": -0.0006737788453942937,
+      "n": 1500,
+      "q_by_validated": 0.009766260515315447
+    },
+    "rendered": "-0.17",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "Humicroedit",
+          "family": "ai_human",
+          "contrast": "Human vs AI attribution"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_prior_sum": {
+    "value": {
+      "estimate": 0.002800000000000001,
+      "low": 0.0006418888658399373,
+      "high": 0.004958111134160064,
+      "n": 1500,
+      "q_by_validated": 0.08822927256032541
+    },
+    "rendered": "0.28",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "family": "prior_judge",
+          "contrast": "Selected vs rejected prior judge cue"
+        },
+        "field": null
+      }
+    ]
+  },
+  "pplx_inject_sum_second": {
+    "value": {
+      "estimate": 0.10140729850411562,
+      "low": 0.09689174950111369,
+      "high": 0.10592284750711754,
+      "n": 1500,
+      "q_by_validated": 2.1378022180207116e-179
+    },
+    "rendered": "10.14 [9.69, 10.59]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Perplexity",
+          "dataset": "OpenAI summaries",
+          "family": "injection",
+          "contrast": "second directive minus inert"
+        },
+        "field": null
+      }
+    ]
+  },
+  "clef_inject_score": {
+    "value": {
+      "estimate": -0.021107400000000002,
+      "low": -0.024360379692584498,
+      "high": -0.017854420307415506,
+      "n": 1500,
+      "q_by_validated": 8.360606874013616e-22
+    },
+    "rendered": "-2.11 [-2.44, -1.79]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "SummEval relevance",
+          "family": "injection",
+          "contrast": "Highest-rating directive minus inert"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_reverse_humor": {
+    "value": {
+      "estimate": 0.024682222222222227,
+      "low": 0.023645724474727618,
+      "high": 0.025718719969716836,
+      "n": 1500,
+      "q_by_validated": 7.665296641976307e-293
+    },
+    "rendered": "2.47 [2.36, 2.57]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "Humicroedit",
+          "family": "score_format",
+          "contrast": "score_anchor_reverse minus native"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_seven_humor": {
+    "value": {
+      "estimate": -0.07629333333333334,
+      "low": -0.07780907819334305,
+      "high": -0.07477758847332362,
+      "n": 1500,
+      "q_by_validated": 0.0
+    },
+    "rendered": "-7.63 [-7.78, -7.48]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "Humicroedit",
+          "family": "score_format",
+          "contrast": "score_granularity_7 minus native"
+        },
+        "field": null
+      }
+    ]
+  },
+  "jev_three_sum": {
+    "value": {
+      "estimate": 0.05868666666666666,
+      "low": 0.056430918304493136,
+      "high": 0.06094241502884018,
+      "n": 1500,
+      "q_by_validated": 4.801929970658302e-72
+    },
+    "rendered": "5.87 [5.64, 6.09]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "SummEval relevance",
+          "family": "score_format",
+          "contrast": "score_granularity_3 minus native"
+        },
+        "field": null
+      }
+    ]
+  },
+  "pplx_reader_flip_ukp": {
+    "value": "40.4000",
+    "rendered": "40.40",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "pairwise_cue_effects",
+          "row": 26
+        },
+        "field": "Any reversal flip %"
+      }
+    ]
+  },
+  "clef_source_flip_sum": {
+    "value": "39.5333",
+    "rendered": "39.53",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "pairwise_cue_effects",
+          "row": 21
+        },
+        "field": "Any reversal flip %"
+      }
+    ]
+  },
+  "jev_tie_native": {
+    "value": "22.9947",
+    "rendered": "22.99",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "tie_by_reference",
+          "row": 3
+        },
+        "field": "X selected %"
+      }
+    ]
+  },
+  "jev_tie_strict": {
+    "value": "1.2230",
+    "rendered": "1.22",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "tie_overview",
+          "row": 0
+        },
+        "field": "X on strict refs %"
+      }
+    ]
+  },
+  "jev_tie_first": {
+    "value": "6.2000",
+    "rendered": "6.20",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "tie_overview",
+          "row": 1
+        },
+        "field": "X selected %"
+      }
+    ]
+  },
+  "jev_tie_middle": {
+    "value": "7.2000",
+    "rendered": "7.20",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "tie_overview",
+          "row": 2
+        },
+        "field": "X selected %"
+      }
+    ]
+  },
+  "jev_tie_last": {
+    "value": "4.1333",
+    "rendered": "4.13",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "tie_overview",
+          "row": 0
+        },
+        "field": "X selected %"
+      }
+    ]
+  },
+  "pplx_tie_native": {
+    "value": "47.0588",
+    "rendered": "47.06",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "tie_by_reference",
+          "row": 63
+        },
+        "field": "X selected %"
+      }
+    ]
+  },
+  "jev_summary_clear": {
+    "value": "91.3333",
+    "rendered": "91.33",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "baseline_agreement_groups",
+          "row": 24
+        },
+        "field": "Alignment % (pairs) / MAE (scores)"
+      }
+    ]
+  },
+  "jev_summary_disputed": {
+    "value": "65.7632",
+    "rendered": "65.76",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "baseline_agreement_groups",
+          "row": 25
+        },
+        "field": "Alignment % (pairs) / MAE (scores)"
+      }
+    ]
+  },
+  "jev_summary_sens_clear": {
+    "value": "0.0423",
+    "rendered": "4.23",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "disagreement_correlations",
+          "row": 12
+        },
+        "field": "Clear sensitivity"
+      }
+    ]
+  },
+  "jev_summary_sens_disputed": {
+    "value": "0.0944",
+    "rendered": "9.44",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "disagreement_correlations",
+          "row": 12
+        },
+        "field": "Disputed sensitivity"
+      }
+    ]
+  },
+  "jev_humor_sd_ratio": {
+    "value": "0.5763",
+    "rendered": "0.58",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "score_compression",
+          "row": 0
+        },
+        "field": "SD ratio"
+      }
+    ]
+  },
+  "jev_sum_sd_ratio": {
+    "value": "1.0961",
+    "rendered": "1.10",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "score_compression",
+          "row": 6
+        },
+        "field": "SD ratio"
+      }
+    ]
+  },
+  "jev_expert_r": {
+    "value": "0.5970",
+    "rendered": "0.597",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "summeval_reference_sensitivity",
+          "row": 1
+        },
+        "field": "Pearson"
+      }
+    ]
+  },
+  "jev_crowd_r": {
+    "value": "0.0607",
+    "rendered": "0.061",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "summeval_reference_sensitivity",
+          "row": 2
+        },
+        "field": "Pearson"
+      }
+    ]
+  },
+  "jev_pool_r": {
+    "value": "0.3817",
+    "rendered": "0.382",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "summeval_reference_sensitivity",
+          "row": 0
+        },
+        "field": "Pearson"
+      }
+    ]
+  },
+  "jev_humor_mid": {
+    "value": "58.7333",
+    "rendered": "58.73",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "score_compression",
+          "row": 0
+        },
+        "field": "Judge score in [.4,.6] %"
+      }
+    ]
+  },
+  "human_humor_mid": {
+    "value": "20.4000",
+    "rendered": "20.40",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "score_compression",
+          "row": 0
+        },
+        "field": "Human mean in [.4,.6] %"
+      }
+    ]
+  },
+  "jev_humor_slope": {
+    "value": "0.2021",
+    "rendered": "0.202",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "score_compression",
+          "row": 0
+        },
+        "field": "Judge~human slope"
+      }
+    ]
+  },
+  "jev_len_ukp": {
+    "value": "10.913 [9.410, 12.417]",
+    "rendered": "10.91 [9.41, 12.42]",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "length_associations",
+          "row": 0
+        },
+        "field": "Adjusted slope pp/SD [95% CI]"
+      }
+    ]
+  },
+  "jev_len_hs": {
+    "value": "0.443 [-1.008, 1.895]",
+    "rendered": "0.44 [-1.01, 1.90]",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "length_associations",
+          "row": 6
+        },
+        "field": "Adjusted slope pp/SD [95% CI]"
+      }
+    ]
+  },
+  "jev_len_score": {
+    "value": "0.134 [-0.384, 0.652]",
+    "rendered": "0.13 [-0.38, 0.65]",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "length_associations",
+          "row": 3
+        },
+        "field": "Adjusted slope pp/SD [95% CI]"
+      }
+    ]
+  },
+  "jev_depend_pos": {
+    "value": "-2.250 [-3.147, -1.354]",
+    "rendered": "-2.25 [-3.15, -1.35]",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "dependence_robustness",
+          "row": 0
+        },
+        "field": "Component/context effect pp [95% CI]"
+      }
+    ]
+  },
+  "jev_depend_b": {
+    "value": "3.856 [3.646, 4.066]",
+    "rendered": "3.86 [3.65, 4.07]",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "dependence_robustness",
+          "row": 1
+        },
+        "field": "Component/context effect pp [95% CI]"
+      }
+    ]
+  },
+  "jev_prior_sum_q": {
+    "value": 0.08822927256032541,
+    "rendered": "0.088",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "family": "prior_judge"
+        },
+        "field": "q_by_validated"
+      }
+    ]
+  },
+  "clef_reject_hs": {
+    "value": {
+      "n": 1447,
+      "estimate": -0.1575673807878369,
+      "se": 0.0211512884074104,
+      "variance": 0.0004473770012934537,
+      "df": 1446,
+      "statistic": -7.449540555299356,
+      "low": -0.1990578731344658,
+      "high": -0.11607688844120803,
+      "p": 1.603939694177265e-13,
+      "clusters_or_nodes": 1447,
+      "method": "cluster",
+      "status": "ok",
+      "q_by_level2": 3.3792318940114586e-12
+    },
+    "rendered": "-15.76 [-19.91, -11.61]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "HelpSteer pairs",
+          "condition": "pair_rejection"
+        },
+        "field": "human_alignment_change"
+      }
+    ]
+  },
+  "clef_reject_sum": {
+    "value": {
+      "n": 1451,
+      "estimate": -0.23363197794624396,
+      "se": 0.018547105431558443,
+      "variance": 0.00034399511988934464,
+      "df": 538,
+      "statistic": -12.596681396371011,
+      "low": -0.27006559986587075,
+      "high": -0.19719835602661717,
+      "p": 4.5707822659952836e-32,
+      "clusters_or_nodes": 539,
+      "method": "cluster",
+      "status": "ok",
+      "q_by_level2": 1.827057198643883e-30
+    },
+    "rendered": "-23.36 [-27.01, -19.72]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "OpenAI summaries",
+          "condition": "pair_rejection"
+        },
+        "field": "human_alignment_change"
+      }
+    ]
+  },
+  "jev_reject_sum": {
+    "value": {
+      "n": 1451,
+      "estimate": -0.04548587181254307,
+      "se": 0.01126221264119956,
+      "variance": 0.00012683743357559516,
+      "df": 538,
+      "statistic": -4.0388042085217,
+      "low": -0.06760917287761004,
+      "high": -0.02336257074747611,
+      "p": 6.154028790213617e-05,
+      "clusters_or_nodes": 539,
+      "method": "cluster",
+      "status": "ok",
+      "q_by_level2": 0.0008840757890380856
+    },
+    "rendered": "-4.55 [-6.76, -2.34]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "dataset": "OpenAI summaries",
+          "condition": "pair_rejection"
+        },
+        "field": "human_alignment_change"
+      }
+    ]
+  },
+  "clef_recovered_hs": {
+    "value": "46.0954",
+    "rendered": "46.10",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "selection_rejection",
+          "row": 4
+        },
+        "field": "Recovered strict alignment %"
+      }
+    ]
+  },
+  "clef_baseline_hs": {
+    "value": "61.852 [59.346, 64.358]",
+    "rendered": "61.85",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "baseline_pairwise",
+          "row": 4
+        },
+        "field": "Human alignment % [95% CI]"
+      }
+    ]
+  },
+  "jev_wrapper_source_sum": {
+    "value": "-4.720 [-5.201, -4.239]",
+    "rendered": "-4.720",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "wrapper_effects",
+          "row": 12
+        },
+        "field": "Control minus baseline pp [95% CI]"
+      }
+    ]
+  },
+  "jev_wrapper_reader_sum": {
+    "value": "-4.330 [-4.833, -3.827]",
+    "rendered": "-4.330",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "wrapper_effects",
+          "row": 13
+        },
+        "field": "Control minus baseline pp [95% CI]"
+      }
+    ]
+  },
+  "jev_wrapper_source_sum_ci": {
+    "value": "-4.720 [-5.201, -4.239]",
+    "rendered": "-4.72 [-5.20, -4.24]",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "wrapper_effects",
+          "row": 12
+        },
+        "field": "Control minus baseline pp [95% CI]"
+      }
+    ]
+  },
+  "clef_rejection_same_hs": {
+    "value": {
+      "n": 1500,
+      "estimate": 0.6773333333333333,
+      "se": 0.012074730860057344,
+      "variance": 0.00014579912534282117,
+      "df": 1499,
+      "statistic": 56.095108138096975,
+      "low": 0.6536481714509991,
+      "high": 0.7010184952156676,
+      "p": 0.0,
+      "clusters_or_nodes": 1500,
+      "method": "cluster",
+      "status": "ok"
+    },
+    "rendered": "67.73",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Clef",
+          "dataset": "HelpSteer pairs",
+          "condition": "pair_rejection"
+        },
+        "field": "selection_flip_rate"
+      }
+    ]
+  },
+  "jev_format_rank_range": {
+    "value": [
+      0.9633,
+      0.9957
+    ],
+    "rendered": "0.963-0.996",
+    "sources": [
+      {
+        "file": "reports/full_study_analysis/tables.json",
+        "selector": {
+          "table": "score_formats",
+          "model": "Jev"
+        },
+        "field": "Rank correlation vs native"
+      }
+    ]
+  },
+  "jev_score_id_max": {
+    "value": 0.9375555555555554,
+    "rendered": "0.94",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level1_effects.json",
+        "selector": {
+          "model": "Jev",
+          "track": "score",
+          "families": [
+            "alphabetic",
+            "numeric"
+          ]
+        },
+        "field": null
+      }
+    ]
+  },
+  "reader_prior_range": {
+    "value": [
+      0.15515318154745134,
+      0.8890247399407298
+    ],
+    "rendered": "0.155-0.889",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "first": "Reader high vs low",
+          "second": "Prior",
+          "all_models_components": true
+        },
+        "field": null
+      }
+    ]
+  },
+  "meta_b": {
+    "value": {
+      "status": "ok",
+      "method": "REML + modified Knapp–Hartung",
+      "k": 3,
+      "estimate": 0.5747955459897347,
+      "se": 1.66860541363095,
+      "low": -6.604634091755232,
+      "high": 7.754225183734702,
+      "df": 2,
+      "statistic": 0.34447661579795386,
+      "p": 0.7633379140500063,
+      "weights": [
+        0.3333100119624997,
+        0.33332462481173764,
+        0.3333653632257627
+      ],
+      "tau2": 8.3423538060444,
+      "Q": 1610.1942930960859,
+      "Q_df": 2,
+      "Q_p": 0.0,
+      "I2_percent": 99.88047973502385,
+      "I2_definition": "100*tau²/(tau²+typical within-task variance), REML-consistent",
+      "typical_within_task_variance": 0.009982734765274557,
+      "KH_variance_multiplier": 1.000045299848053,
+      "reml_derivative_relative": 2.7714724829060898e-11,
+      "tau_at_boundary": false,
+      "q_by_level2": 1.0
+    },
+    "rendered": "0.57 [-6.60, 7.75]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "track": "choice",
+          "contrast": "B-label"
+        },
+        "field": "pooled"
+      }
+    ]
+  },
+  "meta_b_i2": {
+    "value": 99.88047973502385,
+    "rendered": "99.9",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "track": "choice",
+          "contrast": "B-label"
+        },
+        "field": "I2_percent"
+      }
+    ]
+  },
+  "meta_pos": {
+    "value": {
+      "status": "ok",
+      "method": "REML + modified Knapp–Hartung",
+      "k": 3,
+      "estimate": -3.532284308885828,
+      "se": 1.2783730422101793,
+      "low": -9.032679568521417,
+      "high": 1.9681109507497618,
+      "df": 2,
+      "statistic": -2.763109196028462,
+      "p": 0.1098210554919926,
+      "weights": [
+        0.3335686183494075,
+        0.33603817876423825,
+        0.33039320288635426
+      ],
+      "tau2": 4.7401726681141625,
+      "Q": 60.85827129742034,
+      "Q_df": 2,
+      "Q_p": 6.092482616229038e-14,
+      "I2_percent": 97.19257037469458,
+      "I2_definition": "100*tau²/(tau²+typical within-task variance), REML-consistent",
+      "typical_within_task_variance": 0.1369209716979721,
+      "KH_variance_multiplier": 1.0044633804406633,
+      "reml_derivative_relative": -4.7876098087678904e-09,
+      "tau_at_boundary": false,
+      "q_by_level2": 1.0
+    },
+    "rendered": "-3.53 [-9.03, 1.97]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "track": "choice",
+          "contrast": "First-position"
+        },
+        "field": "pooled"
+      }
+    ]
+  },
+  "meta_pos_i2": {
+    "value": 97.19257037469458,
+    "rendered": "97.2",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "track": "choice",
+          "contrast": "First-position"
+        },
+        "field": "I2_percent"
+      }
+    ]
+  },
+  "meta_reader": {
+    "value": {
+      "status": "ok",
+      "method": "REML + modified Knapp–Hartung",
+      "k": 3,
+      "estimate": 13.346664421454442,
+      "se": 0.3030180547709687,
+      "low": 12.042882960946919,
+      "high": 14.650445881961964,
+      "df": 2,
+      "statistic": 44.045772888161075,
+      "p": 0.0005150577173849609,
+      "weights": [
+        0.3309858119608542,
+        0.35945524193183553,
+        0.3095589461073104
+      ],
+      "tau2": 0.1796492261965986,
+      "Q": 5.914437247746886,
+      "Q_df": 2,
+      "Q_p": 0.051963245694762475,
+      "I2_percent": 67.12865895632494,
+      "I2_definition": "100*tau²/(tau²+typical within-task variance), REML-consistent",
+      "typical_within_task_variance": 0.08797004251764977,
+      "KH_variance_multiplier": 1.0273963359933147,
+      "reml_derivative_relative": 3.1721878477758926e-09,
+      "tau_at_boundary": false,
+      "q_by_level2": 0.006953755668493224
+    },
+    "rendered": "13.35 [12.04, 14.65]",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "track": "choice",
+          "contrast": "High vs low reader cue"
+        },
+        "field": "pooled"
+      }
+    ]
+  },
+  "meta_reader_i2": {
+    "value": 67.12865895632494,
+    "rendered": "67.1",
+    "sources": [
+      {
+        "file": "reports/validated_analysis/level2_results.json",
+        "selector": {
+          "model": "Jev",
+          "track": "choice",
+          "contrast": "High vs low reader cue"
+        },
+        "field": "I2_percent"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "row": "Baseline snapshot",
+    "source_table": "baseline_definition_sensitivity",
+    "source_row": 0,
+    "source_column": 4,
+    "original": "-2.2403",
+    "rendered": "-2.24"
+  },
+  {
+    "row": "Five-call mean",
+    "source_table": "baseline_definition_sensitivity",
+    "source_row": 1,
+    "source_column": 4,
+    "original": "-2.2299",
+    "rendered": "-2.23"
+  },
+  {
+    "row": "Score reconstruction",
+    "source_table": "score_representation_contrasts",
+    "source_row": 8,
+    "source_column": 4,
+    "original": "16.5150",
+    "rendered": "16.52"
+  },
+  {
+    "row": "Band reweighting",
+    "source_table": "score_weighted_sensitivity",
+    "source_row": 0,
+    "source_column": 5,
+    "original": "0.2593",
+    "rendered": "25.93"
+  },
+  {
+    "row": "Lower-length subset",
+    "source_table": "long_item_sensitivity",
+    "source_row": 0,
+    "source_column": 4,
+    "original": "-2.235 [-3.009, -1.461]",
+    "rendered": "-2.23 [-3.01, -1.46]"
+  },
+  {
+    "row": "Component variance",
+    "source_table": "dependence_robustness",
+    "source_row": 0,
+    "source_column": 4,
+    "original": "-2.250 [-3.147, -1.354]",
+    "rendered": "-2.25 [-3.15, -1.35]"
+  }
+]

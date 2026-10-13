@@ -1,0 +1,150 @@
+\section{Detailed Results and Sensitivity Analyses}
+
+\label{app:results_all}
+
+Detailed tables and the rating-format figure follow this narrative. Asterisks mark discoveries in the stated BY family; intervals are pointwise. Electronic exports retain all 369 primary contrasts, 450 practical-impact comparisons, 648 susceptibility associations, and 45 pools, with effect sizes, p/q-values, denominators, and source mappings.
+
+\subsection{Position and identifier biases}
+
+\label{app:results_identifiers}
+
+Tables~\ref{tab:appendix_factorial_probability} and~\ref{tab:appendix_factorial_choice} separate position, A/B identifier, and interaction effects on probabilities and selections. Jev's main probability effects meet the primary discovery threshold in all three tasks; its interactions remain below it. Tables~\ref{tab:appendix_numeric_pair} and~\ref{tab:appendix_score_identifiers} cover numeric pairwise assignments and scoring identifiers.
+
+Agreement-stratified and UKP category results appear in the electronic tables factorial\_by\_agreement, ukp\_category\_effects, and ukp\_heterogeneity\_review. These descriptive summaries characterize the balanced subset.
+
+\subsection{Attribution and feedback sensitivity}
+
+\label{app:results_cues}
+
+Tables~\ref{tab:appendix_pair_semantic} and~\ref{tab:appendix_score_semantic} report synthetic authorship, reader, and prior-judge cues attached to unchanged texts. Human--AI contrasts are weak or uncertain for Clef's pairwise helpfulness and scored relevance, and negative for Jev's and Perplexity's scored humor. Tables~\ref{tab:appendix_reader_alignment} and~\ref{tab:appendix_reader_error} compare reader-cue agreement and error with unspecified feedback. Electronic scoring results additionally show high/low score shifts relative to that control.
+
+Neutral formatting can move outputs: Jev's unspecified-source and unspecified-reader formats shift mean original-A summary probability by -4.720 and -4.330 pp (wrapper\_effects). Directional cue contrasts hold this format fixed. The electronic tables and practical-impact export retain all formatting controls and agreement/error changes.
+
+\subsection{Evaluator-directive injection}
+
+\label{app:results_injection}
+
+Table~\ref{tab:appendix_pair_injection} compares directives with same-position inert notes for both targets. Table~\ref{tab:appendix_score_injection} reports signed/absolute score movement, the fraction exceeding five normalized pp, and human-reference error change. Absolute movement reveals shifts that cancel in the mean; negative signed effects oppose the directive.
+
+Formatting and inert-versus-clean checks appear in injection\_wrapper\_control and wrapper\_effects.
+
+\subsection{No preference and selection/rejection}
+
+\label{app:results_framing}
+
+Rejection outputs are complemented to recover preferred-text identity. Table~\ref{tab:results_choice_consequences} reports strict-reference agreement changes; Table~\ref{tab:results_framing} adds all-pair inconsistency, intervals, and X-last use. Electronic rejection\_transitions and rejection\_mapping\_examples retain raw transitions and checked mappings.
+
+Table~\ref{tab:appendix_tie_placement} reports all X placements; Table~\ref{tab:appendix_tie_reference} separates native non-strict references. Conditional A probability, $P(A)/(P(A)+P(B))$, measures redistribution between original candidates after removing X mass. Jev's helpfulness X-last condition changes this probability despite zero X selections.
+
+\subsection{Score formats and compression}
+
+\label{app:results_formats}
+
+Figure~\ref{fig:results_score_formats} contrasts rank preservation with score-level changes for all 27 model/dataset/rubric combinations. Tables~\ref{tab:appendix_formats_humor}--\ref{tab:appendix_formats_relevance} give intervals and human-reference error changes. Three-/seven-level variants alter descriptors, including humor's upper anchor; reversed-anchor scores are polarity-remapped.
+
+Compression is assessed using judge/human dispersion and score-versus-human relationships (Table~\ref{tab:appendix_compression}). Jev's humor scores occupy [0.4,0.6] on 58.73\% of items versus 20.40\% for the human means, and its judge-on-human slope is 0.202. On relevance, its SD ratio exceeds one. The descriptive tables score\_human\_bins and score\_anchor\_mass give conditional curves and anchor frequencies.
+
+\subsection{Length, human disagreement, and repeated judgments}
+
+\label{app:results_humans}
+
+Original length has task-specific observational relationships (Table~\ref{tab:appendix_length}). Jev's adjusted pairwise slope is 10.91 [9.41, 12.42] pp per length SD on UKP, versus 0.44 [-1.01, 1.90] on HelpSteer2. For scored humor it is 0.13 [-0.38, 0.65]. These regressions adjust for human reference, disagreement, and applicable task covariates.
+
+Disagreement associations vary by dataset (Tables~\ref{tab:appendix_disagreement_pair} and~\ref{tab:appendix_disagreement_score}). Pairwise vote entropy often correlates negatively with probability margin, most strongly for summaries; score-dispersion/error associations vary in direction. Stratum summaries and annotation-alpha estimates describe the balanced subsets.
+
+Table~\ref{tab:results_baseline} summarizes alignment and baseline-repeat differences across five unchanged calls. Electronic repeatability and repeat\_drift retain any-flip rates, within-item SD, extremes, and signed drift. Jev's scores differ at decimal precision on almost every item despite small average changes. Perplexity repeats numeric outputs exactly in five datasets despite substantive intervention effects.
+
+Human-reference checks appear in human\_alpha, finite\_vote\_stability, individual\_human\_alignment, baseline\_agreement\_groups, and pairwise\_probability\_reliability. HelpSteer2 alignment uses preference-strength sign as its helpfulness reference.
+
+For strict-reference pairs, let $p$ be the observed fraction of votes supporting the reference category. Resampling $n$ votes at the original depth gives probability $\Pr\{\mathrm{Binomial}(n,p)>n/2\}$ of a majority for that category. Means are 85.32\% for UKP, 82.36\% for HelpSteer2, and 90.97\% for OpenAI. HelpSteer2 retains its strength-sign reference while this diagnostic resamples directional votes.
+
+\subsection{Reference-population and representation sensitivity}
+
+\label{app:results_reference}
+
+Table~\ref{tab:appendix_reference_population} compares SummEval's eight-rating mean with expert-only and crowd-only references, holding model outputs fixed. Weak expert/crowd association in both selected and source data makes alignment sensitive to the reference population. Means, correlations, and absolute errors capture this sensitivity.
+
+Distribution-derived score reconstruction, baseline-definition alternatives, reweighting, and top-length-decile checks appear in score\_representation\_contrasts, baseline\_definition\_sensitivity, score\_weighted\_sensitivity, and long\_item\_sensitivity. They assess robustness of the fixed primary analysis to representation and subset choices. Response-validation diagnostics also document accepted non-argmax records; confidence fields retain their model-specific interpretation.
+
+\subsection{Secondary shared-vulnerability and cross-task synthesis}
+
+\label{app:results_synthesis}
+
+Of 729 susceptibility comparisons, 648 use disjoint calls. Table~\ref{tab:appendix_shared_vulnerability} reports reader/prior-judge associations for all model/dataset combinations, selected by cue identity: absolute-effect correlations range from 0.155 to 0.889, all with secondary-family $q<.05$. Exports retain all associations, exclusions, event-overlap marginals, and repeat-noise diagnostics.
+
+Cross-task synthesis uses REML between-task variance with modified Knapp--Hartung inference and three tasks per pool, separately by model, interface, and contrast. For Jev, the pairwise B-label pool is 0.57 [-6.60, 7.75] pp with I$^2$=99.9\%, reflecting opposite task-level directions. Its position pool is -3.53 [-9.03, 1.97] pp with I$^2$=97.2\%. The pairwise reader pool is 13.35 [12.04, 14.65] pp with I$^2$=67.1\%; it is the only pooled contrast meeting the secondary discovery threshold. Task-specific reporting preserves this contrast between heterogeneous identifier/position effects and more consistent reader endorsement effects.
+
+Table~\ref{tab:appendix_meta_choice} reports all choice-interface pools and Table~\ref{tab:appendix_meta_score} all score-interface pools. Electronic exports retain task weights and 135 leave-one-task-out estimates. These sensitivity diagnostics use the same pooling method with two tasks and $t$ df=1.
+
+\subsection{Dependence and numerical sensitivity}
+
+\label{app:results_robustness}
+
+Table~\ref{tab:appendix_dependence} gives dependence sensitivity checks for every model and four headline UKP contrasts. For Jev, connected-component intervals are -2.25 [-3.15, -1.35] pp for position and 3.86 [3.65, 4.07] pp for B, preserving the task-level directions. Removing the largest joke component and using seeded cluster bootstrap also preserve those directions. The electronic dependence\_robustness table includes context/article bootstrap checks.
+
+Table~\ref{tab:appendix_robustness_summary} makes additional saved checks explicit. Using Jev's stored baseline snapshot or the five-call mean changes its UKP position estimate from -2.25 pp to -2.24 or -2.23 pp. Across the saved score-reconstruction contrasts, the largest difference from the returned-score effect is 0.05 pp. Baseline score-band reweighting changes MAE by at most 0.37 pp across the nine model/dataset combinations.
+
+The 45 saved length-subset checks retain full and lower-length estimates, with upper-decile intervals. Jev's UKP position effect is -2.23 [-3.01, -1.46] pp in the lower-length subset, close to its full estimate. Clef's UKP position interval crosses zero in the shorter subset.
+
+\clearpage
+
+
+
+\input{generated/table2_framing.tex}
+
+\input{generated/appendix_factorial_probability.tex}
+
+\input{generated/appendix_factorial_choice.tex}
+
+\input{generated/appendix_numeric_pair.tex}
+
+\input{generated/appendix_score_identifiers.tex}
+
+\input{generated/appendix_pair_semantic.tex}
+
+\input{generated/appendix_score_semantic.tex}
+
+\input{generated/appendix_reader_alignment.tex}
+
+\input{generated/appendix_reader_error.tex}
+
+\input{generated/appendix_pair_injection.tex}
+
+\input{generated/appendix_score_injection.tex}
+
+\input{generated/appendix_tie_placement.tex}
+
+\input{generated/appendix_tie_reference.tex}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figure3_score_levels_ranks}
+\caption{Stable rankings can coexist with shifted score levels. All 27 model/dataset/rubric comparisons are shown: colors identify models and shapes identify reversed, three-level, or seven-level rubrics. Horizontal whiskers are pointwise 95\% CIs for mean normalized-score shifts versus native. Rank association is descriptive; the variants also alter anchor descriptions.}
+\label{fig:results_score_formats}
+\end{figure*}
+
+\input{generated/appendix_formats_humor.tex}
+
+\input{generated/appendix_formats_helpfulness.tex}
+
+\input{generated/appendix_formats_relevance.tex}
+
+\input{generated/appendix_compression.tex}
+
+\input{generated/appendix_length.tex}
+
+\input{generated/appendix_disagreement_pair.tex}
+
+\input{generated/appendix_disagreement_score.tex}
+
+\input{generated/appendix_reference_population.tex}
+
+\input{generated/appendix_shared_vulnerability.tex}
+
+\input{generated/appendix_meta_choice.tex}
+
+\input{generated/appendix_meta_score.tex}
+
+\input{generated/appendix_dependence.tex}
+
+\input{generated/appendix_robustness_summary.tex}

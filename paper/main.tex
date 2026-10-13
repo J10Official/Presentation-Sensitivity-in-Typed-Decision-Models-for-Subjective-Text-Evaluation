@@ -1,0 +1,211 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times,latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,inconsolata}
+\usepackage{graphicx,amsmath,booktabs,tabularx,array}
+\usepackage{placeins}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\graphicspath{{figures/}}
+\hypersetup{pdfauthor={Anonymous},pdftitle={Presentation Sensitivity in Typed Decision Models for Subjective Text Evaluation},pdfsubject={Complete anonymous manuscript},pdfkeywords={subjective evaluation, typed decision models, presentation sensitivity}}
+\title{Presentation Sensitivity in Typed Decision Models\\for Subjective Text Evaluation}
+\author{Anonymous}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Typed decision models offer structured choices, scores, and probabilities for low-cost automated evaluation. We present a controlled audit of presentation sensitivity in Jev, Clef Flash, and Perplexity Decider across native choice and score interfaces. Across six datasets with 9,000 multiply annotated humor, helpfulness, and summarization items, we collect 702,000 judgments under interventions that vary positions, identifiers, authorship claims, endorsements, decision framing, and rating rubrics while preserving the evaluated texts. Jev's second-position probability advantage reaches 6.11 percentage points on summaries; reversing reader endorsements changes Perplexity's selected humor text on 40.40\% of pairs; and rejection framing reduces Clef's summary agreement with human preferences by 23.36 points. Rating formats also shift score levels while often preserving rankings. Across these findings, repeatability, presentation robustness, and human alignment emerge as distinct properties of an evaluator. Reliable use therefore requires validating the decisions and score interpretations on which an evaluation pipeline depends.
+\end{abstract}
+
+\section{Introduction}
+Typed decision models open a route to fast, inexpensive subjective judgment at scale. Jev, released on 15 September 2026 \citep{hardiman2026typesafe}, maps context and typed questions directly to choices, scores, and probabilities. TypeSafe describes a decision-specific architecture trained with Reinforcement Learning for Calibrated Decisions (RLCD), producing probabilities in parallel rather than through autoregressive text generation. Its workflow benchmarks report 444.6$\times$ lower cost and 193.6$\times$ faster execution than the compared LLM configurations \citep{almeida2026jev}. Evaluation tools already document Jev-based response grading \citep{honeyhive2026jev}. As Jev and related models see increasing use in evaluation pipelines, establishing their susceptibility to presentation changes becomes crucial. Jev's decision-only interface provides no generated explanation or chain of thought, making controlled behavioral audits essential for understanding its judgments.
+
+Subjective evaluation requires judging quality amid reasonable human disagreement \citep{plank-2022-problem}. We evaluate three complementary tasks: humor, response helpfulness, and summary quality. For an automated judge, a central reliability question is whether changes in request presentation alter which text is selected, its assigned rating, or agreement with human judgments.
+
+\begin{table*}[t]
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{3.05cm}Y Y@{}}
+\toprule
+Task / interface & Dataset and source & What the model evaluates & Human reference \\
+\midrule
+Humor / choice & UKP Humor \citep{simpson-etal-2019-predicting} & Funniness of two short texts: puns, jokes, or proverbs/aphorisms & Majority of 5 A/B/neither votes; split cases retained \\
+Humor / score & Humicroedit \citep{hossain-etal-2020-semeval} & Funniness of a single-word headline edit, given the original headline & Mean of 5 ratings, 0--3 \\
+Helpfulness / choice & HelpSteer2-Preference \citep{ICLR2025_8e237ec6} & Helpfulness of two responses to the same request & Sign of published aggregate preference strength; 5 judgments \\
+Helpfulness / score & HelpSteer2 \citep{NEURIPS2024_02fd91a3} & Helpfulness of one response to a request & Mean of 5 helpfulness ratings, 0--4 \\
+Summarization / choice & OpenAI comparisons \citep{NEURIPS2020_1f89885d} & Quality of two summaries of the same Reddit post & Majority of 7--23 distinct workers; split cases retained \\
+Summarization / score & SummEval \citep{fabbri-etal-2021-summeval} & Relevance of one summary to its source article & Mean of all 8 relevance ratings: 3 expert, 5 crowd; 1--5 \\
+\bottomrule
+\end{tabularx}
+\caption{Three tasks, each evaluated separately through choice and score interfaces. Each dataset contributes 1,500 items, balanced between clearer and more disputed human judgments. Annotation depths describe the selected subsets.}
+\label{tab:data}
+\end{table*}
+
+LLM-as-a-judge research motivates our tests of position bias, contextual influence, and rating inconsistency \citep{gu2024survey,wang-etal-2024-large-language-models-fair,chen-etal-2024-humans,stureborg2024}. In typed decision models, the key question is how presentation changes propagate through directly returned probabilities, choices, and scores. Measuring these outcomes together reveals whether a shift changes the selected text, affects human alignment, or moves rating levels while preserving rankings.
+
+We evaluate Jev, Clef Flash, and Perplexity Decider on three tasks, each with a pairwise dataset for \texttt{choice} and a rating dataset for \texttt{score}. Interventions preserve evaluated texts; repeated baseline requests establish ordinary variability. Human annotations supply alignment and disagreement references. Three research questions organize the study:
+
+\paragraph{RQ1: Presentation and contextual cues.}
+How do candidate positions, identifiers, attributed authorship, endorsements, and evaluator directives influence judgments of unchanged texts?
+
+\paragraph{RQ2: Framing and rating-format sensitivity.}
+How do selection versus rejection, an explicit no-preference option, and alternative score rubrics change preferences and ratings?
+
+\paragraph{RQ3: Robustness and human alignment.}
+How do these effects relate to repeatability, human disagreement, and alignment, and how consistently do they recur across tasks?
+
+We make four contributions. First, we provide a controlled multi-model audit of native choice and score interfaces across three subjective tasks. Second, factorial and matched-control designs isolate order, identifiers, and cue direction, while paired analyses connect output shifts to decisions and human alignment. Third, we show that repeatability and rank preservation can coexist with consequential presentation sensitivity, yielding concrete validation checks. Fourth, our anonymous repository\footnote{\href{https://anonymous.4open.science/r/Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation-6780/}{Anonymous code and results repository (4open.science).}} provides a reproducible framework for evaluating future decision models: preparation, request construction, collection, and analysis scripts; complete aggregate JSON/CSV results; request specifications; and validation tests.
+
+\section{Related Work}
+\paragraph{Conventional LLM judges.}
+MT-Bench reports strong GPT-4/human agreement alongside position, verbosity, and self-enhancement biases \citep{zheng2023judging}. G-Eval improves human correspondence in summarization and dialogue scoring through chain-of-thought and form filling \citep{liu-etal-2023-g}. Response order can alter GPT-4 and ChatGPT judgments \citep{wang-etal-2024-large-language-models-fair}; JudgeLM addresses position, knowledge, and format biases through training and reference-based techniques \citep{zhu2025judgelm}.
+
+\paragraph{Biases, context, and controls.}
+Across 15 LLM judges, position bias varies by judge, task, and candidate-quality gap \citep{shi-etal-2025-judging}. Contextual perturbations, including authority cues, influence both human and LLM judges \citep{chen-etal-2024-humans}. CalibraEval calibrates prediction distributions to reduce position/identifier selection bias \citep{li-etal-2025-calibraeval}, while CALM tests multiple bias families \citep{ICLR2025_fdca08d3}. These findings motivate separate measurements of repetition, order, identifiers, and evaluative context.
+
+\paragraph{Scores and human references.}
+JUDGE-BENCH finds that LLM/human alignment varies with task, annotator expertise, and text provenance \citep{bavaresco-etal-2025-llms}. Forced-choice treatment of ambiguous ratings can distort judge validation and selection \citep{guerdan2025indeterminacy}. Together with rating inconsistency \citep{stureborg2024} and human label variation \citep{plank-2022-problem}, these results motivate explicit human references and separate reporting of rating levels, ranks, and disagreement.
+
+\paragraph{Typed decision models.}
+The studies above center conventional LLM judges. We investigate whether analogous reliability concerns arise in Jev, Clef Flash, and Perplexity Decider through their native choice and score interfaces. Our audit distinguishes probability and rating shifts, changed decisions, and human alignment, characterizing how presentation sensitivity propagates into subjective evaluation outcomes.
+
+\begin{table*}[tp]
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.8cm}rY Y@{}}
+\toprule
+Choice investigation & Runs & Conditions and controls & Main comparison \\
+\midrule
+Baseline & 1 & Original question/context; two texts labeled A/B. & Human alignment and reference judgments. \\
+Position and A/B identifier bias & 3 & Swap labels, positions, or both; baseline completes the $2\times2$ factorial. & Position, identifier, and interaction effects. \\
+Numeric identifier bias & 2 & Fixed text positions labeled 1/2 or 2/1. & Reversed identifier assignments. \\
+Authorship attribution & 3 & AI/Human attribution, reversed assignment, unspecified-source control. & Reversal; each assignment versus control. \\
+Reader endorsement & 3 & 80\%/20\% reader preference, reversed assignment, unspecified-feedback control. & Reversal; each assignment versus control. \\
+Previous-judge feedback & 3 & Selected/not-selected cue, reversed assignment, unspecified-feedback control. & Reversal; each assignment versus control. \\
+Explicit no preference & 3 & X first, middle, or last; A/B relative order fixed. & X use/mass, conditional A/B preference, alignment. \\
+Selection/rejection framing & 1 & Ask for the worse candidate; complement rejection. & Recovered preference versus baseline. \\
+Evaluator-directive injection & 5 & Clean wrapper; inert note or selection directive targeting either candidate. & Directive versus same-target inert note; inert versus clean; clean versus baseline. \\
+Repeatability & 4 & Four unchanged repeats beyond baseline. & Decision/probability variation and drift across five calls. \\
+\midrule
+Total per dataset/model & 28 & \multicolumn{2}{l}{Every condition evaluates all 1,500 selected pairs.} \\
+\bottomrule
+\end{tabularx}
+\caption{Choice experiments, including controls and repeats: 126,000 judgments per model across three datasets. Contrasts measure probability shifts, selected-text changes, and human alignment. Exact questions and cues: Appendices~\ref{app:prompts}--\ref{app:cues}.}
+\label{tab:choice_conditions}
+\par\medskip
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.8cm}rY Y@{}}
+\toprule
+Score investigation & Runs & Conditions and controls & Main comparison \\
+\midrule
+Baseline & 1 & Original question/context; native rubric (four humor or five helpfulness/relevance levels). & Human alignment and reference ratings. \\
+A/B identifier bias & 2 & Candidate-identifier metadata A or B. & A-versus-B ratings of the same text. \\
+Numeric identifier bias & 2 & Candidate-identifier metadata 1 or 2. & 1-versus-2 ratings of the same text. \\
+Authorship attribution & 3 & AI, Human, or unspecified-source metadata. & AI versus Human; each versus control. \\
+Reader endorsement & 3 & High, low, or unspecified reader-rating feedback. & High versus low; each versus control. \\
+Previous-judge feedback & 3 & Top-of-scale, bottom-of-scale, or unspecified automated-judge feedback. & High versus low; each versus control. \\
+Score-anchor reversal & 1 & Reverse the native verbal anchors. & Polarity-remapped ratings versus baseline. \\
+Rating-scale variants & 2 & Three- or seven-level verbal rubrics. & Normalized ratings/ranks versus native rubric; descriptors also vary. \\
+Evaluator-directive injection & 3 & Clean wrapper, inert note, or highest-rating directive. & Directive versus inert; inert versus clean; clean versus baseline. \\
+Repeatability & 4 & Four unchanged repeats beyond baseline. & Rating variation and drift across five calls. \\
+\midrule
+Total per dataset/model & 24 & \multicolumn{2}{l}{Every condition evaluates all 1,500 selected texts.} \\
+\bottomrule
+\end{tabularx}
+\caption{Score experiments, including controls and repeats: 108,000 judgments per model across three datasets. Contrasts measure normalized score shifts and alignment changes. Tables~\ref{tab:choice_conditions}--\ref{tab:score_conditions} cover all 702,000 judgments across three models. Exact rubrics and cues: Appendices~\ref{app:prompts}--\ref{app:cues}.}
+\phantomsection
+\label{tab:score_conditions}
+\end{table*}
+
+\section{Study Design and Human References}
+\label{sec:data}
+\subsection{Tasks, datasets, and references}
+Table~\ref{tab:data} describes the six datasets, evaluated qualities, and human references. Pairwise tasks use released comparisons; scoring tasks use the source rating dimension and scale. All datasets come from first-party releases. Appendix~\ref{app:sources} documents source versions, annotation processing, and selection details.
+
+Two reference choices merit emphasis. HelpSteer2 pairwise labels follow the sign of published aggregate preference strength. These overall response preferences serve as a proxy for the helpfulness question asked of the models. SummEval relevance averages all eight individual ratings, weighting expert and crowd judgments by their counts. We additionally examine alignment with each annotator group to assess reference sensitivity (Appendix~\ref{app:results_reference}).
+
+\subsection{Sampling and balancing}
+Using a fixed seed, we select 1,500 items per dataset: 750 with clearer human agreement and 750 with more disagreement. Pairwise strata use vote agreement; scoring strata use within-item rating dispersion. UKP balances its humor-category combinations, while scoring subsets retain eligible score-band proportions within agreement strata. Human-preferred candidates are balanced across positions to mitigate position biases in other investigations. Ambiguous pairs are randomly oriented. Selection also limits reuse of source material and the length of HelpSteer2 inputs. Exact thresholds and allocations appear in Appendix~\ref{app:selection}.
+
+\section{Requests and Interventions}
+\label{sec:interventions}
+\subsection{Choice and score interfaces}
+We evaluate Jev \citep{almeida2026jev}, Cloudflare's Clef Flash \citep{chen2026clef}, and Perplexity Decider v1.1 \citep{perplexity2026decider} through OpenRouter's Decisions API \citep{openrouter2026}, using the same request construction for each model. In \texttt{choice} requests, options contain the candidate texts and shared state supplies the task context. For example, humor asks, ``Which option contains the funnier text?'' Table~\ref{tab:prompts} in Appendix~\ref{app:prompts} lists all six instructions and their context fields.
+
+In \texttt{score} requests, shared state contains the candidate and its context, and an ordered list of verbal anchors defines the rating scale. Returned scores use zero-based indices; analysis maps them to the native dataset scale and a common normalized range. Human votes, scores, worker notes, and generating-system identities are withheld from all requests. Model routes, exact anchors, and response handling are documented in Appendices~\ref{app:prompts}--\ref{app:execution}.
+
+Choice outputs contain the selected identifier, option probabilities, and confidence; score outputs contain a scalar rating, rating-level probabilities, confidence, and the scale legend. We analyze the scalar as returned and the probability vectors as reported preferences over the supplied options or levels. Confidence retains its model-specific interpretation. Section~\ref{sec:analysis} defines the derived outcomes.
+
+\subsection{Presentation interventions and controls}
+Tables~\ref{tab:choice_conditions} and~\ref{tab:score_conditions} summarize the interventions and their comparisons. Each changes a presentation feature while preserving the evaluated texts. The A/B factorial separates position bias from identifier bias. Position denotes candidate-entry order in the submitted criteria; its contrasts measure submitted-order sensitivity. Attribution and endorsement cues are synthetic metadata: pairwise cues are separated from candidate text, and scoring cues appear in shared state. Each cue family includes an unspecified-cue control to measure effects of the added format itself.
+
+For example, a humor choice presents ``80\% of previous readers preferred this option'' above one unchanged text and ``20\%'' above the other. Shared state instructs: ``Judge only each [TEXT] block for the requested quality. Previous-reader feedback is separate metadata.'' The reversed condition exchanges the two claims. Scoring feedback is supplied as an additional state field. These experiments measure reliance on attributed information. Appendix~\ref{app:request_examples} gives complete request examples.
+
+Framing interventions change how a judgment is requested. The no-preference condition distinguishes abstention from redistribution between A and B; its placement is reported separately. Selection/rejection framing compares the preferred text recovered from asking for the better versus worse candidate. Rating-format variants reverse the native anchors or introduce three-/seven-level verbal descriptions; remapped scores provide a common comparison scale. Exact wording, directive controls, and mappings appear in Appendix~\ref{app:cues}.
+
+\FloatBarrier
+\section{Measurement and Inference}
+\label{sec:analysis}
+\subsection{Outcomes and comparison units}
+Each intervention is compared with its designated control on matched items. Movement analyses and scoring alignment use all 1,500 items per dataset; pairwise human alignment uses the subset with a strict A/B human preference. Table~\ref{tab:results_baseline} gives those subset sizes.
+
+\paragraph{Pairwise outcomes.}
+We map choices back to the underlying texts to separate position and identifier effects. Outcomes are the mean signed candidate-probability shift, the proportion of pairs whose selected text changes, and the change in agreement with the human preference. Probability-based analyses renormalize returned vectors to unit mass. For no-preference conditions, we report X selection and probability mass alongside conditional A/B preference.
+
+\paragraph{Factorial contrasts.}
+For fixed candidates $u,v$, let $p_0,p_L,p_P,p_{LP}$ denote $P(u)$ under baseline, exchanged labels, exchanged positions, and both exchanges. The main effects are
+\begin{align}
+d_{\mathrm{first}}&=(p_0+p_L-p_P-p_{LP})/2,\\
+d_{\mathrm{B}}&=(p_L+p_{LP}-p_0-p_P)/2.
+\end{align}
+Positive values favor first position or label B, respectively; each averages over the other factor. An interaction tests whether identifier bias depends on position (Appendix~\ref{app:cues}, Eq.~\ref{eq:factorial_interaction}). The same contrasts apply to selected-text indicators. Attribution and endorsement contrasts compare reversed cue assignments within the same metadata format.
+
+\paragraph{Scoring outcomes.}
+Primary scoring analyses use the returned scalar score. For $K$ ordered levels, score $s$ maps to $s/(K-1)$, or $1-s/(K-1)$ under reversed anchors. Human means on the native dataset scale $[L,U]$ map to $(h-L)/(U-L)$. Probability and normalized-score shifts are reported in percentage points. Human alignment uses MAE, RMSE, signed error, and Pearson/Spearman correlations. Scores reconstructed from normalized rating probabilities provide sensitivity checks (Appendix~\ref{app:results_reference}). Score compression uses dispersion and score-versus-human relationships; observational length associations adjust for human-reference and task covariates.
+
+\paragraph{Repeatability.}
+The canonical successful baseline and four unchanged repeats measure within-item variation. The item remains the comparison unit. Appendix~\ref{app:execution} describes baseline reconstruction and response validation; Appendix~\ref{app:results_humans} gives repeatability and human-reference diagnostics.
+
+\subsection{Uncertainty and multiple comparisons}
+Confidence intervals account for dependence from reused content. We cluster by source context, article, prompt, or headline as appropriate. UKP pairs can share either joke, so we use a shared-joke dyadic variance estimator \citep{aronow2015}. Paired mean differences use Student-$t$ intervals, with cluster or joke-node counts determining degrees of freedom. Seeded cluster bootstrap checks assess sensitivity. Appendix~\ref{app:statistics} gives the estimators and diagnostics.
+
+Effect and association tests are two-sided, with discoveries defined by Benjamini--Yekutieli (BY) adjusted $q<.05$ \citep{benjamini2001}. We report effect sizes and pointwise 95\% confidence intervals. The primary BY family contains 369 tests of signed probability, selection, and scoring outcomes, including baseline alignment differences and between-model intervention contrasts. A separate secondary family contains 1,656 tests of non-repeat condition/control effects, human alignment/error changes, susceptibility correlations, and pooled effects. A comparison can supply tests for several outcomes; Appendix~\ref{app:multiplicity} gives family membership. Subgroup summaries, absolute movement, and sensitivity diagnostics are reported descriptively.
+
+\subsection{Practical consequences}
+We assess whether interventions change decisions or human alignment. The 450 condition/control comparisons summarize signed and absolute movement, changed selections, and alignment/error changes, including unchanged-repeat controls. Non-repeat signed outcomes enter the secondary testing family (Appendix~\ref{app:multiplicity}). Supplementary analyses examine shared susceptibility and cross-task heterogeneity; their methods and results appear in Appendices~\ref{app:susceptibility}--\ref{app:pooling} and~\ref{app:results_synthesis}.
+
+\input{results}
+
+\section{Discussion}
+\paragraph{Order and identifiers are model-specific.}
+Jev favors the second position across all three choice tasks; Clef remains near zero, and Perplexity changes direction by task. Identifier preferences vary and position--identifier interactions remain small. LLM-judge studies likewise find that order effects depend on the judge, task, and candidate-quality gap \citep{wang-etal-2024-large-language-models-fair,shi-etal-2025-judging}. Jev alone shows a uniform serial-order tendency across our tasks. On the score interface, A/B, numeric, and authorship effects are at most 1.57 pp, much smaller than evaluative-cue and rubric effects.
+
+\paragraph{Endorsements are the common susceptibility.}
+Reader endorsements move choice probabilities toward the endorsed text for every model and task; reader and previous-judge feedback also raise scores in every configuration. At their strongest, endorsement-driven choice reversals far exceed unchanged-request variation. This unanimous cross-model effect extends the authority and context sensitivity reported for conventional LLM judges \citep{chen-etal-2024-humans}. Matched controls attribute the principal shifts to cue direction rather than added metadata.
+
+\paragraph{Framing and rating formats change downstream use.}
+Clef frequently chooses the same helpfulness candidate as both better and worse, while rejection framing sharply reduces its summary alignment. Together with evidence that forced-choice handling can distort LLM-judge validation under rating ambiguity \citep{guerdan2025indeterminacy}, this shows that decision framing is part of evaluator validity. Score-format variants shift rating levels despite high within-model rank correlations, echoing rating inconsistency in LLM evaluators \citep{stureborg2024}. Rank-based comparisons may therefore remain stable while thresholds and mean scores change.
+
+\paragraph{Reliability has distinct dimensions.}
+Perplexity nearly reproduces unchanged calls yet shows the largest endorsement-driven reversals; Jev's SummEval alignment differs substantially between expert and crowd references. As in LLM-judge research \citep{shi-etal-2025-judging,bavaresco-etal-2025-llms}, repeatability, presentation robustness, and human alignment answer different questions.
+
+\section{Conclusion}
+Typed decision models are inexpensive and structured, yet presentation-sensitive. Across three models and three tasks, endorsements are the most consistent influence; order and identifiers vary by model; and framing and rubrics alter decisions or ratings despite stable repeats and ranks. Deployment audits should vary order and identifiers independently, control contextual cues, check framing consistency, and compare score levels with ranks.
+
+\label{sec:main_end}
+
+\section*{Limitations}
+The study compares three typed decision models across three English-language tasks. Comparisons with conventional LLM judges use published evidence; future work can evaluate both model families under matched conditions. Sampling balances agreement strata and UKP humor categories to cover a range of evaluation cases. Human references are fixed aggregates, and incomplete worker identities leave some shared-rater dependence unresolved. SummEval combines expert and crowd ratings, while HelpSteer2 overall preferences serve as a proxy for helpfulness. Requests use adapted single-item questions, and structural selection retains examples with potentially incomplete context.
+
+Effects characterize the implemented wording, datasets, and cue placement. Alternative rubrics change descriptions, anchor reversal changes numeric polarity, and inserting X first or middle changes candidate positions. Directive controls have approximately matched lengths. Linear score normalization assumes comparable spacing between ordinal levels. The three selected tasks restrict cross-task inference, and available annotations represent human-reference uncertainty only partially.
+
+\section*{Ethical Considerations}
+We reuse released annotations and follow upstream attribution and data-use terms. Content may include offensive humor or sensitive requests. Authorship and feedback cues are fabricated solely for controlled presentation experiments. Reproducibility materials preserve their experimental status and respect source redistribution restrictions.
+
+\bibliography{bibliography}
+\clearpage
+\appendix
+\input{supplement_methods}
+\input{supplement_statistics}
+\input{appendix_results}
+\end{document}

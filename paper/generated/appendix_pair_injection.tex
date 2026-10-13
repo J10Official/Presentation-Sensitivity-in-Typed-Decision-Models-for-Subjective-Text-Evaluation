@@ -1,0 +1,30 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\shortstack[l]{Dataset\\{}model} & \shortstack[l]{Target} & \shortstack[l]{Target probability\\{}pp [95\% CI]} & \shortstack[l]{Target selection\\{}pp [95\% CI]} & \shortstack[l]{Flips\\{}\%} \\
+\midrule
+UKP / Jev & first & 1.33 [1.13, 1.53]* & 2.867 [1.769, 3.964] & 4.20 \\
+UKP / Jev & second & -0.49 [-0.68, -0.29]* & -0.133 [-1.039, 0.773] & 2.93 \\
+UKP / Clef & first & 2.09 [1.72, 2.46]* & 1.200 [0.006, 2.394] & 5.47 \\
+UKP / Clef & second & 0.35 [-0.02, 0.71] & 0.000 [-1.184, 1.184] & 5.20 \\
+UKP / Perplexity & first & 2.35 [2.12, 2.58]* & 3.267 [2.249, 4.284] & 3.67 \\
+UKP / Perplexity & second & 2.37 [2.13, 2.61]* & 3.733 [2.609, 4.858] & 4.80 \\
+HS pair / Jev & first & -0.23 [-0.40, -0.07]* & -0.333 [-1.230, 0.563] & 3.13 \\
+HS pair / Jev & second & -0.66 [-0.87, -0.46]* & -0.600 [-1.552, 0.352] & 3.53 \\
+HS pair / Clef & first & 0.15 [-0.04, 0.33] & 0.533 [-0.513, 1.579] & 4.27 \\
+HS pair / Clef & second & 0.54 [0.35, 0.73]* & 0.467 [-0.538, 1.471] & 3.93 \\
+HS pair / Perplexity & first & 3.77 [3.55, 3.99]* & 4.267 [3.132, 5.402] & 5.20 \\
+HS pair / Perplexity & second & 6.20 [5.93, 6.48]* & 8.400 [6.971, 9.829] & 8.67 \\
+OpenAI / Jev & first & 0.27 [0.10, 0.44]* & 0.200 [-0.618, 1.018] & 2.33 \\
+OpenAI / Jev & second & 0.22 [0.04, 0.41] & 1.333 [0.512, 2.155] & 2.53 \\
+OpenAI / Clef & first & 2.84 [2.49, 3.20]* & 4.400 [3.093, 5.707] & 6.80 \\
+OpenAI / Clef & second & 2.08 [1.74, 2.42]* & 2.400 [1.291, 3.509] & 4.80 \\
+OpenAI / Perplexity & first & 2.19 [2.00, 2.37]* & 3.800 [2.667, 4.933] & 4.87 \\
+OpenAI / Perplexity & second & 10.14 [9.69, 10.59]* & 15.867 [13.963, 17.770] & 15.87 \\
+\bottomrule
+\end{tabular}
+\caption{Directive minus same-position inert note; positive effects favor the targeted candidate. N=1,500. Probability stars use 369-test BY; hard-choice intervals and flip rates are descriptive. Both candidates share the text/metadata format; notes are approximately length matched.}
+\label{tab:appendix_pair_injection}
+\end{table*}

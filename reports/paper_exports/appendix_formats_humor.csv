@@ -1,0 +1,10 @@
+Model,Variant,Score delta / pp [95% CI],Rank rho,Human MAE / delta pp
+Jev,Reverse,"2.47 [2.36, 2.57]*",0.977,1.95
+Jev,3 levels,"-2.81 [-2.94, -2.69]*",0.963,-2.06
+Jev,7 levels,"-7.63 [-7.78, -7.48]*",0.973,-5.43
+Clef,Reverse,"-3.86 [-4.07, -3.66]*",0.984,-2.80
+Clef,3 levels,"-3.55 [-3.77, -3.32]*",0.984,-1.79
+Clef,7 levels,"-5.19 [-5.41, -4.96]*",0.978,-3.57
+Perplexity,Reverse,"-2.71 [-2.82, -2.60]*",0.987,-0.66
+Perplexity,3 levels,"-6.78 [-6.89, -6.67]*",0.988,-1.04
+Perplexity,7 levels,"-3.75 [-3.96, -3.54]*",0.984,-1.29

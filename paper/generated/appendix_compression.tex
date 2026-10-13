@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+\shortstack[l]{Dataset\\{}model} & \shortstack[l]{Slope} & \shortstack[l]{SD ratio} & \shortstack[l]{Human mid\\{}\%} & \shortstack[l]{Judge mid\\{}\%} & \shortstack[l]{Human\\{}P90-P10} & \shortstack[l]{Judge\\{}P90-P10} \\
+\midrule
+Humicroedit / Jev & 0.202 & 0.576 & 20.40 & 58.73 & 0.533 & 0.254 \\
+Humicroedit / Clef & 0.480 & 0.894 & 20.40 & 39.73 & 0.533 & 0.452 \\
+Humicroedit / Perplexity & 0.257 & 0.678 & 20.40 & 38.67 & 0.533 & 0.337 \\
+HS score / Jev & 0.462 & 0.981 & 31.80 & 28.73 & 0.600 & 0.555 \\
+HS score / Clef & 0.198 & 0.704 & 31.80 & 18.67 & 0.600 & 0.381 \\
+HS score / Perplexity & 0.559 & 0.939 & 31.80 & 20.87 & 0.600 & 0.521 \\
+SummEval / Jev & 0.418 & 1.096 & 18.27 & 8.40 & 0.344 & 0.347 \\
+SummEval / Clef & 0.263 & 0.695 & 18.27 & 6.20 & 0.344 & 0.201 \\
+SummEval / Perplexity & 0.220 & 0.620 & 18.27 & 17.27 & 0.344 & 0.192 \\
+\bottomrule
+\end{tabular}
+\caption{Descriptive score compression. Slope regresses judge on human mean; SD ratio is judge/human. Midpoint band is [0.4,0.6]. Dispersion and slopes compare judge scores with the human reference; n=1,500.}
+\label{tab:appendix_compression}
+\end{table*}

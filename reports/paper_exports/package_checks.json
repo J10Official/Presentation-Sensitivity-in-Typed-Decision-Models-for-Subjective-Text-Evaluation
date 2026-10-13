@@ -1,0 +1,354 @@
+{
+  "source_checks": {
+    "result": "PASS",
+    "immutable_inputs": 4,
+    "claims": [
+      "jev_pos_ukp",
+      "jev_pos_hs",
+      "jev_pos_sum",
+      "jev_b_ukp",
+      "jev_b_hs",
+      "jev_b_sum",
+      "clef_b_ukp",
+      "clef_b_sum",
+      "jev_pos_selection_sum",
+      "clef_b_selection_sum",
+      "pplx_pos_ukp",
+      "pplx_pos_hs",
+      "jev_numeric_ukp",
+      "clef_numeric_ukp",
+      "jev_reader_sum",
+      "jev_reader_hs",
+      "jev_reader_score",
+      "clef_source_sum",
+      "jev_source_score_humor",
+      "jev_prior_sum",
+      "pplx_inject_sum_second",
+      "clef_inject_score",
+      "jev_reverse_humor",
+      "jev_seven_humor",
+      "jev_three_sum",
+      "pplx_reader_flip_ukp",
+      "clef_source_flip_sum",
+      "jev_tie_native",
+      "jev_tie_strict",
+      "jev_tie_first",
+      "jev_tie_middle",
+      "jev_tie_last",
+      "pplx_tie_native",
+      "jev_summary_clear",
+      "jev_summary_disputed",
+      "jev_summary_sens_clear",
+      "jev_summary_sens_disputed",
+      "jev_humor_sd_ratio",
+      "jev_sum_sd_ratio",
+      "jev_expert_r",
+      "jev_crowd_r",
+      "jev_pool_r",
+      "jev_humor_mid",
+      "human_humor_mid",
+      "jev_humor_slope",
+      "jev_len_ukp",
+      "jev_len_hs",
+      "jev_len_score",
+      "jev_depend_pos",
+      "jev_depend_b",
+      "jev_prior_sum_q",
+      "clef_reject_hs",
+      "clef_reject_sum",
+      "jev_reject_sum",
+      "clef_recovered_hs",
+      "clef_baseline_hs",
+      "jev_wrapper_source_sum",
+      "jev_wrapper_reader_sum",
+      "jev_wrapper_source_sum_ci",
+      "clef_rejection_same_hs",
+      "jev_format_rank_range",
+      "jev_score_id_max",
+      "reader_prior_range",
+      "meta_b",
+      "meta_b_i2",
+      "meta_pos",
+      "meta_pos_i2",
+      "meta_reader",
+      "meta_reader_i2"
+    ],
+    "overview_checks": {
+      "result": "PASS",
+      "source_linked_cells": 135,
+      "diagnostics": 6,
+      "literal_requests": 2,
+      "consistent_model_identifier_cells": 468,
+      "repeat_drift_comparisons": 72,
+      "reference_stability_diagnostics": 3
+    },
+    "figure_source_points": 81,
+    "copied_table_checks": [
+      {
+        "check": "Figure source fields",
+        "points": 18,
+        "result": "PASS"
+      },
+      {
+        "check": "Figure source fields",
+        "points": 36,
+        "result": "PASS"
+      },
+      {
+        "check": "Figure source fields",
+        "points": 27,
+        "result": "PASS"
+      },
+      {
+        "check": "Baseline, framing, directive and format named-field checks",
+        "cells": 315,
+        "result": "PASS"
+      },
+      {
+        "check": "Direct prose facts resolve to declared sources",
+        "claims": 55,
+        "result": "PASS"
+      },
+      {
+        "check": "Remaining derived prose facts: extrema, practical impacts, q and meta summaries",
+        "claims": 14,
+        "result": "PASS"
+      },
+      {
+        "check": "Directional/discovery, exact-repeat and complete-export prose claims",
+        "result": "PASS"
+      }
+    ]
+  },
+  "manuscript": {
+    "pages": 27,
+    "sha256": "d1aafcf231924ee7966ac78357f86e51c4d802a26159c342c527f1fe9553057f",
+    "inventory": [
+      {
+        "page": 1,
+        "words": 369,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 2,
+        "words": 315,
+        "tables": [
+          "1"
+        ],
+        "figures": []
+      },
+      {
+        "page": 3,
+        "words": 147,
+        "tables": [
+          "2",
+          "3"
+        ],
+        "figures": []
+      },
+      {
+        "page": 4,
+        "words": 395,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 5,
+        "words": 434,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 6,
+        "words": 325,
+        "tables": [
+          "4",
+          "5"
+        ],
+        "figures": []
+      },
+      {
+        "page": 7,
+        "words": 317,
+        "tables": [
+          "6",
+          "7"
+        ],
+        "figures": []
+      },
+      {
+        "page": 8,
+        "words": 487,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 9,
+        "words": 444,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 10,
+        "words": 377,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 11,
+        "words": 432,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 12,
+        "words": 411,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 13,
+        "words": 347,
+        "tables": [
+          "8"
+        ],
+        "figures": []
+      },
+      {
+        "page": 14,
+        "words": 508,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 15,
+        "words": 607,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 16,
+        "words": 451,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 17,
+        "words": 301,
+        "tables": [],
+        "figures": []
+      },
+      {
+        "page": 18,
+        "words": 158,
+        "tables": [
+          "9",
+          "10",
+          "11"
+        ],
+        "figures": []
+      },
+      {
+        "page": 19,
+        "words": 199,
+        "tables": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "figures": []
+      },
+      {
+        "page": 20,
+        "words": 218,
+        "tables": [
+          "16",
+          "17",
+          "18"
+        ],
+        "figures": []
+      },
+      {
+        "page": 21,
+        "words": 254,
+        "tables": [
+          "19",
+          "20"
+        ],
+        "figures": []
+      },
+      {
+        "page": 22,
+        "words": 194,
+        "tables": [
+          "21",
+          "22"
+        ],
+        "figures": [
+          "1"
+        ]
+      },
+      {
+        "page": 23,
+        "words": 209,
+        "tables": [
+          "23",
+          "24",
+          "25"
+        ],
+        "figures": []
+      },
+      {
+        "page": 24,
+        "words": 211,
+        "tables": [
+          "26",
+          "27",
+          "28"
+        ],
+        "figures": []
+      },
+      {
+        "page": 25,
+        "words": 215,
+        "tables": [
+          "29",
+          "30"
+        ],
+        "figures": []
+      },
+      {
+        "page": 26,
+        "words": 265,
+        "tables": [
+          "31",
+          "32"
+        ],
+        "figures": []
+      },
+      {
+        "page": 27,
+        "words": 108,
+        "tables": [
+          "33",
+          "34"
+        ],
+        "figures": []
+      }
+    ]
+  },
+  "main_and_references_pages": 10,
+  "appendix_start_page": 11,
+  "appendix_pages": 17,
+  "packaging": "Single PDF; references followed by lettered appendices; internal cross-references",
+  "main_printed_claims": 25,
+  "main_text_pages": 8,
+  "results_start_page": 5,
+  "discussion_start_page": 8,
+  "references_start_page": 9,
+  "result": "PASS",
+  "visual_review": "All revised appendix pages 11-27 previously rendered and inspected; updated citation/bibliography pages 1-3 and 9-11 inspected after reference audit. No clipping or overlapping text/tables; main body remains eight pages.",
+  "build_log_checked": false
+}

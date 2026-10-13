@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\shortstack[l]{Check} & \shortstack[l]{Quantity} & \shortstack[l]{Alternative estimate} \\
+\midrule
+Baseline snapshot & Jev: UKP position (pp) & -2.24 \\
+Five-call mean & Jev: UKP position (pp) & -2.23 \\
+Score reconstruction & Jev: Helpfulness reader (pp) & 16.52 \\
+Band reweighting & Jev: Humor MAE (pp) & 25.93 \\
+Lower-length subset & Jev: UKP position (pp) & -2.23 [-3.01, -1.46] \\
+Component variance & Jev: UKP position (pp) & -2.25 [-3.15, -1.35] \\
+\bottomrule
+\end{tabular}
+\caption{Representative numerical sensitivity checks, all from existing diagnostics. Jev's primary UKP position effect is -2.25 [-2.98, -1.52] pp; primary helpfulness reader effect is 16.47 [16.12, 16.81] pp; primary humor MAE is 25.56 pp. Baseline alternatives address the factorial; reweighting addresses baseline score error. Length and component intervals are sensitivity diagnostics. Full cases and exceptions are summarized in the accompanying text and retained in the electronic tables.}
+\label{tab:appendix_robustness_summary}
+\end{table*}

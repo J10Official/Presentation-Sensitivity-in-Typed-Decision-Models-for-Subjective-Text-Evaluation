@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\shortstack[l]{Model} & \shortstack[l]{Variant} & \shortstack[l]{Score delta\\{}pp [95\% CI]} & \shortstack[l]{Rank $\rho$} & \shortstack[l]{Human MAE\\{}delta pp} \\
+\midrule
+Jev & Reverse & 2.47 [2.36, 2.57]* & 0.977 & 1.95 \\
+Jev & 3 levels & -2.81 [-2.94, -2.69]* & 0.963 & -2.06 \\
+Jev & 7 levels & -7.63 [-7.78, -7.48]* & 0.973 & -5.43 \\
+Clef & Reverse & -3.86 [-4.07, -3.66]* & 0.984 & -2.80 \\
+Clef & 3 levels & -3.55 [-3.77, -3.32]* & 0.984 & -1.79 \\
+Clef & 7 levels & -5.19 [-5.41, -4.96]* & 0.978 & -3.57 \\
+Perplexity & Reverse & -2.71 [-2.82, -2.60]* & 0.987 & -0.66 \\
+Perplexity & 3 levels & -6.78 [-6.89, -6.67]* & 0.988 & -1.04 \\
+Perplexity & 7 levels & -3.75 [-3.96, -3.54]* & 0.984 & -1.29 \\
+\bottomrule
+\end{tabular}
+\caption{Humicroedit: remapped scores versus native rubric, n=1,500. * marks 369-test BY. Rank association and saved MAE deltas are descriptive. Reversal changes index polarity; 3/7-level variants also change descriptors. Humor variants additionally change the upper endpoint.}
+\label{tab:appendix_formats_humor}
+\end{table*}

@@ -1,0 +1,46 @@
+\subsection{Complete feedback-request examples}
+\label{app:request_examples}
+These literal payloads are reconstructed offline from selected records using the collection runner. They include all submitted fields; the first assigns high feedback to original A and low feedback to B. Scoring adds feedback as shared-state metadata. References and internal analysis mappings are withheld.
+\paragraph{ukp\_humor\_pairwise.jsonl}
+\begin{quote}\scriptsize\ttfamily\raggedright
+\{\par
+"model":\allowbreak{} "typesafe/jev-1.13",\par
+"state":\allowbreak{} \{\par
+"task\_context":\allowbreak{} "Two\allowbreak{} standalone\allowbreak{} short\allowbreak{} texts\allowbreak{} are\allowbreak{} being\allowbreak{} compared.",\par
+"experimental\_format":\allowbreak{} "Judge\allowbreak{} only\allowbreak{} each\allowbreak{} [TEXT]\allowbreak{} block\allowbreak{} for\allowbreak{} the\allowbreak{} requested\allowbreak{} quality.\allowbreak{} Previous-reader\allowbreak{} feedback\allowbreak{} is\allowbreak{} separate\allowbreak{} metadata."\par
+\},\par
+"questions":\allowbreak{} \{\par
+"judgment":\allowbreak{} \{\par
+"type":\allowbreak{} "choice",\par
+"instructions":\allowbreak{} "Which\allowbreak{} option\allowbreak{} contains\allowbreak{} the\allowbreak{} funnier\allowbreak{} text?",\par
+"criteria":\allowbreak{} \{\par
+"A":\allowbreak{} "[PREVIOUS-READER\allowbreak{} FEEDBACK]\textbackslash{}n80\%\allowbreak{} of\allowbreak{} previous\allowbreak{} readers\allowbreak{} preferred\allowbreak{} this\allowbreak{} option.\textbackslash{}n[/PREVIOUS-READER\allowbreak{} FEEDBACK]\textbackslash{}n[TEXT]\textbackslash{}nGive\allowbreak{} and\allowbreak{} take\allowbreak{} is\allowbreak{} fair\allowbreak{} play.\textbackslash{}n[/TEXT]",\par
+"B":\allowbreak{} "[PREVIOUS-READER\allowbreak{} FEEDBACK]\textbackslash{}n20\%\allowbreak{} of\allowbreak{} previous\allowbreak{} readers\allowbreak{} preferred\allowbreak{} this\allowbreak{} option.\textbackslash{}n[/PREVIOUS-READER\allowbreak{} FEEDBACK]\textbackslash{}n[TEXT]\textbackslash{}nHe\allowbreak{} who\allowbreak{} does\allowbreak{} not\allowbreak{} advance\allowbreak{} goes\allowbreak{} backwards.\textbackslash{}n[/TEXT]"\par
+\}\par
+\}\par
+\}\par
+\}\par
+\end{quote}
+\paragraph{humicroedit\_scoring.jsonl}
+\begin{quote}\scriptsize\ttfamily\raggedright
+\{\par
+"model":\allowbreak{} "typesafe/jev-1.13",\par
+"state":\allowbreak{} \{\par
+"original\_headline":\allowbreak{} "City\allowbreak{} halls\allowbreak{} and\allowbreak{} landmarks\allowbreak{} turn\allowbreak{} green\allowbreak{} in\allowbreak{} support\allowbreak{} of\allowbreak{} Paris\allowbreak{} climate\allowbreak{} deal",\par
+"edited\_headline":\allowbreak{} "City\allowbreak{} halls\allowbreak{} and\allowbreak{} water\allowbreak{} turn\allowbreak{} green\allowbreak{} in\allowbreak{} support\allowbreak{} of\allowbreak{} Paris\allowbreak{} climate\allowbreak{} deal",\par
+"previous\_reader\_feedback":\allowbreak{} "Previous\allowbreak{} readers\allowbreak{} rated\allowbreak{} this\allowbreak{} text\allowbreak{} highly."\par
+\},\par
+"questions":\allowbreak{} \{\par
+"judgment":\allowbreak{} \{\par
+"type":\allowbreak{} "score",\par
+"instructions":\allowbreak{} "How\allowbreak{} funny\allowbreak{} is\allowbreak{} `edited\_headline`\allowbreak{} as\allowbreak{} an\allowbreak{} edit\allowbreak{} of\allowbreak{} `original\_headline`?",\par
+"criteria":\allowbreak{} [\par
+"Not\allowbreak{} funny.",\par
+"Slightly\allowbreak{} funny.",\par
+"Moderately\allowbreak{} funny.",\par
+"Funny."\par
+]\par
+\}\par
+\}\par
+\}\par
+\end{quote}

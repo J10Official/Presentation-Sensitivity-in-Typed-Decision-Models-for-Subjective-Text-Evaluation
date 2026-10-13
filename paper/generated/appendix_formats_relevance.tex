@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\shortstack[l]{Model} & \shortstack[l]{Variant} & \shortstack[l]{Score delta\\{}pp [95\% CI]} & \shortstack[l]{Rank $\rho$} & \shortstack[l]{Human MAE\\{}delta pp} \\
+\midrule
+Jev & Reverse & 1.99 [1.88, 2.11]* & 0.991 & 0.66 \\
+Jev & 3 levels & 5.87 [5.64, 6.09]* & 0.982 & 3.97 \\
+Jev & 7 levels & 2.58 [2.45, 2.71]* & 0.992 & 0.92 \\
+Clef & Reverse & -0.49 [-0.71, -0.26]* & 0.903 & -0.39 \\
+Clef & 3 levels & 7.94 [7.63, 8.24]* & 0.908 & 4.78 \\
+Clef & 7 levels & -0.72 [-0.87, -0.57]* & 0.938 & -0.13 \\
+Perplexity & Reverse & 0.54 [0.45, 0.63]* & 0.990 & -0.22 \\
+Perplexity & 3 levels & 1.12 [0.88, 1.36]* & 0.985 & 0.11 \\
+Perplexity & 7 levels & 0.67 [0.57, 0.76]* & 0.990 & -0.35 \\
+\bottomrule
+\end{tabular}
+\caption{SummEval relevance: remapped scores versus native rubric, n=1,500. * marks 369-test BY. Rank association and saved MAE deltas are descriptive. Reversal changes index polarity; 3/7-level variants also change descriptors.}
+\label{tab:appendix_formats_relevance}
+\end{table*}

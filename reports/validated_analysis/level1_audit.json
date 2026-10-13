@@ -1,0 +1,112 @@
+{
+  "checks": [
+    {
+      "check": "saved table shape",
+      "status": "PASS",
+      "detail": "55 tables"
+    },
+    {
+      "check": "saved analysis inventory",
+      "status": "PASS",
+      "detail": "55 tables; 369 primary recorded contrasts"
+    },
+    {
+      "check": "unique contrast keys",
+      "status": "PASS",
+      "detail": "No duplicate hypothesis rows"
+    },
+    {
+      "check": "source/code/results immutability",
+      "status": "PASS",
+      "detail": {
+        "verified": 498,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "frozen numerical artifact immutability",
+      "status": "PASS",
+      "detail": "Original numerical outputs retained byte-for-byte; superseded narrative/planning files excluded"
+    },
+    {
+      "check": "seed provenance",
+      "status": "PASS",
+      "detail": "Existing cluster-bootstrap seed 20261011 / 2000; new deterministic seed 20261012"
+    },
+    {
+      "check": "collection coverage",
+      "status": "PASS",
+      "detail": "468 cells / 702000 observations; repeats remain within item"
+    },
+    {
+      "check": "sample sizes and aggregation",
+      "status": "PASS",
+      "detail": "1500 each; 750/750; strict denominators independently checked"
+    },
+    {
+      "check": "CI / SE / statistic / df / p consistency",
+      "status": "PASS",
+      "detail": "All 369 full-precision contrasts agree; exact cluster/node counts independently recovered from prepared data"
+    },
+    {
+      "check": "existing BH arithmetic",
+      "status": "PASS",
+      "detail": "369 contrasts; ordering and monotonicity checked"
+    },
+    {
+      "check": "unsafe dyadic fallback exposure",
+      "status": "PASS",
+      "detail": "Source branch inspected for 75 existing UKP contrasts; 0 affected results corrected using connected components"
+    },
+    {
+      "check": "printed effect/CI consistency",
+      "status": "PASS",
+      "detail": "135 primary table intervals match full precision"
+    },
+    {
+      "check": "independent synthetic/legacy unit tests",
+      "status": "PASS",
+      "detail": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.053s\n\nOK\n"
+    },
+    {
+      "check": "outcome and test choice",
+      "status": "PASS",
+      "detail": "Paired bounded differences use dependence-aware mean t inference; correlations/alpha/distribution summaries remain descriptive. No independent-binomial treatment of repeat calls."
+    },
+    {
+      "check": "multiplicity dependence guarantee",
+      "status": "QUALIFIED",
+      "detail": "Historical BH arithmetic passes, but positive-dependence assumptions are not established for overlapping contrasts. Retain BH and add conservative BY q-values for the same family; effect estimates unchanged."
+    },
+    {
+      "check": "remaining independence limits",
+      "status": "OPEN",
+      "detail": "Shared workers, semantic dependence and condition-wave provider drift are not fully modelled; CIs are conditional on selected items and fixed human references."
+    },
+    {
+      "check": "score causal interpretation",
+      "status": "QUALIFIED",
+      "detail": "Ordinal equal-spacing normalization is explicit; reversal also changes numeric polarity, and granularity variants change anchor/endpoint wording."
+    },
+    {
+      "check": "reproduction refactor",
+      "status": "PASS",
+      "detail": "Legacy engine retained unchanged; canonical baseline loader only streams instead of retaining full payload bodies. Default audits; --rebuild explicitly reproduces original results into a separate folder."
+    }
+  ],
+  "failures": [],
+  "changed_results": [],
+  "historical_bh_significant": 308,
+  "validated_bh_significant": 308,
+  "dependency_safe_by_significant": 296,
+  "effects": 369,
+  "tables": 55,
+  "dyadic_vectors_inspected": 75,
+  "seed": 20261012,
+  "historical_outputs_overwritten": false,
+  "input_paths": {
+    "reports/full_study_analysis/tables.json": "a66ede90299d1291a4144ca1cfb6cbcbac4f17252982ca1f6c5becc1bec3e3dd",
+    "reports/full_study_analysis/contrasts.json": "677ebd3168d6b0d4a05c4275bd0b631842027f2b1172a61de7d4faa4a4b4574c",
+    "reports/full_study_analysis/analysis_manifest.json": "3bde06250a65b6e07d598f0d140a4136dca27dc1de53732ed9fd57ae8166279b"
+  }
+}

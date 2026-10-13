@@ -1,0 +1,3775 @@
+{
+  "schema_version": 1,
+  "cells": [
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "jev/ukp_humor_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "e471b56ac474b946631a0d25397d3b3ef152f84de307c39f3d4e80ff6c440a0a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "jev/ukp_humor_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "bcd149d2e90750481c84c6361c763a06d90be444aff65f7abc7ea0eee9bbc9ad"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "jev/ukp_humor_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "d72341e1ffab3f92c9d676ecc4fc507f72442ffbb97191e8587c9381730d4967"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "jev/ukp_humor_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "542af0e7c646f4b891da82b001abc71f78aee3c9d16ca3f66d88ea2018f598af"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "jev/ukp_humor_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "ef35ccbc7b1c3616e9a3f7a714ffb31f5a3888e307f18b1ec0fe9753206b20cd"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "jev/ukp_humor_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "4b4fb9be6aa2868a05f772fcf61a5204716ee43fc54959280724caa358d40389"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "jev/ukp_humor_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "80342b055f2d455058c34db62cadd9bcae60cd124fb7951ed30e8f9ae92fab0a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "jev/ukp_humor_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "2245bc0b009dec6501e90137cdf467d497a59bcc664931c30a9c76b8c44387fe"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "jev/ukp_humor_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "9f1091b578bae49d0f188ad60e3c13fe291f5d1a375f6cf0e6e808d7aca42ec6"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "jev/ukp_humor_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "70078439969ce9d1ae5da16b29630bdf2056dce1ec9796cedee0bd832e1fc3ce"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "jev/ukp_humor_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "1902afaec5d16c26fb8161357b733c0a9c4d23881b657407a7aa6bedb02186ff"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "jev/ukp_humor_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "2d4aa16dbf6c11f3f24b1b1c87a2ed14eb6cf5f3e54281fff4f5a27aff3f929b"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "jev/ukp_humor_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "20f79f974d6ccf3133af4e19bb7ab2d32504bc5b9147e5b8227b2b464099a027"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "jev/ukp_humor_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "80d8026f89d1d56fa5ef6d4b2727e5379e5982d2c54fa2707a59a33171e51248"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "jev/ukp_humor_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "8035078be63976dad92fec6982adc1062e7e30102c7326adfc41c9a5f09496c8"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "jev/ukp_humor_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "7977874e0ea26a98d24d64a957dc76129e1a15893b46613591cb40b1f0a37cda"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "jev/ukp_humor_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "6e2e503091ad880b7fd361921625c3f5ae69f6ef4ec7e68d7fd0528fead01253"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "jev/ukp_humor_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "6becddf9feb2cbdfbf3e0e95d3407469714e6b2dad78dcf585f65062a9524238"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "jev/ukp_humor_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "86cef60dec5c2698b4a3ce1742509de111a303721795c74c6615c2deb8fb7640"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "jev/ukp_humor_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "d1677089dbeec7b3f19932727c43fb1d0304d37f7b30bbe80f396b3b9729d558"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "jev/ukp_humor_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "8caafe2348eb1866a544124a784710a36bae31c7583f60fa1747195211b5c201"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "jev/ukp_humor_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "98366bc0125a37d04e66c09f18d67ebd55dcd1859d83f341c58c77b426e71c80"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "jev/ukp_humor_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "442450f358d134738211abe9ad5693bfb6aa9f65647385adaddc275dbb62d0ea"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "jev/ukp_humor_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "2adf42a478a0d307d3dbf9029d5376815e2e173e42db05be62f2e900374db47b"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "jev/ukp_humor_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "a44caf83be9f2755c3a5a8eb66cc1740b20d148124711c1738f370096d4bf50a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "jev/ukp_humor_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "0a55b0cc93a93a933cf636d3bdaccc39867576b5b708f6a664517d473ad58d7c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "jev/ukp_humor_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "c16f086a12aab97352efca46af4a311a0786a94a49b80d24235a37be04940f36"
+    },
+    {
+      "model": "Jev",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "jev/ukp_humor_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "4cd9ad0102b0f2fd3d143ac9b7c09b6b15de562fa4fbf82bdce2a1e3d761ecd7"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "baseline",
+      "file": "jev/humicroedit_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "163492824a5505f4a126878bb850614e66ced914c2e19d9a44ec06e808e80276"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "jev/humicroedit_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "e098503ab6faf0e08de0d745bddf0b0cec1157c8eb465c2713910de01cf9f5c4"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "jev/humicroedit_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "1ce4a8383bc25ef50cd2e4b475fe00af5e909aa58d0585937830e54c97b107f7"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "jev/humicroedit_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "0cd97145589076c7c650ce033f63553ba3c0ec79454f4b24860e784de031ac7d"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "jev/humicroedit_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "1f9c0084722b4c44a14aa0b025cbba5e5209137617ce6d11ffdbd6974417607c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "jev/humicroedit_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "870cc935d6b2ea084a6fb386bcfbb3ab421d9c9dfc38e6abfccbbfbd10fd1557"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "jev/humicroedit_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "8b7256388f579d27f7cadae14df35edba69b85ac2ca88d96f2cf1068578b395c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "jev/humicroedit_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "753bac2800cd68dd1a02f4c056dab1cfd39025c314a3ae442dbfbb1a4eb30f93"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "jev/humicroedit_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "c92a364428f56887d802366dd0aaca4a1077cddb2d4add606697c512b6f68e56"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "jev/humicroedit_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "ab41f8f4e96bb6937742c8863f3c2d611fdd7426e120cad865486c0a37c206fe"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "jev/humicroedit_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "01aaccf5ac4f2f721497cf418000ed9152a4431c4698bc7dfccef5906426a2d4"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "jev/humicroedit_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "cc60092f33f2563ef14a710fa6927470544ffd2289ad4872bc2ae20f76aba886"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "jev/humicroedit_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "513f8a357704e0c2446bca51d05c088f523af46b3891638421fb31db28adf37b"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "jev/humicroedit_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "3b2bd86fb314e5e1cd692795b99f0a3126a1e83dc939d82e36ddcfce47af2bd0"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "jev/humicroedit_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "fdf0a24e4ffcc34bdf6b32b33db49097401756a5f8c0ccc0851c162f72322c8a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "jev/humicroedit_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "23f777d7910925f788676babd47873e36f8aba6ad2d98520844ba60d98e70c27"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "jev/humicroedit_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "d3593ee4115f513834c5f1b2ddf3b7ccf8f731047e9f0b86479ffeac7cb6ccaf"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "jev/humicroedit_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "d6624568f52df58f9ac036a7019637d16264c3871d0af5d31540af2649756432"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "jev/humicroedit_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "3badd1b1284fd7b744cfca4258f00c112a298414914f357bdbc8143cdea5c8cc"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "jev/humicroedit_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "66257fee574f511916ced17b78f08c751338524258dac73de9819e3c9d0f5ccc"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "jev/humicroedit_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "8f318130fc04d4fd723100ed9435a6d3c31003e966a8b5112b30b28a04a24aad"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "jev/humicroedit_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "8e06e8fb8b90f0bdb0fa0d0088fe6ad3b367c33313378cfa5bf1ed87e9280ce1"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "jev/humicroedit_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "ea13cfc343cdc45bd6c9eee5e9bd8288c894fbfc610d739c2e9c3aa93390c1b1"
+    },
+    {
+      "model": "Jev",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "jev/humicroedit_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "70c96f0fe43c3bcf444fa5226d89a33016092af193f7dc9257a1cf08da4f6fdb"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "jev/helpsteer_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "d05de268ee3a3a609e0d82aa1eb7e9615fa74864dad07d2e9098a6fc4ab0cf8d"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "jev/helpsteer_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "7a1e6f68249cb5ad5c3d3347f0177ffa5a8c6e52db9f13288b960d2d0503f67f"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "jev/helpsteer_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "078751cf353f915cb24d69984f1e4ba477dcbe9c1ef4f508957a3ee6a8c87c5f"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "jev/helpsteer_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "bdc41561bf3d46335d612a7405ea55eeba95459fc37c97094dcab5becf1713ba"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "jev/helpsteer_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "91c3a263256c0ec3a4ffd488c22ae9b54415a8c099649fcd2d6d49c1de6ae1e7"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "jev/helpsteer_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "22eead65181f969e3623fcfa6afa38e396bbf840b99efdb27f720b51834b9b40"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "jev/helpsteer_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "71849ff816c9db3a8287122a06409ee2b5e82679f5e15bfdeb118ff965a3f95f"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "jev/helpsteer_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "2e44a152f61fa321bc9817abd874198c550241b32decdda364ce59c5627a8095"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "jev/helpsteer_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "439faf809ca6d17b456cdcfead24da79665bc4499fa168d643147bc61ba3148e"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "jev/helpsteer_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "03261c90896f436de46956fd384fa780872ef55518b9e0fe2244414d3f0f330e"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "jev/helpsteer_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "568c5d27e517d0d22ae5581d8b9277c9d9461d9450f31777a104f79d9c3a681c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "jev/helpsteer_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "ab75002031c4c330ff9ffdfb389eb0f32110b43aea3ec35182e6fa39a7bdb3c1"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "jev/helpsteer_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "6a1a7d11a7759b620ed8a4a2b3ca07b7448a7bb0eaaec909192c37010fec700a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "jev/helpsteer_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "8054675d9e63b5442456b7c6235496598290cc6eeaf12c76a1e31f79374038fd"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "jev/helpsteer_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "94ac6055f3a91ab0b6982c78a1031efe123bfcf8a767e45354e777783f00b83a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "jev/helpsteer_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "0cd56650b9322217d122fc8650a7f070f15fe4125de301b2488a5a3354614218"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "jev/helpsteer_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "b20ce9629f9ba3cd8acabe891ab8ae939c0a53a51b2f379c0a95c87d695315de"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "jev/helpsteer_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "0348ec866f546eb3a4bf57a62942ff6b187086597852c4f442c89fa3ee4ade38"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "jev/helpsteer_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "798809d05d31d5d8f18662c6efd45f2661e6883e91867252338f934ee48161dc"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "jev/helpsteer_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "95e5bf676bc6acb362ea8eb7922d5793e924cd46d04abd2bf34e0f3322518b49"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "jev/helpsteer_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "a9acbaf4e048d9cb88198710c393b5bc1e70cfb7b8dcbe958e86ef359139e7bf"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "jev/helpsteer_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "5f2862aa0135d9bea2e3456a72292641d21579dac9342113a487515de4b970e0"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "jev/helpsteer_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "6a1b042d7a5277b0bbdad8e580fb6dc6ea376474c94ffc5dc87eef0859c89a8a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "jev/helpsteer_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "44e90a9bd850cdecb7146f378d4a9cf5d07a69a9f56f3e7c94e7e86bc724569c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "jev/helpsteer_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "e46591e853a60214ca28959c2972f79d1341372578aa4d74d2206965534965d2"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "jev/helpsteer_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "b3c2a733959d23e64dbef8f91c61e4f1fb840c79412f3c3224aeadbb22713e64"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "jev/helpsteer_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "bc55066fac9ae7c3c03ebcf0cb544a220305f99e92311cf940dbae0bb1aea5cb"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "jev/helpsteer_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "860159be563b066702e4cb995d879d0af16e427c92089a73238f516463e82bd1"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "baseline",
+      "file": "jev/helpsteer_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "ca912d786072ead1a804dbd0a515548e6636fd597cf916914a66c586af4c85bb"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "jev/helpsteer_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "52b8b4c414770304f4772cf11df892058c41ae2ffd5fe6ef56dedaab398252bc"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "jev/helpsteer_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "73c554a7ffd18d712f1c7ec04172c42097f14e35ea4988186acba1eff987eeb2"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "jev/helpsteer_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "5ca80a1e9c904e12681d3ecc2097dd894ae6f603818474311e81c04519731823"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "jev/helpsteer_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "bd8537745e553ea847fc123c8413d6f143a8d4a881946815a1e2d1154358b12a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "jev/helpsteer_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "b49b3c87014d1c2b1f5ea34c826a9297b0286d97d6a7464be4b8783bde4ebaaa"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "jev/helpsteer_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "30716b996148592fdeb2c348ca6103fb786690abab8f3f06765dcef1efd1ec60"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "jev/helpsteer_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "4d3e61153761d506fb61873aeacd57106547611f90ea402f4e5c3918b2dc9aca"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "jev/helpsteer_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "e5691cb64728e8380638c1e8fbac1043f0ce571ad1d2e36ed471f15c920df3ea"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "jev/helpsteer_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "dd8192aa2e2524071f9a89ae9bf4fe33b8b28096e0542956193f90339d80373f"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "jev/helpsteer_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "df0d5bd886c2d96d930609782246d1e92781dd0d2488bcf6dcebbf0738cc064b"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "jev/helpsteer_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "0552b56e2182f831c32820ee248ad50f9391327e8ecfccc3221ef91d96f8e379"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "jev/helpsteer_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "d0a5645e83004953de3c1b4f4166fbd321d05087ffd84ca624bcd61b64e09170"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "jev/helpsteer_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "ad5c88b8bb2a68a50a7a904e553cb6789c05f9a1cce1e826be618117f39390d1"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "jev/helpsteer_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "1e12437f341f1bb4a48a0eae5ee028954d6b29bfd5b50395083fa0c1d06492db"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "jev/helpsteer_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "7dfefe142caffb203bee039daf75879e844a436c01f5d1937fb659aceb64e7c6"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "jev/helpsteer_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "5c3010a3d1b2b441dcce8b95ece0088d05e6de74aa215bc567bf459ae3e70df4"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "jev/helpsteer_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "04142c9889650d645a1102b832481e0b04f6f682b226d416bf43de441bdcc220"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "jev/helpsteer_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "09235f2110ec95e1ecf32f40b0a87285d6eb1df53b939574a2bd347e9624b6d4"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "jev/helpsteer_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "6189e3f9f1d2d3e0ab193b878345d0c52fa2190acb1b51258f875821ed330ff9"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "jev/helpsteer_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "a273273d75277ac28ff7da382742b3115a37933cb8e2427181c6409492680b2c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "jev/helpsteer_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "d52a2d660f571945d5c6183a9ad71a7f5e26a268200334ccb189ad95b4afda0e"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "jev/helpsteer_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "6cd2a199c67857090391ee241c0497571001583d04e39021ae53a48b74edcfee"
+    },
+    {
+      "model": "Jev",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "jev/helpsteer_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "6da7e324fdd109833813753b8ed0e1a9fbeffcefef91624c103aa03bec66d2b9"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "jev/openai_summary_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "dcd2a087ac80f171a44ca690c466fb3e2a785331935f4034eb84280f8f2e0f84"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "jev/openai_summary_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "62116d940e0714d65b9a61217e8bc7589d34d9c8792ce47d4e5d42af0876cde1"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "jev/openai_summary_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "7a5bd71a868878fb52c5c67423f8f820c15cbe17d08e38f81889b31d3e5c3338"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "jev/openai_summary_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "bc01a2b45ba1b882fe0836cdbf866f1c380120898e3e4dca6739d557d720b4fc"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "jev/openai_summary_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "fb89929754304eebcc4a009ed2c88f22407102b2c6642ae2e3ca409ae45ce878"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "jev/openai_summary_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "b2509b037a2a15938a3733f5c612e4c6d9e1dc8177ebfb352eb89bfab90c02e9"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "jev/openai_summary_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "c91939d0c17876cf023fcbe1db14c0606f9a925f2c7f2bee8ce95b4d4dd8dbd5"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "jev/openai_summary_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "ce183c8e08e02d2d19ce0d3d215dc20f4c531bdef3aca06db7b3ac09befbd772"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "jev/openai_summary_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "4bc3c28cae1c11a0f216ed452ae0ccf6fe9330e18c8c0d22e37446122a28ec0c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "jev/openai_summary_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "0d7b0d429ba0c97046ac901257120315e83ac67850370557d5fc7b83ab78c185"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "jev/openai_summary_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "bba1ff069cbd3ea673e113e735e689ad65e0e7dfee29b176a6b4540aafe084b2"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "jev/openai_summary_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "acaff7bae0e7777bbee0b88c2f13cb1423d8cee00c287dcfc846677e9b32d7db"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "jev/openai_summary_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "8ee85689caf4c8ea5332ea47676f99a75b6881284d48d7c881df82288ec1c66d"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "jev/openai_summary_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "30f646b045d86991a451ed95ab3b35dec0382838cdc1937441a6ca1c4fb47745"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "jev/openai_summary_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "b6ee5c94f652a9b5faea1c057047c1d8c6dcc6773922de1d871fdfe301039d8c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "jev/openai_summary_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "965135dc161a1d6a364c016710e339d243219765c8bb34282343a24e42deb6c9"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "jev/openai_summary_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "7d55c699a0ed5c7215a530666feb19f791ee7f802f7a7dc8db3800ef455fa66e"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "jev/openai_summary_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "35a6d94bd0979330daece88502bb4f78b82d7813f6f1cb130428ac8b001ff353"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "jev/openai_summary_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "845ee3abc35a4bdef86654753940f76fba6619f024f4c0636d1dfca3a0b50919"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "jev/openai_summary_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "5adfcfd932c962731f0a6ed9dfde795161223a8282084f8c2c109dbd226a0fde"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "jev/openai_summary_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "f7dbbdb3df7cebb6e40436d1000f8173a3bcb4aa3e5614db62132b188fca82cc"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "jev/openai_summary_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "50f18c5819d24044a3798ee0a4c01a5a733dda08d3b41c8b22958a17893c81f5"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "jev/openai_summary_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "387e9ca83350f277ae90522820549e2b3e434ad7940c4c1ba86f3b01fc8cdd7d"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "jev/openai_summary_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "91e494f00ea1f4b8f08939219fc9796a46de0a6c2cb535ea467af26fbc5cdc7a"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "jev/openai_summary_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "6ed42b35f7c3876c56ee224218adf7f89a98b6df18bd53b8809665cdc87034ed"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "jev/openai_summary_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "5f65ea4dbfa926496816f46707a234a9a791039e1728a5e307eafcaa5f210d8d"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "jev/openai_summary_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "60b8a687005e3f16f6580082db13f5aa293bbcce5abf796cbe65006da716f494"
+    },
+    {
+      "model": "Jev",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "jev/openai_summary_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "d4d93e7bb7cb67ffede7531ac16dc45e9aa4042c22a7ec6b49eb13cf47b0dba5"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "baseline",
+      "file": "jev/summeval_relevance_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "9dd17940b384719bc396f7f36df231f2dfb5c8e460b6e513a05b066f04bc91eb"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "jev/summeval_relevance_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "01b8abf3e9a111cf4514747c53954a3fdc8d30965b161e8872cef134b9cc6c79"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "jev/summeval_relevance_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "f56aa58fd035c85abf4c8eae4ebd6828d53eb525f5c7336ef254b13019a43dc0"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "jev/summeval_relevance_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "d6018e366d498159f7b880fdf0ad6eacb74b36a4e08be2a239ce0aafa23810c3"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "jev/summeval_relevance_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "b2463ab7e3a62d3fa29ca90005829cbc5affa679bfa1e177d82b3702955e0c09"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "jev/summeval_relevance_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "f026a3e904ccb9f9f943ce2ac7fad0d3bbc6694b67cfaa10ca008b379058f2db"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "jev/summeval_relevance_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "4a7792f1a04a5b7ac91fc6be266881b8b1bef3b8c2600be330fab72fad9c8b35"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "jev/summeval_relevance_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "5b7970ce2773b714d07d9a18f77bb1c207b0953292d7d6ac167361e63d746dbd"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "jev/summeval_relevance_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "8fc55147ec0744f1fcd56d2ebc30803a3981e1b472f37f2be27d54be38b3f814"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "jev/summeval_relevance_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "9200510b005d2721207a1a29de1429937a72e8e1fd71fc393fb97d6486fca04b"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "jev/summeval_relevance_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "20457d17662a9fc62951d5a02b2d7df1d26602f8d2723d67bb6541e1b3c2614f"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "jev/summeval_relevance_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "509498b1eae31f6843e4fbd1b60195305f9298b7db6d212085f44abaa110ea0d"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "jev/summeval_relevance_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "1377254108dedd41b232fef41fab95c322f8206c7d6fd55a6063cf53b4250c68"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "jev/summeval_relevance_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "7e1f81c9ade5eaae1068536b00bdf6b7c63df2855758c4eb387c7bd12684099e"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "jev/summeval_relevance_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "48a7cafecaae637f1d4f4f1869265da55e53917ba7788a74e657f25455376cda"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "jev/summeval_relevance_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "a06886f34a50f8313c14d5796cbe91df8fb26a6af71820cb23072e0c89e1662f"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "jev/summeval_relevance_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "5705acb7bb25d22577c3bd99b9168520aa4a4beada6c2582d1f5b0b35402bc1c"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "jev/summeval_relevance_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "ffbc3765af9ab86bc6378d424b2c4ef5ecdd3f22ce93cf8c415baf4dcce28b46"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "jev/summeval_relevance_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "8419e430b43b075713926e01890640d13136c49992801b2763ae8dd80b8bd7e9"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "jev/summeval_relevance_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "f6047866942737b4c7e30fe086adbafca70de5e906ee8c3dadf8b04428965337"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "jev/summeval_relevance_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "b6106b7a2f0964db88e82fbce090afec2915435e01a8d1085c3501e9e662f9d0"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "jev/summeval_relevance_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "63e8f7559610399b34f0827e2d2b27c1a91ced2e186c9bc0d427cff3ab9f3d46"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "jev/summeval_relevance_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "1f378d510fac62c419fc265d1f8cd9b7acb85c6664cb8f641e618c3d122df957"
+    },
+    {
+      "model": "Jev",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "jev/summeval_relevance_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "4065fc4b8188c9194f96c26cf3d4fecae5348361d92cec24056e6f3543fda5c3"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "clef/ukp_humor_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "f955a45704435a95d3139ee0e78feced99cb123f0dc2a1fb923c4ba9fe1dd2bd"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "clef/ukp_humor_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "425fc25e99b69f0e217e63b254a338d6497e23bb53ee7a5e420f467d085d5edd"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "clef/ukp_humor_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "b10d7c4efde31be6ae1b0f7e1afcacc7eeede320db21d34fd3c3c8bfd67ca3cc"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "clef/ukp_humor_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "e28c73628cffc5c2d92cd982431034c57e4be5067ddb9c8bafa81732f13514f1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "clef/ukp_humor_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "793f137eac9bef73211c6a008495a0ccfe8a8353dfa3dfc6d489f2a246079789"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "clef/ukp_humor_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "6ef4abfdf55391e19e29f39e75e8336f97c36999ba30a5be3199174926b34217"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "clef/ukp_humor_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "4606fd47a4cf86f5af8488df15a2084bbf6a870ee264ff0c1e15e21de52c8b82"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "clef/ukp_humor_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "ff83a3177e2540f54e583ce9ab1a342d04c8dcfc490bd403c07b6dddaae8c467"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "clef/ukp_humor_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "6220385cb34c83498cccc299c178999026231d933e2296fe69b30a75e15f0a68"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "clef/ukp_humor_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "1350f2b429259f4a2a3692ab60bb61212b3a20dc429d1763cb24fe1ae129c0ac"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "clef/ukp_humor_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "c28f252f84a366fd9ccbd4e64afcec3cdbd9389f506e3c7b1202d3393db68477"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "clef/ukp_humor_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "9594324383325817a61d8c8d4ac2ff2b11d116b71b0a00a65510d061f35c0b9f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "clef/ukp_humor_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "f8a6da11b52a81802f187f71d07b773257d5657122b261b68ee6ca08686bd8ee"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "clef/ukp_humor_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "b26e79c48182dc33048f82306c61a8fd26ad1a8444c01eefb94b1fafdc01c726"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "clef/ukp_humor_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "ed4b6885700a6e5becfa34e437d3a66af39865588e7fff6b9875a848432dae30"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "clef/ukp_humor_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "4f3bcb5dc3c5bfeb1535a1d0c788d1aea53569bbbcfb543c0919028554890a7e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "clef/ukp_humor_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "a962e44d2d7a8281d8d3fa3cb8efc966db4ec22ef54022a890a77fe93e1dbdb9"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "clef/ukp_humor_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "72b3864bfcee5e2d31f7cd3c2a198a8864bc0e7374642cb1024668d582bbd4bb"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "clef/ukp_humor_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "7641de745ae9d60375de0c8b613ef29a061e9aebe82425a4d86f9cb68ace368d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "clef/ukp_humor_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "918f5734af19612e7f4f3a15dd96d1568962bfe427cc031df86e0b2cca1c5d55"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "clef/ukp_humor_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "f903869e5b95202088220b47aec8407d876b82121da105130e9dc26206edee1e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "clef/ukp_humor_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "40d49ba60d46b028553f82bd3a192cc400ba7c92dee1771b1eac776674ff0742"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "clef/ukp_humor_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "ae0641c8c924d010fec2bd766d4d5fd8711998ed23acd64833ab67b858df5fb3"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "clef/ukp_humor_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "eceb59b49dc3ba3ab508f70374c2784b9d66307ebec61b6e9853c74dcb3812f4"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "clef/ukp_humor_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "bc87dc026579563f56a4c91102018a3f6457eccd1a85a07ac23891291badfb4a"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "clef/ukp_humor_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "d08ed3a96f82ca20925d9ec1ff8555953d116e20030fd4b6a9d0fd32985e91bd"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "clef/ukp_humor_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "7c816fbc9e377d6b94bb0c9ff65990caa3d04f93e52caf05d444de51e5c4c54f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "clef/ukp_humor_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "47a3e817a0c23f7f2756a00ccea4035cd243dd067eb2ae80af02fc3be79927f0"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "baseline",
+      "file": "clef/humicroedit_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "ac316aa231c0b0bec0cac324948fe3796b3c444ebc9a4dc16f1018092e02bb3b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "clef/humicroedit_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "04c9995eb6668b1c72cffad2c01a345bac281355db39a1fce2b8e09a493022e8"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "clef/humicroedit_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "b057b9ff3dc7d5814cf3b401cfef2b9904f460d2fbf58eb3d9d13f82a6c75c9a"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "clef/humicroedit_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "e6456c786c048ffec5589b0212b168c565b7ee84cf448e000d4538ae6010c29d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "clef/humicroedit_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "ce2653ac30907eac3ed3fe2129a364fda74c68c224d0e28554b9d3ce45a5ed10"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "clef/humicroedit_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "ec4d1bb90ab9143a85512fcb787dbbc7b41943b85a03ca3b84d58c2affbfbf23"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "clef/humicroedit_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "66ac7cc33d89ee209c60ccb5e04291f112f52fd1b46d6ac01258d17255d6da76"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "clef/humicroedit_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "dee35380fff051cf4417bb5d2ea15d56698782bc08e31b17005cdab7b90b40c1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "clef/humicroedit_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "07931570cd0a25a47f1921313789f7595484ef54f312336a03ceb8f12e062abc"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "clef/humicroedit_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "50d5299dc27a2982e92e279f45f9ee2cd058fcfe54254efe9dbaa7f2c8921578"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "clef/humicroedit_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "e9410f183c307545fa5ff38151ca26793f97f039c2cba9047aaa10426cd8064c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "clef/humicroedit_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "ef64a7d37e862295e9e6cfbb64f884881673e783714f34ab424b3ae7b548f636"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "clef/humicroedit_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "196dcd972766ba5c8cdc6e4408df8b0eb6d704a00b98ef000389f0e539fb262c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "clef/humicroedit_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "9b5f9d6dd0ac720b69764b3394d845d245e9a7d3b78c1618179e441d930300a9"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "clef/humicroedit_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "008a5c2b7352040d1f1735bb6f99977d810d1f7f1ae68cdc4c362fa7103e8b32"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "clef/humicroedit_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "dbe2175f7489530a7e5b597b9c8062f87085b9fa33443f9ea0ca264b9e4328a2"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "clef/humicroedit_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "cca1dca4fc4be90656c042784d22635e9c81bcca593d4322ce44cd6879c787e7"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "clef/humicroedit_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "0f04bbb2632fefd5025a5e920cb32e9c4c824cef5a7d61f6479fb2e2b0f855a8"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "clef/humicroedit_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "0c10d7f38262de9af0081fd9e9e569fece62cf58d24f7be4a8784ade6d4e2e26"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "clef/humicroedit_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "8798039d73449145d04d1ff814bd5899d96f53f02d1e830fd7b7a328dbe401a8"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "clef/humicroedit_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "3a3f57d848ba557374b4fe3fb2c70175789038e593abe1ea2149b84cfba2bbff"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "clef/humicroedit_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "e94945b2c89d2be550394a8fd4ee8c2d085c8b2866169d13e732d6fdcf7dccce"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "clef/humicroedit_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "398beee17bb3af4eab9b18ecf46f297d50046466fad58e1f8241f9647ffc846e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "clef/humicroedit_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "54237b0bea7d093ec3de96f64804425671c3d79cfb2d7f835d262c1d905b7adf"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "clef/helpsteer_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "8cc8fba638c2099b7a2e1f13aedc069bf328c2d865da4e4f61b560c4fc85f1e1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "clef/helpsteer_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "6da335dfe06feda3c1c38a58958949dd3903c3bd5bc666147e59facc45f7e785"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "clef/helpsteer_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "13ed18407ffd9b054fa65fc9d20ae27eae780d7dd54c733fddc34b53674be32e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "clef/helpsteer_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "76d04e3fc8e65571a017d371d1a2f729b1c47f7ea3968e6d6988f519e7785f8d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "clef/helpsteer_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "1063a200df3836309ee856beb10b713701164fa09361b848b3883ace55c2c60a"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "clef/helpsteer_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "c9c7313ec9f871e94a8b9a9114fa361bb3e5741dfe2964b23c29294611b5ac20"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "clef/helpsteer_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "a29d9d6945b818e17229e19285a505af118a18d0b1420d87b132a941ed0d5b7d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "clef/helpsteer_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "5ac97a731d7e6aacc191a95eb994df9189cd1e670d54fcd853d3237d0aaa203a"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "clef/helpsteer_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "12e26893a78ba643193f74ec4f445c81cc71bd6a6984cac7b64f430059d23710"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "clef/helpsteer_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "28a80f11e8a104791b54b6db38b036b29c7ee450d0a44d005bd33bddff69fefe"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "clef/helpsteer_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "2d9fccbf7778836f8c8cebfa083409f3e51c0dc728d29765fae66e35f376ed5c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "clef/helpsteer_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "9d11f41104534ba10434af2824e4fa03967e64f0b2a7394f9498eb43c2a5ce79"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "clef/helpsteer_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "3546f9ed381c13d4577ae51cd12bce5a46af12d07b26dd509cb1e9d91a279806"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "clef/helpsteer_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "bc565260317392f6e17fb2b7348e2ec1dbc21c1d64a4e4a74e34379e3ea07fd9"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "clef/helpsteer_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "2a7fb9232a0cdef463d9fb10457fc8f19adec41b0eedfdccb85c17b52a52545d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "clef/helpsteer_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "de2ebedcf8c517be51fd05e80fba623e5cbe336783890eff319d0c8433bf4065"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "clef/helpsteer_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "0fedba4d4bc53a6a7347364de40c3161800de5b9bf976afc167f2ace4557be63"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "clef/helpsteer_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "b202e47c318b472fce3f3b5f0e87c51a849f48d1d708bb7fc0de649a9638fc2e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "clef/helpsteer_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "dd878a11c8dc64963cb2f76531f91f365593605934235c518dca2998a15dd2f0"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "clef/helpsteer_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "31c0571f991ce388ad095cb882d1bdb6b3bb460111058b28fc3be6e46b63515e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "clef/helpsteer_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "faab4f9f422aaa9dea2a89d8dca5ce13d0543950114d88329d0cfa9f9e5dd77f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "clef/helpsteer_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "ac22eff46a2f62d59ae3f7e2f99a490798bc1138d6f29b3ad355165d9e896fe1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "clef/helpsteer_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "64d62a3a33618f308c9c4054e845dd76073aa5b2595859984c4085d2a2084ac5"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "clef/helpsteer_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "0c9da8cc245dca5009e653a9b993b4a0a4120b622d7fc63b48e4f138e4d021d4"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "clef/helpsteer_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "11bbcb3114ebc2891d61bd678f56ac9fbd550b25abc1aa659ffbe1c6fbb7a1a2"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "clef/helpsteer_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "0650063e16021a04692220e46fa544efe874e8b7272532e2700faa1a7b84d550"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "clef/helpsteer_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "b5c7c1864edc21408ab4b4b076ed66a68ca9557e19ef12f99373fdee6513e889"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "clef/helpsteer_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "5b35a8f8d74c5a7679c3b0a502b29754a853f2e15f00e26bb0cc74fc65d9fa47"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "baseline",
+      "file": "clef/helpsteer_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "d27aeab0288e53de7535940d77e355f2f672f00d67c15e90e8e34bfef62f7b0b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "clef/helpsteer_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "7189c92981ad7df66c6c80d91021edff22000bfe343a94b74f02369d10e6ec1b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "clef/helpsteer_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "6286b6907ef9fcc941515e1b47bd87e92d64db034cdeb3e0579de04f8764f6ce"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "clef/helpsteer_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "7cfe99f319dde992b3cc69a877e151279a2f0afe0e1a3ef19dfc5cd2bc4a1e59"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "clef/helpsteer_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "1d6d722ab73702f860eeaa2d8729b52090d529cfa8a8a1b77a61641ce43fff00"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "clef/helpsteer_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "e00019a6bafe3a66ff8fc13df3d7214c3953ec747a32d6f8e6fa1bf152904c7d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "clef/helpsteer_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "156dc15a39cb956f33353d06fc8c63e522bc31245b58a132e80a27382eec9d92"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "clef/helpsteer_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "71e41eb4eecd693406d1d2afa86f74b482f261973bbf5f054ba2d1fa34ff9e2c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "clef/helpsteer_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "d8c9a57a4c360f5a472c5af0be712cb989d5594b0c42eecc296a94244a12bd7b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "clef/helpsteer_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "f864dbe47c5fdfad04de403d8356eafab433ccf6704c701ad453fe22299af58f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "clef/helpsteer_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "33a9ce1bc14a2ff44b60bccd190aff432ac8b0d907d94ef5892123c13348e9c1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "clef/helpsteer_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "8fd66a677c0ce2347e150d08b485427e4b4c11d41411a77a2cfe5d4bc0cb85b1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "clef/helpsteer_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "5a90fef5f86fe22fcacc74f11828f7ddfc5c2aea7adf631d03e714e99b0ec9a3"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "clef/helpsteer_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "db123e1ca9baea85f45e4867ed8a277cbde07ab72e66c0ea2da25552ab45e637"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "clef/helpsteer_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "cca72925b2c01f3325918cadd036b71f696139055f4801e1b36ee61a36cb3bfd"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "clef/helpsteer_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "ad751f48443a0bd2ac604ad9c778c69bbfc9344f170eb4ce1c2f427d276f24af"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "clef/helpsteer_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "891c68d7c4aa57f1c64bb38dcda3dccaf4e2f49ec2c11470df9e25c240c4873b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "clef/helpsteer_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "4e6293c0b3659046711063b0ecc300684b47a12f6baf8231f9ea95e89d91054b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "clef/helpsteer_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "86a9d491b5fe0ad23f807d731e39803c2e9f5e31e2d3ac654d39da9348f50f50"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "clef/helpsteer_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "efafd18ca9b0f8eb359022c1d340d5e2e779badb9aff0e79525301db646cc165"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "clef/helpsteer_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "9fb867902ef916bbb4ee73a0a47749556508e52739eca1f7c5466f4607a01c60"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "clef/helpsteer_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "1397459954afa1e42d6a3cf9a7f50dea46dd69f04b157e3d8d530236a351b54f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "clef/helpsteer_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "f42b7fef4fc5f231cc0d73b3b4f6bbc673326222e1dce612e2511d67b6785e33"
+    },
+    {
+      "model": "Clef",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "clef/helpsteer_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "2a4f733978cefa4eb5fc56be8c0389d188bd75bd944cddf11bdd652461d7ff19"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "clef/openai_summary_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "3a80b42a73d209c71631cbef98f5d626e12de64286daad1ce1731466f3c26400"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "clef/openai_summary_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "5d95bbf05509080b7d61daa871ff9751768a429bcb16ae58f93d1978c057b073"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "clef/openai_summary_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "8fd7ab70f44d1ae2ccd23f8db1f31ee9df209eb5c917d0af947e05cc0548176b"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "clef/openai_summary_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "2f5c01a63e26c4d820ee98292d37ca81971f5c6f2fdc0c69883818f160942c85"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "clef/openai_summary_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "681de3a1e42a8c4c2458bc48a7cd0cf665ddc29141a407d3d97da2b76469af1d"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "clef/openai_summary_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "42343b91d3ad63da53e1124182b6346b6e7aadb157834e25bc011adf2089c0db"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "clef/openai_summary_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "2686cdb18a61c7df379ecf137b4b6e85b8b136342330077a1d63c8e90dec7530"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "clef/openai_summary_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "e0123cb3037cafe1384e159159dc94292065014b6db6db659ce1b9584e6f94b1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "clef/openai_summary_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "8e83ca2412f466a2ee1da5ee74886d2434f7905ceafa8d43a7f6f270162a39c1"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "clef/openai_summary_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "91423cf3041c7b5a2dc89ea83804b01025834fed90b3eb2eff56edd23d360ddd"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "clef/openai_summary_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "7c2a600b8a43d9e4f885fc63ce38bcb3162ce4666efc4e931c00cb3ccc61356c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "clef/openai_summary_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "265a66a6fd7b589421acc6067ccd9e707f01e59dea6998dba29322c5352d6e6e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "clef/openai_summary_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "8ec192daa405e0780a0b4691fd8147fa86310d8965f5af133ede6ffc033fee11"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "clef/openai_summary_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "aab67193758efe52e952964b67f8ebc37c2b461b77a1067c66d32d29f36d86ec"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "clef/openai_summary_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "386c3f6870459e2b748573db595b7b0b3aff31fc7ef44178e536cc4bff7c4d34"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "clef/openai_summary_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "203521dfb4b1595bbc891e81fb726745750ca88e657ea29c876b59dee596b7c0"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "clef/openai_summary_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "6caca601d2ae2b309d9269816b5bff342b35a64ace3a86f0294502efb79cc5a0"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "clef/openai_summary_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "6725f0da80bf402fa32705eab33e3b3c88f3f74fbf32d7e9901064a27d6a8e1a"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "clef/openai_summary_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "fa1afaa33aa4246d86a06d468d616546058da44198d20a2cfe72420703769f87"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "clef/openai_summary_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "27f77b2b810fb8bfb4a4e44839b04277bf644b6352f35fdb7cfa39c7ca55307f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "clef/openai_summary_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "0009c37a88be9efff056fd4fe907548fa987375873c940ea3df579d2720c2fbf"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "clef/openai_summary_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "fdebbeeb3647b2b49d4d2004964914faa11072bca002bac279b44ab819eeacbd"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "clef/openai_summary_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "cade791e2b486d0e5f14e71f7a93298b9dd4ee57d37b226ed933088027ee31d6"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "clef/openai_summary_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "d4fd5ff935de863235ff28280e68b10deb4a4125e9df57e8a5c77bfc83c91662"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "clef/openai_summary_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "73f0a738bc06ec85cdfd533367ce3a70ffc17df164ca138a004a3b82f9e832c6"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "clef/openai_summary_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "8448adb324893d7c8f3f7ec3ba1527788f78bcc9bb2c287635e25887be6ca92e"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "clef/openai_summary_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "edf76ef7efe0bfcd5988bd8551b4b83ddabad0b109a8c5a33b175a50a68a7999"
+    },
+    {
+      "model": "Clef",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "clef/openai_summary_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "4ef348e70954812ebcb968efffb6569c68e72a5e82c76f2f74efc8fc11e9320f"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "baseline",
+      "file": "clef/summeval_relevance_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "1c5988de561f3a6cefff6ecfd3b226b4b2102711c02eec68b96bd359f8446084"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "clef/summeval_relevance_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "2ed1755e8fedd4174ae1fece9eb609401bf872e15eabd74d03b49f44acd59e89"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "clef/summeval_relevance_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "d1787e908f1cb9a4bff8ec139ebba542944f94652f8765273c6131b5c6057a05"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "clef/summeval_relevance_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "a448b4ae0d52b2cfd4db50892f2408813c1934952654ca54a945e717dab77813"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "clef/summeval_relevance_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "3ceff70e13263c61d233e7680a046d7fdf3d0b345bdd03e47bd2fa61b2fd41a9"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "clef/summeval_relevance_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "6096f67a6868fa2968cdde1f68060a5230384e3adeef03d2914dc9c0843770b5"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "clef/summeval_relevance_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "dba33e95257216192d5d955d48caf04e5eeab663252c897a461afbbab5517cc0"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "clef/summeval_relevance_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "7af6ef5eb1d4fdae491c6d772f209a19ab0831a5aeaa5b9c51af65ac76c1edff"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "clef/summeval_relevance_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "22edf2f8ee61c8a51ea73e6556de2769e7d58f3d629988cc5076e3a4fbb64f3c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "clef/summeval_relevance_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "1b9c34e1588ad3170f69cc3f4cdc9d4e528db1b5830b9613f44061753d9999e7"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "clef/summeval_relevance_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "097e48e173adfa1f88ebb876e43b44447178cb56800e39be0e777b69e58e0870"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "clef/summeval_relevance_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "0ed4cdae50e82111a60fbfc135e3ac06f9fefbf75be814c0eb393ec01f20a5d2"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "clef/summeval_relevance_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "bd960ba0ea5176c27f61cf2970e9d956802aab828204ef4fc76f3b117a55c2df"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "clef/summeval_relevance_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "366cf6551545149a9e88a81cadddc31cffed441379c23058039e471270abeeee"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "clef/summeval_relevance_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "79971866cbc681675641e4af4628d7563b30a5788f0e6ff82c6b8684c76fd362"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "clef/summeval_relevance_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "98474637400faa50d212f116932d4cdf19ba844ad38379730b74a5ceda6d7159"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "clef/summeval_relevance_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "dc88978915b2c7b108fb3074ba81ca331f664c75e8be355a4552a17dc208c2d5"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "clef/summeval_relevance_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "7ac67b0ad6242811b108d98b795c18eb61d9bf429a51f12eede5a5e5103565ae"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "clef/summeval_relevance_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "977ffdba38a911d90868e44e3d2e1180a7659d4a7373e08939d8e5f9691cd51c"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "clef/summeval_relevance_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "989d7ea43cf04bf824291668ff4d0d387218767ce4eb297dcf15774560e778cb"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "clef/summeval_relevance_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "19046e277a4017f049bac69bbea2322ccc06b54d514c7074ecfb2ab462c2f783"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "clef/summeval_relevance_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "ddd42e7fdcac3ed51bde592b60a3e5c4c8361f26bf4932e7b2f8a33807b4be38"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "clef/summeval_relevance_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "ce5f8ec0c74166143a9f3d344f6cb9092f43e2a650401ca39184c31064f9e90a"
+    },
+    {
+      "model": "Clef",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "clef/summeval_relevance_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "e538292493c48fcc3b14e39b016d4dc8778cacbeb918809a53a4d9f5d83b0359"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "perplexity/ukp_humor_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "ee8afea1a60e4d2b86ee5d2ca721c7dbb5c5239a9022de0d7524d67a68d59228"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "perplexity/ukp_humor_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "26a2ff40d10f4f39f2cd2e7ff909f517e60c56281877d021c3e0d183e8687f34"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "perplexity/ukp_humor_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "062948a8c1d730983e7f70dac9cbc54c1bb4312e5d59749a788bff1c5b7c731e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "perplexity/ukp_humor_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "4da07aeda48bdd0c8cd413877b02a8b45021166acd05ec7f8240a6b40b7f8dda"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "perplexity/ukp_humor_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "fd8943b5943defaa8b852f665cdbb58512301a865d9e249d544bb1135ee80443"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "perplexity/ukp_humor_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "899c17ee0ca814e894560be9a3b2057ce5469cc8082eb74b0fab913c570afd96"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "perplexity/ukp_humor_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "273d304c7ee7d5e412c7d9d5a5d57768632d0d924d7a9ff041e5318306c95e05"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "perplexity/ukp_humor_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "9f2bb1662a19c197e27ea0685476e512f335054df711db0d9dbaef8bc1798a06"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "perplexity/ukp_humor_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "22868cc0d4d2f1dbb22b5ae7424dbc4e769dec3798199e41221002d30c0ae942"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "perplexity/ukp_humor_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "f751c3af43435a2bc7ad8f5624c3ac5da7dbb21ff3670e359810d8057c62b5c0"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "perplexity/ukp_humor_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "dabc2e3bcc2afb0be01be8cb650d3aefc9eb1bfd9657e2fafdcb05c5b2ea93a9"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "perplexity/ukp_humor_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "10c5db9304c9291a60e17fcb9bdec96440b0846822d42fbd438f72ed0c0de4bd"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "perplexity/ukp_humor_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "bbab8852037293d04564baddb677b0377a3e0551a0749606ab3af81542f0d0c0"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "perplexity/ukp_humor_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "ee5cf0867f22a048138d3c74852ebf4d2c89c10a34afcca97a18156e900f2e75"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "perplexity/ukp_humor_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "819cb1fcd470016836c83cbea35d753ad9d06858f7a75e989423cc3dca77a128"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "perplexity/ukp_humor_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "1f108d8781d6c1fc66f89de4e2285321f1280464525f4e53716fa4709de6e1d0"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "perplexity/ukp_humor_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "11c6e468618c56f06a847c1bab730c086cff8e930546c1a26a677c5115bd19b4"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "perplexity/ukp_humor_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "4627901a76bfcea856343acb1623abb3b0cf9b598a7591eca0557cd74487e3cc"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "perplexity/ukp_humor_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "4bdaf03c1f033080f9f29d6a7a77ba4a624aa351972676ebd6e443451a363865"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "perplexity/ukp_humor_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "740d95f49fcc42ab505f96dc73027a925e3cfbddb927cb529ef12d6ab24c6003"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "perplexity/ukp_humor_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "4bf73edc7b9b289a8aea931384a0224c7bf121b322bfe9bcc18c54490fbd6a37"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "perplexity/ukp_humor_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "3340120f1b7595e2da75bfd293ec7db6a42c9d7e3f3d040e9c8cf87a31418476"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "perplexity/ukp_humor_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "0edeea24c5e7a1d88d49869dfa42b4377d26ea73af741548bc190c14359fb7c5"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "perplexity/ukp_humor_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "13a319e6d92b86c96d8311386249be96082cc8f54dd109d09598f218910ac90a"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "perplexity/ukp_humor_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "880cecb70c8cf132742aeb576b5487d152c19d3c84fafd15785364c3070116c4"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "perplexity/ukp_humor_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "1a126478d606559f4ddef6d4fe08a792a13d69890c17495d1211d31caafa4648"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "perplexity/ukp_humor_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "394012c81a81e8dce16c1929909e8f26f21e4fd4bec7aa4e78e670ce83067d0e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "ukp_humor_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "perplexity/ukp_humor_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "24492c2a1923f908c1394dfb2722e9223b7e3679dfe8b1ab145cb1b2df4a12fb"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "baseline",
+      "file": "perplexity/humicroedit_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "85545cd6e8af5777e71851b66dcbd39a4fc690c84991cdc6009f01ca5272ead3"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "perplexity/humicroedit_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "a797b27e4d10b78cf392016aa37e060a9642c7d9a38a2181e4895180189c4c6c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "perplexity/humicroedit_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "c0739d5f82f5758455740cc97973286dbc5d94318d8a7307659a7228c1984fea"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "perplexity/humicroedit_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "461c6ecbab751700224e51f4bdf83631bd0ea3d784539ded071423781a872135"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "perplexity/humicroedit_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "c9d9e2f3de770975a183110b167187a87b69e768f799621f2233e0625f72d2b3"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "perplexity/humicroedit_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "258e66b8b518754151e815fa9e10d726a12a071ecf134c193a57dd6a895d856b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "perplexity/humicroedit_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "ff2b3fa8f1505f2e63ef8084c6a93150bb1cc803568fbfde25d650d13216962c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "perplexity/humicroedit_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "fe08b7a8e2cd88ce0bc9caca37c7c2c11fa2dfb3674f29b5911c05dc46622a40"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "perplexity/humicroedit_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "7b351a538fb5d2130069cd8e3804007456a63d972381cd50ff4036fd15ab311b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "perplexity/humicroedit_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "1edc2c93402e0308c4dc27e26cb240dfc87ca91d1844150f64262736043be867"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "perplexity/humicroedit_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "d8f54e589e76506b673959837b976bfd0c85658e9331f42e0af67976505997c3"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "perplexity/humicroedit_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "80852af3c56422852412bb3f8f063887cc19f69af84f2bb08642b3e64a1581d5"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "perplexity/humicroedit_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "05bfafa57d4d81216e27650ac873eac3536bc9f12a8a0137752cf93b189eb4f8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "perplexity/humicroedit_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "53b2e52c7775cfaceaf2f37c844cdd60e6c25def379e07a20e58e36b40ab9564"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "perplexity/humicroedit_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "8e726c10b118b20ef7fc528cd11275eef96f5f8a5331f85c9b1d1d7d38b78e39"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "perplexity/humicroedit_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "085220a8c494418617ab61f9dc2e4e79a2dd50b597d35900b3d9c82e1bdf78da"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "perplexity/humicroedit_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "861e03b28c43609a776e1c5bd6e9b0486b8bcf1715f027ce466949f7e1722fd8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "perplexity/humicroedit_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "bd4dae23b2833975c7280c49816a57e1d6776eaf45520f5bba504fe1428865f8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "perplexity/humicroedit_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "e5b154a7999be559eb5a4be3dcb1b6088242100edd540e6457f50644ad7a0f27"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "perplexity/humicroedit_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "38d605b2c9db54dd9bc5d88b4218dbefdd8f4cbd0c6773088363567ee2c16ceb"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "perplexity/humicroedit_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "05aa591ee38ab0b6b07301b013122e709bba48e0cdb4f3749f5c2896b55f8f67"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "perplexity/humicroedit_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "05aa591ee38ab0b6b07301b013122e709bba48e0cdb4f3749f5c2896b55f8f67"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "perplexity/humicroedit_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "05aa591ee38ab0b6b07301b013122e709bba48e0cdb4f3749f5c2896b55f8f67"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "humicroedit_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "perplexity/humicroedit_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "05aa591ee38ab0b6b07301b013122e709bba48e0cdb4f3749f5c2896b55f8f67"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "perplexity/helpsteer_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "b3ac0f8788dd525f16a2682f929989358ffd628a8ff1a4913e87fb4f2516455c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "perplexity/helpsteer_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "2e7fd938d4abcb8396f9b0b7b1f47d87b8b5841251ef646a68fd6785fa9905c7"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "perplexity/helpsteer_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "9ab255eca1830510abc2e516d43b484162acf7fadb562c6d546afde426147698"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "perplexity/helpsteer_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "f7d8d63f4654b6523988f44c62c81d7ec03bb0d2bc82ffbfec7a21b758442650"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "perplexity/helpsteer_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "a7f3e40470bbf7d47fa9247893c27e456484ae32e5cc916645c73d5cb9b98edd"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "perplexity/helpsteer_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "cfdca0c6ea2e3a5159b25a05b6db526c6f8ece03c7f49ada2d6d5fd50ad013e4"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "perplexity/helpsteer_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "2997e451bd2e4dfa40cb73c8cd26e986da6a2c9f05536d7138f59d0302d3c20f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "perplexity/helpsteer_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "8b7542e21aceb9e0b659124a5a18ef71e145eeb181e2886f1f9301c531634487"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "perplexity/helpsteer_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "8c8f4a4b832696e87154f1aba05806d1545ebd8ab4161a8cbadff71e63b3836a"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "perplexity/helpsteer_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "b97ef7a2a69f696352d36e8186072760e21594aaced38bd2c729cc1a6da9f366"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "perplexity/helpsteer_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "c65180025bdd6cdcd724b6d18dc057ce1093c10477db7a5347eece4242dd8705"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "perplexity/helpsteer_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "11b03110585d0fff3325aa61b56d1aa72ded1a38e52d32b93470663db64c0118"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "perplexity/helpsteer_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "760cc66868da76097360f3f7dbd11fecc6ffceabba07fdd9375a4a8ddda04bc6"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "perplexity/helpsteer_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "0665932c740bb63712ad518f046b128c0dd783b811e31236a93d7556c1c371b4"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "perplexity/helpsteer_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "cf502fe5492fd8f5a4bc418c7e487bb92ae2a94388739ffb66894ab41812d264"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "perplexity/helpsteer_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "a49a68e1f8c2d3a5cbed54df7c3b2a79c42e263020064bb90b052c56384d4b3e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "perplexity/helpsteer_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "706757f469ea591203d9efbc8fd00df6baa5a3111478b9144dc904b2c21ac26c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "perplexity/helpsteer_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "ca070a1ed83413e1f8292501a0ed5c9fc4449cd3151f4d02010f7648f3a22e6b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "perplexity/helpsteer_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "99832641d6b77e827b6f2fbbac3e843bb8e93ccf21d7ed6565f1270b3488404b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "perplexity/helpsteer_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "1655ce5b423c3dbd43b7c009faef2c9a2c5797f1942df95f6624d32ec99c3f65"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "perplexity/helpsteer_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "06411ff8d48e5f8e81370c1aad7a8a1eb523c42ee590109080bfd638d6f7fdac"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "perplexity/helpsteer_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "56fb05a546aa5379b8f01a89f6d93d66ead412a006a939485e9ef86955ef9b8c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "perplexity/helpsteer_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "0a8bb7739a3748ed05b1ae8af805b64ed9c8723132c28ccf445950e6dc3c267f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "perplexity/helpsteer_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "9d323ff2b5d4f753e565ceddcd7c3bae5531375457882f64c7806711f11f447e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "perplexity/helpsteer_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "3ee433222eeda2095e15266f151d6570a4761427343ad3b7d2f6e487ac97842f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "perplexity/helpsteer_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "3ee433222eeda2095e15266f151d6570a4761427343ad3b7d2f6e487ac97842f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "perplexity/helpsteer_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "3ee433222eeda2095e15266f151d6570a4761427343ad3b7d2f6e487ac97842f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "perplexity/helpsteer_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "3ee433222eeda2095e15266f151d6570a4761427343ad3b7d2f6e487ac97842f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "baseline",
+      "file": "perplexity/helpsteer_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "875ebff97bd3a59fa329c26039fe652804daf0c63ab6ce0261cf44ccd5852596"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "perplexity/helpsteer_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "2a6b80b7641a42bc438ea0067f19ff4b470c573a719f12effeb149cb55e5c799"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "perplexity/helpsteer_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "48788ef5387c254b98a31a7f78197c5930a907ce08ccee1099de7005fa5283c2"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "perplexity/helpsteer_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "bc3ba1e38d113340fe2177192f8f3cc34ce937463181bce77897e3593e0da371"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "perplexity/helpsteer_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "c5eb2db0f4221f32ea4423aa3a03f552130c1f30b6cc53b94f5b53df9fb29846"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "perplexity/helpsteer_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "98dba63db3bacd3d3c0ead14d4038441679b045c23732a3079f63b486bbc683a"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "perplexity/helpsteer_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "baef3511a6e153fcf68282a725dfba640a74d5198ba0637d2cea1904846fa256"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "perplexity/helpsteer_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "b4919060b0fda3b1601d668376cff5f6a9d153b1e6c513e334af50252b27e49c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "perplexity/helpsteer_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "b1c68f4ca3f3c6929eff3d9cf8382bc103f917b78d33e0fb80f240a43783e6d0"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "perplexity/helpsteer_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "55f3a898439541079a74b6ba18bf49183a16aa404aaea2366b99ee2d53fb2bfb"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "perplexity/helpsteer_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "49512692b1104ba2a8287185d085ba1465da01a11bcc9209abeaf53db1046dab"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "perplexity/helpsteer_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "9b48446d9ce6d8b42046b0629988383c77b8d1140136f1c297d6f02312007391"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "perplexity/helpsteer_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "105d7c21e380e1aec82d4cbcd8fce4782f7207f99984cf87e7ceb7fb1bbb897b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "perplexity/helpsteer_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "be5e8aee967d61a0a1f28c22c9b32f88e0d592b27b82a3563ab1e10ff3b0300e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "perplexity/helpsteer_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "31d8c6e44fe0bec1faa205f16ced1bf1768683cfc95ca1e096a259f3d26ea797"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "perplexity/helpsteer_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "425358805167a447b3138ed2512cfc56ea1339a4d4aefa263165053e3b98e9e0"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "perplexity/helpsteer_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "52f76cb7bb1ca7029a9840d142c24817fb3ec5c4021acd7782aaf60b80d9e16a"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "perplexity/helpsteer_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "ab02c2a0d23d4dd9b9a5f66ef68b734b65c3df96371ea38744616a4c9d948f36"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "perplexity/helpsteer_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "6002319e81ef4b2aff12e750a8f74547ccea1ca171588120523b2c742b4b4039"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "perplexity/helpsteer_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "04a96aa93bbf7fec79af2db4f017003e03dede492624ebfa6236686ccc6dcd54"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "perplexity/helpsteer_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "9a95fe92778118167b7a5873a0b98f5dbd4ecc5bebbe110a5055623f6f4ea6dc"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "perplexity/helpsteer_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "9a95fe92778118167b7a5873a0b98f5dbd4ecc5bebbe110a5055623f6f4ea6dc"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "perplexity/helpsteer_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "9a95fe92778118167b7a5873a0b98f5dbd4ecc5bebbe110a5055623f6f4ea6dc"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "helpsteer_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "perplexity/helpsteer_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "9a95fe92778118167b7a5873a0b98f5dbd4ecc5bebbe110a5055623f6f4ea6dc"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "baseline",
+      "file": "perplexity/openai_summary_pairwise/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "264aa98663bac4b9752ca84f36a1ee24a69c0820559aeadfc8a963f1e5d8e640"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_labels",
+      "file": "perplexity/openai_summary_pairwise/pair_exchange_labels.jsonl.gz",
+      "records": 1500,
+      "sha256": "ac35576b4e1d926d3aa0c0b4564d4c25c0bbaf94a0a42d42e8d6a3f6dcea5df4"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_positions",
+      "file": "perplexity/openai_summary_pairwise/pair_exchange_positions.jsonl.gz",
+      "records": 1500,
+      "sha256": "bcbe84ede9c2e7122004bafa7b5aebb14e8a3f1b3fb12835b3071c0d7762a937"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_exchange_both",
+      "file": "perplexity/openai_summary_pairwise/pair_exchange_both.jsonl.gz",
+      "records": 1500,
+      "sha256": "c3003673620f3d722104adbde72c5ee9904a58f90740f36b942435dc5c7efee6"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_numeric_first_1",
+      "file": "perplexity/openai_summary_pairwise/pair_numeric_first_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "92be50a128dbcbff6c87fba7ba51b11dc5fd20ddbd42d9a71d2054f444b7f440"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_numeric_first_2",
+      "file": "perplexity/openai_summary_pairwise/pair_numeric_first_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "7aeecf18aba0c349157c316e266337e592118e3a267ab5d9ce58acb457d18c94"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_anonymous",
+      "file": "perplexity/openai_summary_pairwise/pair_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "2fcc122a78ffc6fe54c38260412946ce9eba1fe3bdc241cc6e5855e948bc141b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_first_ai",
+      "file": "perplexity/openai_summary_pairwise/pair_ai_human_first_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "09489767daeb124428c537c0c8e0d65b451caa754b1b57dd55893ce7f883146d"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_ai_human_first_human",
+      "file": "perplexity/openai_summary_pairwise/pair_ai_human_first_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "1309f4cd0591c7958ceedbdbcadbc1d646fcf0fd19da82898b72288c247e450e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_none",
+      "file": "perplexity/openai_summary_pairwise/pair_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "1d8d6cb4378baa5f549b6a294ff08617dbb4d962ccde2566bb223114686cbe7e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_first_high",
+      "file": "perplexity/openai_summary_pairwise/pair_social_first_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "a67a82d6ad6e418e03bad0a86009a76f87794aacb5a68ab0831b0fb20433ce74"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_social_second_high",
+      "file": "perplexity/openai_summary_pairwise/pair_social_second_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "1f58e9b10b3e1f221609951963d38794206ecf624080c7a9d48a737e12e96596"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_none",
+      "file": "perplexity/openai_summary_pairwise/pair_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "57633308fa358243ae08b205605072483536dd2d16eca903da9012c7b66d238f"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_first_selected",
+      "file": "perplexity/openai_summary_pairwise/pair_prior_judge_first_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "d2ce8ad1ee55236931a347abb8f34768b06aa5cac62f9f0b0632dfc11bf9fe2c"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_prior_judge_second_selected",
+      "file": "perplexity/openai_summary_pairwise/pair_prior_judge_second_selected.jsonl.gz",
+      "records": 1500,
+      "sha256": "c68a1bd1c255177b4e00c58be425f8a5f12c98a3787e579463ef370da6671b04"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_last",
+      "file": "perplexity/openai_summary_pairwise/pair_tie_last.jsonl.gz",
+      "records": 1500,
+      "sha256": "946033d8b99e024e1f8c6bfd70f4b09e07528900befe6dca902c846c52076d94"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_first",
+      "file": "perplexity/openai_summary_pairwise/pair_tie_first.jsonl.gz",
+      "records": 1500,
+      "sha256": "74077d44c14640e1ecd49545401044c786762732574cde8faee5488b83de0fcb"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_tie_middle",
+      "file": "perplexity/openai_summary_pairwise/pair_tie_middle.jsonl.gz",
+      "records": 1500,
+      "sha256": "5d330406e72fe1c7a06b71423fbb47173e0287ea99ace75bbd87136448e1e606"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_rejection",
+      "file": "perplexity/openai_summary_pairwise/pair_rejection.jsonl.gz",
+      "records": 1500,
+      "sha256": "00f15e23e4c56404c7c539653ed0c2b5b29860063a3469d457783b489fecd843"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_clean",
+      "file": "perplexity/openai_summary_pairwise/pair_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "c14e3ca0921c941d5e01cc39f309cececf7e3df068b05df7375360f02d1fb7d0"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_first_inert",
+      "file": "perplexity/openai_summary_pairwise/pair_injection_first_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "9ff9cbffcdcbb249c9a61db3e479af01beb77f2a66d996f2df226da26c63ecb4"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_first_directive",
+      "file": "perplexity/openai_summary_pairwise/pair_injection_first_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "dfd9270a49e587181bd1172c70e2a473b29c24bcc577cf8b2cab3a2f38a61259"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_second_inert",
+      "file": "perplexity/openai_summary_pairwise/pair_injection_second_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "b7dd7aa16eac465412b7eae7957d2730f307fdb397b983ff8b8a96a6020d99c5"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_injection_second_directive",
+      "file": "perplexity/openai_summary_pairwise/pair_injection_second_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "022f0599b083a36044d0bf2f21d08026d4104afa6b5b8d487c80b4578a1d4e61"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_1",
+      "file": "perplexity/openai_summary_pairwise/pair_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "87667119b6be60baa8674f4673ef893cc8821932278c8d05d7c4f7714e1f9970"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_2",
+      "file": "perplexity/openai_summary_pairwise/pair_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "87667119b6be60baa8674f4673ef893cc8821932278c8d05d7c4f7714e1f9970"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_3",
+      "file": "perplexity/openai_summary_pairwise/pair_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "87667119b6be60baa8674f4673ef893cc8821932278c8d05d7c4f7714e1f9970"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "openai_summary_pairwise.jsonl",
+      "condition": "pair_repeat_4",
+      "file": "perplexity/openai_summary_pairwise/pair_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "87667119b6be60baa8674f4673ef893cc8821932278c8d05d7c4f7714e1f9970"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "baseline",
+      "file": "perplexity/summeval_relevance_scoring/baseline.jsonl.gz",
+      "records": 1500,
+      "sha256": "93d7f4a31825e37e1122fb5cf916de78d82f9c6a544a49401ee78ab52a1a39c5"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_identifier_a",
+      "file": "perplexity/summeval_relevance_scoring/score_identifier_a.jsonl.gz",
+      "records": 1500,
+      "sha256": "a0961ae4c9e3e877f34dbedf370421d42a0f80ec161c150f89e5b17c8b1ac48d"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_identifier_b",
+      "file": "perplexity/summeval_relevance_scoring/score_identifier_b.jsonl.gz",
+      "records": 1500,
+      "sha256": "10f07fb120b9737170810bd2c3a410687ec12cb16a1061538239c607dcab3362"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_numeric_identifier_1",
+      "file": "perplexity/summeval_relevance_scoring/score_numeric_identifier_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "c6179c62379eb161e705a635f030981629dfde70396dde8fdff9929a3edb20f1"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_numeric_identifier_2",
+      "file": "perplexity/summeval_relevance_scoring/score_numeric_identifier_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "1848aa48c3c1d5b4127e15b7bdf4affb5d3dc18740a20a720ec9850fd436a0b1"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_anonymous",
+      "file": "perplexity/summeval_relevance_scoring/score_ai_human_anonymous.jsonl.gz",
+      "records": 1500,
+      "sha256": "b326aacafece3a8ff57f558e69cff2b00dbbad42d53374307baa5243d50a4460"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_ai",
+      "file": "perplexity/summeval_relevance_scoring/score_ai_human_ai.jsonl.gz",
+      "records": 1500,
+      "sha256": "3f955737db62814b4fb84b9ae2bb23efb863762d67819f867fc84cc7b9551499"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_ai_human_human",
+      "file": "perplexity/summeval_relevance_scoring/score_ai_human_human.jsonl.gz",
+      "records": 1500,
+      "sha256": "1d48c872f1e0630d2428f58244bbcc771a4ac732d111e37959792373dea26a5d"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_none",
+      "file": "perplexity/summeval_relevance_scoring/score_social_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "47a1bd402bf97346e46b6fb2d4a00e5a7bf9d9d0c0e0faf777c0941af4b7e6f7"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_high",
+      "file": "perplexity/summeval_relevance_scoring/score_social_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "44532c8eee87451dcc4dad01386d7ca491d2d1578b2eca4723578d11246ea7ff"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_social_low",
+      "file": "perplexity/summeval_relevance_scoring/score_social_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "5ec68ed95732c5b2622cb2919cd1e229a33a415b476d158cf01d22d5e489bf24"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_none",
+      "file": "perplexity/summeval_relevance_scoring/score_prior_judge_none.jsonl.gz",
+      "records": 1500,
+      "sha256": "1469a3a44a21cb09c58a8e6d9c98d29c34a4946f4215085f7295cf33c8375263"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_high",
+      "file": "perplexity/summeval_relevance_scoring/score_prior_judge_high.jsonl.gz",
+      "records": 1500,
+      "sha256": "f934916f83e6269f06ab016115ba8f0280670be8952d106394dafda94431a57b"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_prior_judge_low",
+      "file": "perplexity/summeval_relevance_scoring/score_prior_judge_low.jsonl.gz",
+      "records": 1500,
+      "sha256": "f169ef43e712def1406a8a3a4449ed8c7a7f1e3ccc3e393e2a4c5fe165c0d4e8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_anchor_reverse",
+      "file": "perplexity/summeval_relevance_scoring/score_anchor_reverse.jsonl.gz",
+      "records": 1500,
+      "sha256": "ca72aae2818cb05b5d3e35de477cfc96207ab74659fd79c9c90c9c6768be9f09"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_granularity_3",
+      "file": "perplexity/summeval_relevance_scoring/score_granularity_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "6d7602fba2bbeee9abcd41316175f6573bcb114eced2853013435e320bad2358"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_granularity_7",
+      "file": "perplexity/summeval_relevance_scoring/score_granularity_7.jsonl.gz",
+      "records": 1500,
+      "sha256": "80dfaaedff40ab25e0850d14fefe333c046dc2dd1610e590e954aaba628f91fa"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_clean",
+      "file": "perplexity/summeval_relevance_scoring/score_injection_clean.jsonl.gz",
+      "records": 1500,
+      "sha256": "cb0d1145b4b79e646492c671940b4b6bfd0369b80885f3ead34758f40846676e"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_inert",
+      "file": "perplexity/summeval_relevance_scoring/score_injection_inert.jsonl.gz",
+      "records": 1500,
+      "sha256": "9a2e68e18221fa3ee2ce4a31fe1a4493bf09719b91ce27f2f51789b1cecd1ac8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_injection_directive",
+      "file": "perplexity/summeval_relevance_scoring/score_injection_directive.jsonl.gz",
+      "records": 1500,
+      "sha256": "71305fd79b7a46283ef3c9912c1a132ad327291fabd55a729ec2645d8a4126d3"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_1",
+      "file": "perplexity/summeval_relevance_scoring/score_repeat_1.jsonl.gz",
+      "records": 1500,
+      "sha256": "8ca4e0fcb369f6890ad3c31fdab1206cf4e9654f244d65eaa963ce52122b3ec8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_2",
+      "file": "perplexity/summeval_relevance_scoring/score_repeat_2.jsonl.gz",
+      "records": 1500,
+      "sha256": "8ca4e0fcb369f6890ad3c31fdab1206cf4e9654f244d65eaa963ce52122b3ec8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_3",
+      "file": "perplexity/summeval_relevance_scoring/score_repeat_3.jsonl.gz",
+      "records": 1500,
+      "sha256": "8ca4e0fcb369f6890ad3c31fdab1206cf4e9654f244d65eaa963ce52122b3ec8"
+    },
+    {
+      "model": "Perplexity",
+      "dataset": "summeval_relevance_scoring.jsonl",
+      "condition": "score_repeat_4",
+      "file": "perplexity/summeval_relevance_scoring/score_repeat_4.jsonl.gz",
+      "records": 1500,
+      "sha256": "8ca4e0fcb369f6890ad3c31fdab1206cf4e9654f244d65eaa963ce52122b3ec8"
+    }
+  ],
+  "judgments": 702000,
+  "served_models": {
+    "Jev": [
+      "typesafe/jev-1.13-20260917"
+    ],
+    "Clef": [
+      "cloudflare/clef-flash"
+    ],
+    "Perplexity": [
+      "perplexity/pplx-decider-v1.1-27b-20261006"
+    ]
+  },
+  "dataset_manifest_sha256": "3c460682ef52a5a38d3765d9e02bf175e199a27d7ead5f6f330c2f8af36528b3",
+  "selection": "baseline earliest-started valid matching checkpoint; other conditions analyzed snapshot verified against matching history",
+  "baseline_snapshots": "Separate later baseline snapshots preserve existing recovery-sensitivity diagnostics; not extra planned judgments",
+  "omitted": [
+    "source text",
+    "human annotations",
+    "timestamps",
+    "headers",
+    "errors",
+    "provider response IDs",
+    "run IDs",
+    "local paths",
+    "credentials"
+  ]
+}

@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\shortstack[l]{Dataset\\{}model} & \shortstack[l]{B - A\\{}pp [95\% CI]} & \shortstack[l]{2 - 1\\{}pp [95\% CI]} \\
+\midrule
+Humicroedit / Jev & 0.86 [0.78, 0.95]* & 0.94 [0.86, 1.02]* \\
+Humicroedit / Clef & -0.27 [-0.43, -0.10]* & 0.05 [-0.12, 0.22] \\
+Humicroedit / Perplexity & 1.35 [1.26, 1.44]* & 0.01 [-0.06, 0.09] \\
+HS score / Jev & -0.16 [-0.23, -0.10]* & 0.14 [0.08, 0.21]* \\
+HS score / Clef & 0.45 [0.31, 0.59]* & 0.19 [0.05, 0.34] \\
+HS score / Perplexity & -0.89 [-0.95, -0.83]* & -0.20 [-0.25, -0.15]* \\
+SummEval / Jev & -0.37 [-0.44, -0.31]* & -0.64 [-0.72, -0.56]* \\
+SummEval / Clef & 0.15 [0.00, 0.29] & -0.05 [-0.18, 0.08] \\
+SummEval / Perplexity & -0.09 [-0.20, 0.03] & -0.17 [-0.21, -0.14]* \\
+\bottomrule
+\end{tabular}
+\caption{Scoring identifiers are shared-state candidate metadata. All effects use normalized score percentage points and n=1,500; * marks BY q<.05 in the 369-test family; pointwise CIs.}
+\label{tab:appendix_score_identifiers}
+\end{table*}

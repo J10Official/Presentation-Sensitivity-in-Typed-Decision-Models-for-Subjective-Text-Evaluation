@@ -1,0 +1,534 @@
+{
+  "purpose": "Deterministic presentation of previously validated results; no new inference or API calls",
+  "input_sha256": {
+    "reports/validated_analysis/level1_effects.json": "1096594785cbb25193ee75448ec8e011c8d589e84803773060b0b45f3deadb97",
+    "reports/validated_analysis/level1_audit.json": "5dd8dd14b472f1a8a2f67d0f830f28ca0eb39cab32b29bdeeee5406d2e5da36a",
+    "reports/validated_analysis/level2_results.json": "05618b45c22d059cc4d9c94b5d017fa7a5e5b6214d5de18f571ece3cc5966235",
+    "reports/validated_analysis/level2_audit.json": "2802fb03a031d6e95047b91def7d0d9ce3db541c8cf3cbc440671569d049746f",
+    "reports/validated_analysis/manifest.json": "47565982977d3a7e32e0acd25ca9165be5fee05606e4687f8fcf7f6446a83057",
+    "reports/full_study_analysis/tables.json": "a66ede90299d1291a4144ca1cfb6cbcbac4f17252982ca1f6c5becc1bec3e3dd",
+    "scripts/analysis_level1.py": "accf448094966dbd1f05f212fadb2f1edbd0f3f9db4b7cae5f0636c27460b754",
+    "scripts/analysis_level2.py": "1646359950be61ea1cb38bf8993553256acfaf5810a49651d1d0306421cb7604"
+  },
+  "output_sha256": {
+    "paper/appendix_results.tex": "e6c5cbff4824f289169e9610433c3a9979fc0448ea34a742cf44f19fb09a4682",
+    "paper/main.tex": "22471d7c294339d46a61699a080076f29d63377683ec099f9b60dff357aa73ef",
+    "paper/results.tex": "25caea5274c1045130cb955faa4ae543ac2b4c2bc9f8a08b42ad31af318a0f61",
+    "paper/supplement_methods.tex": "d4652bf76f27913b523e94203690746dc15b29b1fe3f529c2f15e6cd8e8b9352",
+    "paper/supplement_statistics.tex": "5d344f7b47eb52ca1d91417b6f257b1e9f26d27e2a67c9536425553f839d7bcd",
+    "paper/figures/figure3_score_levels_ranks.pdf": "fb85ab05e73145da22f94362a20204576732431d1352962142c3c6a663fb8d88",
+    "paper/generated/appendix_compression.tex": "7e5a70630b0970ac1944aa15b73e9ba53bff582383da15444c979819a1a50308",
+    "paper/generated/appendix_dependence.tex": "10e054fba7b3f441c485d8fae445a184eb5e8bcf57cf8e1ece71b43709f8a7a1",
+    "paper/generated/appendix_disagreement_pair.tex": "4826e6a6245690ca80c0ca93945e11c646d52553f2e0bb3844d4b127bf534eb1",
+    "paper/generated/appendix_disagreement_score.tex": "7f63711120d5d4d68ceda87ba867688a2e54142c42c4a83b155ea87a3c21eb9b",
+    "paper/generated/appendix_factorial_choice.tex": "666b71bfd23673c7e84ec4056baf3515ec572a6b9ea68d53e7e7ce38dbfedfc3",
+    "paper/generated/appendix_factorial_probability.tex": "4db45188f75ea3e3059e1a473c0bacfd9254dd44ec492c942a9bd286f0868f83",
+    "paper/generated/appendix_formats_helpfulness.tex": "190dbb21e0e0220388ec49f1d4ec1bc5ecf5ffd9bd1d00b173425cc5450ba94b",
+    "paper/generated/appendix_formats_humor.tex": "de18fd64e765f05120bc7e25bb10cbd811084fc73909e11545d5c5f48391dd1b",
+    "paper/generated/appendix_formats_relevance.tex": "94c5fff018831d4ef1b618c9a4b8daa0e03024a2a9c05819a41479dece590ac2",
+    "paper/generated/appendix_length.tex": "e5c0f05a1bb89d923cb8c3d01226c04e08d18a32e21aee166fd459ef59239ded",
+    "paper/generated/appendix_meta_choice.tex": "be1c39b75336c663505779c08b7b6543fef7c3966cf25b85430f73e6f18043dd",
+    "paper/generated/appendix_meta_score.tex": "a27f4f1527d56daec998002a6cd4e6ec75458a9942bbd4be3af094646d4d2130",
+    "paper/generated/appendix_numeric_pair.tex": "3252da9d7ee9c8ca62c7c3c645c2947704a33251aa05fc263a414fe205256afa",
+    "paper/generated/appendix_pair_injection.tex": "1940501a905aaed2b43474fc28870ac270cc1e25373665b1e87a9fd94fcd29c8",
+    "paper/generated/appendix_pair_semantic.tex": "b3cd3412e2c6cec4c3326e8b79fd7a71d290c1a078694f6d313ad372887c4399",
+    "paper/generated/appendix_reader_alignment.tex": "05df8cc500d5d18bd2ee54a65ae580b53ebd88bb30bc274726f35f179ed0c7fe",
+    "paper/generated/appendix_reader_error.tex": "c70594af29a39136d84fdac1e1a005a63625d6216c6c7f8058a94aafbfb21734",
+    "paper/generated/appendix_reference_population.tex": "87e2b97afad8cb3b0f2e0829e87b0f1b8edd16c086328300f36bb4f9fcdbafe7",
+    "paper/generated/appendix_robustness_summary.tex": "73ad02a4c99aeb1fd593da6c7414da05fa1320c32968de8ed91abcccd08544c1",
+    "paper/generated/appendix_score_identifiers.tex": "a5501c700ec7aeda10f6fabb67bf485a1e2836ccafdce1690180930d1db5c2be",
+    "paper/generated/appendix_score_injection.tex": "3ed31a8b308690bdd93cc5a6f7c6a0891a1fd94ce329931cca406112615c90ce",
+    "paper/generated/appendix_score_semantic.tex": "0249686231fa604308b9fbb4cecc8df6c1445230d7ca5ab1421687433d280b4c",
+    "paper/generated/appendix_shared_vulnerability.tex": "da32da7e030a2d6462813968aacefc46f507d703cca7c91cf9c6eecad1a2297f",
+    "paper/generated/appendix_tie_placement.tex": "4db0b0ee23a25d7894ca3c27d907cd67fa340fd606281bffb6887a1f1cda193c",
+    "paper/generated/appendix_tie_reference.tex": "224f2c6e05588454fa88eee3b8a4f6c4e91410ce17b432e0ecb2c322110ff525",
+    "paper/generated/request_examples.tex": "0ea13ce5ac327fd80cd872bf70e28d58ee7de724a45dc6b94fafe88488d4c2a7",
+    "paper/generated/results_choice_consequences.tex": "7c80d2ceb3a79c8c7684ac1d3a76c16a2e5ca82f9b55bef7b0bb2d6786f0dd21",
+    "paper/generated/results_choice_effects.tex": "4aa9cfcf9cfcf156bf4ea7070252a604b504c8c402bd3f47e171af3cf579003a",
+    "paper/generated/results_score_effects.tex": "16b79a15d7875a3b87b9e72e1ab23af41fffabf07d87fcaefbc1d4cb4fe2e2b1",
+    "paper/generated/table1_baseline_repeat.tex": "d0cd950e8b2b34921fdbc71e66b297e0be2d895db50c6d89179bc7b3b1a23225",
+    "paper/generated/table2_framing.tex": "81f12562865f2bf61ed1efd964111e7f00007a5e02382422115e8639816a2f72",
+    "paper/output/current/manuscript.pdf": "d1aafcf231924ee7966ac78357f86e51c4d802a26159c342c527f1fe9553057f"
+  },
+  "numeric_claims": 69,
+  "used_prose_claims": [
+    "clef_b_selection_sum",
+    "clef_b_sum",
+    "clef_b_ukp",
+    "clef_baseline_hs",
+    "clef_inject_score",
+    "clef_numeric_ukp",
+    "clef_recovered_hs",
+    "clef_reject_hs",
+    "clef_reject_sum",
+    "clef_rejection_same_hs",
+    "clef_source_flip_sum",
+    "clef_source_sum",
+    "human_humor_mid",
+    "jev_b_hs",
+    "jev_b_sum",
+    "jev_b_ukp",
+    "jev_crowd_r",
+    "jev_depend_b",
+    "jev_depend_pos",
+    "jev_expert_r",
+    "jev_format_rank_range",
+    "jev_humor_mid",
+    "jev_humor_sd_ratio",
+    "jev_humor_slope",
+    "jev_len_hs",
+    "jev_len_score",
+    "jev_len_ukp",
+    "jev_numeric_ukp",
+    "jev_pool_r",
+    "jev_pos_hs",
+    "jev_pos_selection_sum",
+    "jev_pos_sum",
+    "jev_pos_ukp",
+    "jev_prior_sum",
+    "jev_prior_sum_q",
+    "jev_reader_hs",
+    "jev_reader_score",
+    "jev_reader_sum",
+    "jev_reject_sum",
+    "jev_reverse_humor",
+    "jev_score_id_max",
+    "jev_seven_humor",
+    "jev_source_score_humor",
+    "jev_sum_sd_ratio",
+    "jev_summary_clear",
+    "jev_summary_disputed",
+    "jev_summary_sens_clear",
+    "jev_summary_sens_disputed",
+    "jev_three_sum",
+    "jev_tie_first",
+    "jev_tie_last",
+    "jev_tie_middle",
+    "jev_tie_native",
+    "jev_tie_strict",
+    "jev_wrapper_reader_sum",
+    "jev_wrapper_source_sum",
+    "jev_wrapper_source_sum_ci",
+    "meta_b",
+    "meta_b_i2",
+    "meta_pos",
+    "meta_pos_i2",
+    "meta_reader",
+    "meta_reader_i2",
+    "pplx_inject_sum_second",
+    "pplx_pos_hs",
+    "pplx_pos_ukp",
+    "pplx_reader_flip_ukp",
+    "pplx_tie_native",
+    "reader_prior_range"
+  ],
+  "displays": [
+    {
+      "id": "figure1_position_identifier",
+      "kind": "figure",
+      "points": 18
+    },
+    {
+      "id": "figure2_endorsement_cues",
+      "kind": "figure",
+      "points": 36
+    },
+    {
+      "id": "figure3_score_levels_ranks",
+      "kind": "figure",
+      "points": 27
+    },
+    {
+      "id": "table1_baseline_repeat",
+      "kind": "table",
+      "label": "tab:results_baseline",
+      "rows": 9,
+      "columns": [
+        "Task / model",
+        "Pair alignment / %",
+        "Pair repeat / flip %",
+        "Score / MAE",
+        "Score / Spearman",
+        "Score repeat / abs. delta pp"
+      ]
+    },
+    {
+      "id": "table2_framing",
+      "kind": "table",
+      "label": "tab:results_framing",
+      "rows": 9,
+      "columns": [
+        "Task / model",
+        "Rejection inconsistency / % [95% CI]",
+        "Strict alignment change / pp [95% CI]",
+        "X-last use / %"
+      ]
+    },
+    {
+      "id": "results_choice_effects",
+      "kind": "table",
+      "label": "tab:results_choice_effects",
+      "rows": 12,
+      "columns": [
+        "Task / contrast",
+        "Jev / pp [95% CI]",
+        "Clef Flash / pp [95% CI]",
+        "Perplexity / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "results_choice_consequences",
+      "kind": "table",
+      "label": "tab:results_choice_consequences",
+      "rows": 9,
+      "columns": [
+        "Task / outcome",
+        "Jev",
+        "Clef Flash",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "results_score_effects",
+      "kind": "table",
+      "label": "tab:results_score_effects",
+      "rows": 12,
+      "columns": [
+        "Task / contrast",
+        "Jev / pp [95% CI]",
+        "Clef Flash / pp [95% CI]",
+        "Perplexity / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_reader_alignment",
+      "kind": "table",
+      "label": "tab:appendix_reader_alignment",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "First high / Agreement change / pp [95% CI]",
+        "Second high / Agreement change / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_reader_error",
+      "kind": "table",
+      "label": "tab:appendix_reader_error",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "High feedback / MAE change / pp [95% CI]",
+        "Low feedback / MAE change / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_robustness_summary",
+      "kind": "table",
+      "label": "tab:appendix_robustness_summary",
+      "rows": 6,
+      "columns": [
+        "Check",
+        "Quantity",
+        "Alternative estimate"
+      ]
+    },
+    {
+      "id": "appendix_factorial_probability",
+      "kind": "table",
+      "label": "tab:appendix_factorial_probability",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "First-position / pp [95% CI]",
+        "B-label / pp [95% CI]",
+        "Interaction / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_factorial_choice",
+      "kind": "table",
+      "label": "tab:appendix_factorial_choice",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "First-position / pp [95% CI]",
+        "B-label / pp [95% CI]",
+        "Interaction / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_pair_semantic",
+      "kind": "table",
+      "label": "tab:appendix_pair_semantic",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "Human - AI / pp [95% CI]",
+        "Reader high - low / pp [95% CI]",
+        "Prior high - low / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_score_semantic",
+      "kind": "table",
+      "label": "tab:appendix_score_semantic",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "Human - AI / pp [95% CI]",
+        "Reader high - low / pp [95% CI]",
+        "Prior high - low / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_numeric_pair",
+      "kind": "table",
+      "label": "tab:appendix_numeric_pair",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "2 - 1 probability / pp [95% CI]",
+        "2 - 1 selection / pp [95% CI]",
+        "Reversal flips / %"
+      ]
+    },
+    {
+      "id": "appendix_score_identifiers",
+      "kind": "table",
+      "label": "tab:appendix_score_identifiers",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "B - A / pp [95% CI]",
+        "2 - 1 / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_pair_injection",
+      "kind": "table",
+      "label": "tab:appendix_pair_injection",
+      "rows": 18,
+      "columns": [
+        "Dataset / model",
+        "Target",
+        "Target probability / pp [95% CI]",
+        "Target selection / pp [95% CI]",
+        "Flips / %"
+      ]
+    },
+    {
+      "id": "appendix_score_injection",
+      "kind": "table",
+      "label": "tab:appendix_score_injection",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "Score delta / pp [95% CI]",
+        "Mean abs. / pp",
+        "Abs. >5 pp / %",
+        "Human MAE delta / pp [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_tie_placement",
+      "kind": "table",
+      "label": "tab:appendix_tie_placement",
+      "rows": 27,
+      "columns": [
+        "Dataset / model",
+        "X position",
+        "X use / %",
+        "Mean P(X)",
+        "Conditional A delta / pp [95% CI]",
+        "Non-X flip / %"
+      ]
+    },
+    {
+      "id": "appendix_tie_reference",
+      "kind": "table",
+      "label": "tab:appendix_tie_reference",
+      "rows": 12,
+      "columns": [
+        "Dataset / model",
+        "Native reference",
+        "N",
+        "X-last use / %",
+        "Mean P(X)"
+      ]
+    },
+    {
+      "id": "appendix_formats_humor",
+      "kind": "table",
+      "label": "tab:appendix_formats_humor",
+      "rows": 9,
+      "columns": [
+        "Model",
+        "Variant",
+        "Score delta / pp [95% CI]",
+        "Rank rho",
+        "Human MAE / delta pp"
+      ]
+    },
+    {
+      "id": "appendix_formats_helpfulness",
+      "kind": "table",
+      "label": "tab:appendix_formats_helpfulness",
+      "rows": 9,
+      "columns": [
+        "Model",
+        "Variant",
+        "Score delta / pp [95% CI]",
+        "Rank rho",
+        "Human MAE / delta pp"
+      ]
+    },
+    {
+      "id": "appendix_formats_relevance",
+      "kind": "table",
+      "label": "tab:appendix_formats_relevance",
+      "rows": 9,
+      "columns": [
+        "Model",
+        "Variant",
+        "Score delta / pp [95% CI]",
+        "Rank rho",
+        "Human MAE / delta pp"
+      ]
+    },
+    {
+      "id": "appendix_compression",
+      "kind": "table",
+      "label": "tab:appendix_compression",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "Slope",
+        "SD ratio",
+        "Human mid / %",
+        "Judge mid / %",
+        "Human / P90-P10",
+        "Judge / P90-P10"
+      ]
+    },
+    {
+      "id": "appendix_length",
+      "kind": "table",
+      "label": "tab:appendix_length",
+      "rows": 18,
+      "columns": [
+        "Dataset / model",
+        "Unadjusted rho",
+        "Adjusted slope / pp per length SD [95% CI]"
+      ]
+    },
+    {
+      "id": "appendix_disagreement_pair",
+      "kind": "table",
+      "label": "tab:appendix_disagreement_pair",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "Disp. vs / margin rho",
+        "Disp. vs / sensitivity rho",
+        "Disp. vs / repeat SD rho",
+        "Clear abs. / sensitivity pp",
+        "Disputed abs. / sensitivity pp"
+      ]
+    },
+    {
+      "id": "appendix_disagreement_score",
+      "kind": "table",
+      "label": "tab:appendix_disagreement_score",
+      "rows": 9,
+      "columns": [
+        "Dataset / model",
+        "Disp. vs / prob. var. rho",
+        "Disp. vs / MAE rho",
+        "Disp. vs / repeat SD rho",
+        "Clear abs. / sensitivity pp",
+        "Disputed abs. / sensitivity pp"
+      ]
+    },
+    {
+      "id": "appendix_reference_population",
+      "kind": "table",
+      "label": "tab:appendix_reference_population",
+      "rows": 12,
+      "columns": [
+        "Model",
+        "Reference",
+        "Mean",
+        "Signed error",
+        "MAE",
+        "Pearson",
+        "Spearman"
+      ]
+    },
+    {
+      "id": "appendix_shared_vulnerability",
+      "kind": "table",
+      "label": "tab:appendix_shared_vulnerability",
+      "rows": 18,
+      "columns": [
+        "Dataset / model",
+        "Magnitude r / [95% CI]",
+        "Reader/prior / event N",
+        "Intersect/union / N",
+        "Jaccard"
+      ]
+    },
+    {
+      "id": "appendix_meta_choice",
+      "kind": "table",
+      "label": "tab:appendix_meta_choice",
+      "rows": 24,
+      "columns": [
+        "Model / contrast",
+        "Pooled pp / [95% CI]",
+        "Q",
+        "I² / %",
+        "τ² / pp²"
+      ]
+    },
+    {
+      "id": "appendix_meta_score",
+      "kind": "table",
+      "label": "tab:appendix_meta_score",
+      "rows": 21,
+      "columns": [
+        "Model / contrast",
+        "Pooled pp / [95% CI]",
+        "Q",
+        "I² / %",
+        "τ² / pp²"
+      ]
+    },
+    {
+      "id": "appendix_dependence",
+      "kind": "table",
+      "label": "tab:appendix_dependence",
+      "rows": 12,
+      "columns": [
+        "Model / UKP contrast",
+        "Dyadic / pp [95% CI]",
+        "Component / pp [95% CI]",
+        "Bootstrap / pp [95% CI]",
+        "Omit largest / pp"
+      ]
+    }
+  ],
+  "checks": [
+    "Validated source hashes and zero failed source checks",
+    "Unique contrast and row mappings",
+    "All plotted point estimates lie within their saved intervals",
+    "18 factorial, 36 cue, 27 format display points",
+    "Complete electronic exports: 369,450,648,45 rows",
+    "No unresolved numerical placeholders",
+    "Pointwise CIs distinguished from BY discovery rules"
+  ],
+  "unresolved": [
+    "Human references fixed; shared workers and provider-time covariance not fully modelled",
+    "Three-task pools are secondary, not task-population estimates"
+  ]
+}

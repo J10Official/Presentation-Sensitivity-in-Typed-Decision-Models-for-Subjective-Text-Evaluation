@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "check": "M1 inventory and denominators",
+      "status": "PASS",
+      "detail": "450 changed/control comparisons; 18 canonical baseline cells are controls, not additional observations"
+    },
+    {
+      "check": "M1 paired practical-impact arithmetic",
+      "status": "PASS",
+      "detail": "Difference of means equals mean paired difference; strict-reference denominators retained"
+    },
+    {
+      "check": "M1 CI / SE / statistic / df / p",
+      "status": "PASS",
+      "detail": "All 1951 non-degenerate paired summaries agree; zero-variation results remain descriptive"
+    },
+    {
+      "check": "M2 no shared-call primary edges",
+      "status": "PASS",
+      "detail": "Primary associations exclude any shared source calls; excluded edges and estimated repeat-noise covariance retained separately"
+    },
+    {
+      "check": "M2 overlap arithmetic",
+      "status": "PASS",
+      "detail": "Jaccard numerator/denominator counts checked; zero union is missing, not zero overlap"
+    },
+    {
+      "check": "M2 Fisher-z CI / SE / statistic / p",
+      "status": "PASS",
+      "detail": "All 648 non-degenerate correlation intervals/tests agree"
+    },
+    {
+      "check": "M3 source effect-size / task weighting",
+      "status": "PASS",
+      "detail": "Raw pp differences; inverse (within-task variance + REML tau²) weights sum to one; no weighting by API-call count"
+    },
+    {
+      "check": "M3 Q / I² / tau² / df",
+      "status": "PASS",
+      "detail": "45 separate three-task pools; Q df=2; REML-consistent I²; tau² in pp²"
+    },
+    {
+      "check": "M3 REML optimum",
+      "status": "PASS",
+      "detail": "Boundary KKT or interior restricted-likelihood derivative checked"
+    },
+    {
+      "check": "M3 CI / SE / statistic / p and leave-one-out",
+      "status": "PASS",
+      "detail": "Full pools df=2; leave-one-task-out df=1; same REML/mKH method throughout"
+    },
+    {
+      "check": "synthetic statistical fixtures",
+      "status": "PASS",
+      "detail": "Hand-solvable REML tau²=.9, Q=20, I²=90%; zero heterogeneity; unit scaling; correlation and control definitions passed before empirical execution"
+    },
+    {
+      "check": "secondary multiple-comparison handling",
+      "status": "PASS",
+      "detail": "One BY family of 1656 new signed-effect/correlation/pooling tests; absolute movement and overlap remain descriptive"
+    }
+  ],
+  "failures": [],
+  "secondary_tests": 1656,
+  "secondary_by_significant": 1059,
+  "pool_count": 45,
+  "meta_by_significant": 1,
+  "primary_associations": 648,
+  "excluded_shared_call_associations": 81,
+  "seed": 20261012,
+  "random_draws": 0,
+  "limitations": [
+    "Only three task components per pool; heterogeneity is imprecise and the task sample is not random.",
+    "Provider-wave drift, shared annotators and complete human-reference uncertainty remain unmodelled.",
+    "Correlation intervals use a first-order influence-function approximation; shared-mechanism claims are not supported.",
+    "Repeat-noise covariance assumes independent equal-variance call errors; it is a diagnostic, not subtraction from observed effects.",
+    "No causal pairwise-versus-scoring comparison: datasets, rubrics and cue representations differ."
+  ]
+}

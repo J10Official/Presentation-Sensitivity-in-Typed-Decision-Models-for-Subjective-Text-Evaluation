@@ -1,0 +1,43 @@
+\subsection{Validated variance estimators}
+\label{app:statistics}
+For paired item differences $d_i$, let $r_i=d_i-\bar d$. The cluster variance of the mean is
+\begin{equation}
+\widehat V_{\mathrm{cluster}}=\frac{G}{G-1}\frac{1}{n^2}\sum_{g=1}^{G}\left(\sum_{i\in g}r_i\right)^2.
+\end{equation}
+For UKP dyads $i=(u,v)$, the shared-joke variance is
+\begin{equation}
+\widehat V_{\mathrm{dyad}}=\frac{G}{G-1}\frac{1}{n^2}\left[\sum_u\left(\sum_{i:u\in i}r_i\right)^2-\sum_i r_i^2\right].
+\end{equation}
+$G$ counts clusters or distinct joke nodes. Intervals use $\bar d\pm t_{.975,G-1}\sqrt{\widehat V}$. Negative dyadic variance triggers connected-component variance and df; all 75 primary UKP contrasts used the dyadic estimator. Cluster bootstrap checks use 2,000 replicates and a fixed seed. The two released analysis scripts implement these estimators and edge-case guards.
+
+\subsection{Multiplicity and practical impacts}
+\label{app:multiplicity}
+Discovery claims use Benjamini--Yekutieli (BY) adjustment \citep{benjamini2001}. The primary family contains 369 directional contrasts; 296 meet $q<.05$. The electronic ledger also retains Benjamini--Hochberg values \citep{benjamini1995}, which yield 308 discoveries. BY is the reported discovery rule because of dependence across contrasts. All reported 95\% intervals are pointwise.
+
+Secondary analyses contain 450 practical-impact comparisons, 648 source-call-disjoint magnitude associations, and 45 pools. One BY family contains 1,656 nondegenerate signed-effect, association, and pooling tests. Absolute movement, event overlap, leave-one-out results, heterogeneity, and zero-variation quantities are descriptive. Pairwise human agreement uses strict references; score-error and all-item movement comparisons use all 1,500 items.
+
+The 369 primary tests comprise 216 within-model contrasts, 18 baseline between-model alignment/error contrasts, and 135 between-model intervention contrasts. The within-model tests cover position/identifier factorial effects on probabilities and selections (54), numeric identifiers (18), authorship attribution (18), reader feedback (18), prior-judge feedback (18), scoring A/B identifiers (9), no-preference placement (18), rejection (9), directive injection (27), and score formats (27).
+
+The 450 practical-impact comparisons include 72 unchanged-repeat controls. The 378 non-repeat comparisons supply 963 secondary tests: 207 each for signed original-A probability change, net original-A selection change, and strict human-alignment change; and 171 each for signed score change and human-MAE change. Together with 648 magnitude correlations and 45 pooled effects, these form the 1,656-test family. Effect and association tests use two-sided p-values; repeat-control and absolute-movement summaries remain descriptive.
+
+\subsection{Shared susceptibility}
+\label{app:susceptibility}
+Within each model/dataset combination, we associate absolute item-level effects between investigations. Of 729 possible comparisons, 81 reuse source calls and are excluded. The remaining 648 use Pearson magnitude associations with cluster/dyadic first-order influence-function variance on Fisher-$z$, followed by back-transformed intervals. Using disjoint calls reduces covariance from shared measurement errors. Event-overlap/Jaccard summaries retain both marginals and record an empty union as missing. Repeated-call noise covariance is reported separately under an independent, equal-variance error assumption.
+
+\subsection{Cross-task pooling}
+\label{app:pooling}
+We pool matching contrasts separately by model and interface, with $k=3$ task datasets. Random effects allow task-specific effects. For effect $y_i$ and within-task variance $v_i$, REML estimates $\hat\tau^2$ and weights are $w_i=1/(v_i+\hat\tau^2)$. The pooled effect is $\hat\mu=\sum_iw_i y_i/\sum_iw_i$. Modified Knapp--Hartung inference uses
+\begin{equation}
+c=\max\left\{1,\frac{\sum_iw_i(y_i-\hat\mu)^2}{k-1}\right\},
+\end{equation}
+and $\mathrm{SE}(\hat\mu)=\sqrt{c/\sum_iw_i}$ with $t$ df=$k-1$ \citep{rover2015}.
+
+Q uses fixed within-task weights $a_i=1/v_i$ around $\hat\mu_F=\sum_i a_i y_i/\sum_i a_i$, with df=$k-1$. REML-consistent I$^2$ uses
+\begin{equation}
+\widetilde v=\frac{(k-1)\sum_i a_i}{(\sum_i a_i)^2-\sum_i a_i^2},\quad
+I^2=100\frac{\hat\tau^2}{\hat\tau^2+\widetilde v}.
+\end{equation}
+Effects are probability pp or normalized-score pp; $\tau^2$ is pp$^2$. All 45 pools and 135 same-method leave-one-task-out estimates are retained; two-task diagnostics use df=1. Pooling summarizes the three tasks in this study.
+
+\subsection{Validation and reproducibility}
+Validation checked all 369 saved contrasts against their sample sizes, degrees of freedom, confidence intervals, p-values, and frozen sources. Secondary checks covered denominators, Fisher-$z$ arithmetic, REML estimates, weights, Q/I$^2$, pooling degrees of freedom, and leave-one-out results. A fixed seed supports stochastic diagnostics; the analysis manifest records package versions, seed values, and hashes. \texttt{VALIDATION\_REPORT.md} documents the validation checks. The editable source package maps tables, figures, and numerical claims to these validated results.

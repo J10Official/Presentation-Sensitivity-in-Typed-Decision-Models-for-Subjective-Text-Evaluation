@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\shortstack[l]{Dataset\\{}model} & \shortstack[l]{2 - 1 probability\\{}pp [95\% CI]} & \shortstack[l]{2 - 1 selection\\{}pp [95\% CI]} & \shortstack[l]{Reversal flips\\{}\%} \\
+\midrule
+UKP / Jev & 7.44 [6.66, 8.22]* & 8.933 [6.870, 10.996] & 14.67 \\
+UKP / Clef & -7.81 [-8.86, -6.76]* & -9.067 [-10.767, -7.367] & 11.47 \\
+UKP / Perplexity & -6.01 [-6.57, -5.46]* & -10.267 [-11.925, -8.609] & 11.47 \\
+HS pair / Jev & 2.15 [1.48, 2.82]* & 4.067 [2.348, 5.785] & 11.67 \\
+HS pair / Clef & -4.46 [-5.05, -3.86]* & -4.800 [-6.846, -2.754] & 16.53 \\
+HS pair / Perplexity & 3.33 [2.87, 3.78]* & 3.667 [2.124, 5.209] & 9.40 \\
+OpenAI / Jev & 6.47 [5.57, 7.38]* & 9.067 [7.185, 10.948] & 12.53 \\
+OpenAI / Clef & 7.52 [6.48, 8.56]* & 13.133 [10.987, 15.279] & 16.33 \\
+OpenAI / Perplexity & -0.94 [-1.53, -0.34]* & -3.400 [-5.226, -1.574] & 10.87 \\
+\bottomrule
+\end{tabular}
+\caption{Pairwise numeric assignments reverse identifiers at fixed positions. Selection intervals and flips are descriptive saved summaries; only probability stars use the 369-test BY family. N=1,500.}
+\label{tab:appendix_numeric_pair}
+\end{table*}

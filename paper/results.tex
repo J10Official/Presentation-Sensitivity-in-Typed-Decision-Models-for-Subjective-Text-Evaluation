@@ -1,0 +1,50 @@
+\section{Results}
+\label{sec:results}
+Baseline calls are highly repeatable, while intervention effects vary by presentation feature, interface, model, and task. We report choice and score findings separately and connect probability or rating shifts to changed decisions and human alignment. Clef Flash and Perplexity Decider are abbreviated as Clef and Perplexity.
+
+\input{generated/table1_baseline_repeat.tex}
+
+\subsection{Choice judgments}
+
+\paragraph{Repeatability and reference agreement.}
+Perplexity has the highest baseline agreement on humor and helpfulness, while Jev leads on summaries (Table~\ref{tab:results_baseline}). Unchanged-request choice flips average 1.70--3.20\% for Jev/Clef and at most 0.08\% for Perplexity.
+
+\input{generated/results_choice_effects.tex}
+
+\paragraph{Position and identifier effects.}
+Jev favors second position across all tasks; its first-position effect reaches -6.11 [-6.95, -5.26] pp on summaries (Table~\ref{tab:results_choice_effects}). Clef's position effects remain close to zero, while its B-label preference reverses from humor to summaries. Perplexity reverses its position preference between humor and helpfulness. Jev favors numeric identifier 2 across tasks, with a 7.44 pp humor effect; the other models vary in direction. Position--identifier interactions are at most 0.30 pp and none passes correction. Complete results appear in Appendix~\ref{app:results_identifiers}.
+
+These effects reach discrete decisions: on summaries, Jev's first-position selection contrast is -8.73 [-10.42, -7.05] pp, and Clef's B-label selection contrast is 13.30 [11.20, 15.40] pp. Both are signed factorial contrasts, averaging over the other factor (Table~\ref{tab:appendix_factorial_choice}).
+
+\paragraph{Authorship and feedback sensitivity.}
+Human attribution generally increases candidate preference, most strongly for Clef summaries: 32.15 [31.02, 33.28] pp, with 39.53\% changed selections. Reader endorsements consistently favor the endorsed candidate: Jev's effects span 12.71--13.71 pp and Perplexity's 19.07--27.80 pp. Previous-judge effects are smaller; Jev's summary effect is 0.28 pp ($q=0.088$), while the other configurations pass correction (Appendix~\ref{app:results_cues}).
+
+The format itself also matters: the unspecified-source control shifts Jev's summary probability for original candidate A by -4.72 [-5.20, -4.24] pp versus baseline. Reversing attributed sources within the same format separates the attribution contrast from this format-control effect.
+
+\input{generated/results_choice_consequences.tex}
+\input{generated/results_score_effects.tex}
+
+These shifts have observable decision consequences (Table~\ref{tab:results_choice_consequences}). Reversing reader endorsements changes Perplexity's selected humor text on 40.40\% of pairs. Relative to unspecified feedback, assigning high feedback to the first or second candidate reduces its humor agreement by 4.6 and 6.0 pp, respectively; both pass secondary correction. Other models and tasks have smaller or uncertain net agreement changes despite changed choices (Table~\ref{tab:appendix_reader_alignment}).
+
+\paragraph{Framing, directives, and no preference.}
+Rejection framing changes recovered preferences in every configuration. Clef's helpfulness agreement falls from 61.85\% to 46.10\%, and its summary agreement changes by -23.36 [-27.01, -19.72] pp. On helpfulness, Clef selects the same text as both more and less helpful on 67.73\% of all pairs, consistent with incomplete adaptation to question polarity. Perplexity's changes have little supported net effect on agreement. Directive effects are selective: its second-target summary directive raises target probability by 10.14 [9.69, 10.59] pp versus an inert note, whereas Jev's effects are mostly small (Appendix~\ref{app:results_injection}).
+
+With X last, UKP neither-majority cases yield 43/187 X choices for Jev, 19/187 for Clef, and 88/187 for Perplexity. All models choose X on 0/53 HelpSteer aggregate-neutral cases and 1/49 OpenAI split-vote cases. These distinct reference groups and the placement-specific changes are detailed in Appendix~\ref{app:results_framing}. Length and human-disagreement associations are task-specific descriptive results (Appendix~\ref{app:results_humans}).
+
+\subsection{Scoring judgments}
+
+\paragraph{Feedback changes rating levels.}
+Reader and previous-judge feedback raise scores in every configuration (Table~\ref{tab:results_score_effects}). Jev's helpfulness reader contrast is 16.47 [16.12, 16.81] normalized-score pp; Perplexity's largest feedback effects occur on humor. Error changes depend on the reference and starting scores. For example, favorable reader feedback increases Perplexity's humor MAE by 4.8 pp relative to unspecified feedback, while unfavorable feedback has little net effect. All cue-versus-control error changes appear in Table~\ref{tab:appendix_reader_error}.
+
+\paragraph{Rating formats affect levels and ranks differently.}
+Jev's seven-level humor format lowers ratings by 7.63 pp, while its three-level relevance format raises them by 5.87 pp. Its rank correlations with native-format scores remain 0.963--0.996. Clef relevance is less rank-stable, with correlations of 0.903--0.938 across formats. Thus high rank association can coexist with shifts in absolute ratings, with the extent of rank preservation varying by configuration. These level shifts matter for judge design: fixed thresholds and aggregate quality scores depend on rating levels even when candidate rankings remain similar. Reversed anchors also shift remapped ratings; full estimates, error changes, and the format figure appear in Appendix~\ref{app:results_formats}.
+
+\paragraph{Identifiers, attribution, and directives are smaller.}
+Scoring A/B, numeric, and authorship effects reach at most 1.35, 0.94, and 1.57 pp in magnitude. Several small shifts pass correction. Directive effects are mixed: Clef relevance falls by -2.11 [-2.44, -1.79] pp despite a highest-rating instruction; Perplexity relevance rises by 2.74 pp while its MAE decreases by 1.43 pp. These cases separate movement from distance to the specified human mean (Appendices~\ref{app:results_identifiers}--\ref{app:results_injection}).
+
+\paragraph{Score dispersion and reference dependence.}
+Judge-score dispersion relative to human ratings varies by dataset: Jev's judge/human SD ratio is 0.58 for humor and 1.10 for relevance. On SummEval, its Pearson correlation is 0.597 with experts, 0.061 with crowd raters, and 0.382 with the pooled reference (Appendices~\ref{app:results_formats}--\ref{app:results_reference}). Score repeat variation is small for Jev/Clef and zero for Perplexity (Table~\ref{tab:results_baseline}).
+
+Cross-task pools, shared-susceptibility associations, and robustness checks appear in Appendices~\ref{app:results_synthesis}--\ref{app:results_robustness}.
+\label{sec:results_end}
+\FloatBarrier

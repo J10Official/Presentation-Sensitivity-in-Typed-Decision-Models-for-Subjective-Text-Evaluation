@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+\shortstack[l]{Model} & \shortstack[l]{Reference} & \shortstack[l]{Mean} & \shortstack[l]{Signed error} & \shortstack[l]{MAE} & \shortstack[l]{Pearson} & \shortstack[l]{Spearman} \\
+\midrule
+Jev & 3:5 pooled & 0.721 & 0.062 & 0.132 & 0.382 & 0.384 \\
+Jev & Experts only & 0.693 & 0.090 & 0.143 & 0.597 & 0.561 \\
+Jev & Crowd only & 0.737 & 0.046 & 0.172 & 0.061 & 0.088 \\
+Jev & Equal group means & 0.715 & 0.068 & 0.126 & 0.478 & 0.462 \\
+Clef & 3:5 pooled & 0.721 & 0.044 & 0.106 & 0.378 & 0.368 \\
+Clef & Experts only & 0.693 & 0.072 & 0.135 & 0.592 & 0.556 \\
+Clef & Crowd only & 0.737 & 0.028 & 0.143 & 0.060 & 0.071 \\
+Clef & Equal group means & 0.715 & 0.050 & 0.102 & 0.473 & 0.450 \\
+Perplexity & 3:5 pooled & 0.721 & -0.061 & 0.115 & 0.355 & 0.343 \\
+Perplexity & Experts only & 0.693 & -0.033 & 0.140 & 0.559 & 0.526 \\
+Perplexity & Crowd only & 0.737 & -0.078 & 0.157 & 0.053 & 0.060 \\
+Perplexity & Equal group means & 0.715 & -0.055 & 0.109 & 0.445 & 0.419 \\
+\bottomrule
+\end{tabular}
+\caption{SummEval reference sensitivity on the same 1,500 summaries. The fixed primary reference is the mean of all eight ratings (3 experts, 5 crowd). Alternative references show alignment sensitivity to annotator group and aggregation.}
+\label{tab:appendix_reference_population}
+\end{table*}
